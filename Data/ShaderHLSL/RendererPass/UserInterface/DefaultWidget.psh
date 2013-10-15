@@ -1,0 +1,26 @@
+struct SInput
+{
+    float4 HPosition    : SV_POSITION;
+    float2 UV0 : TEXCOORD0;
+};
+
+Texture2D <float4>  Texture; 
+SamplerState Sampler;
+
+uniform float2 TextureSize;
+uniform float2 TextureOrigin;
+uniform float4 Color;
+uniform const bool UseTexture;
+
+float4 main( SInput input ) : SV_TARGET0
+{
+    float4 Pixel;
+
+    Pixel = Color;
+    if (UseTexture) 
+    {
+        Pixel = Color * Texture.Sample( Sampler, TextureOrigin + input.UV0 * TextureSize ) ;
+    }
+
+    return  Pixel;
+}

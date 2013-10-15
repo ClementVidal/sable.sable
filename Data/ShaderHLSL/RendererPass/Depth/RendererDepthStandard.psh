@@ -1,0 +1,14 @@
+struct SInput
+{
+    float4 HPosition    : SV_POSITION;
+    float Depth         : TEXCOORD0;
+};
+
+float4 main( SInput input ) : SV_Target0
+{
+    float4 pixel;
+
+    pixel = float4( input.Depth,input.Depth,input.Depth, input.Depth );
+
+    return  pixel;
+}

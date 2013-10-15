@@ -1,0 +1,20 @@
+precision mediump float;
+
+varying vec2 Var_UVCoord;
+
+uniform vec4 Color;
+uniform vec2 TextureSize;
+uniform vec2 TextureOrigin;
+
+uniform sampler2D Texture;
+
+uniform bool UseTexture;
+
+void main( void )
+{
+    gl_FragColor = Color;
+    if (UseTexture) 
+    {
+        gl_FragColor = Color * texture2D( Texture, TextureOrigin + Var_UVCoord * TextureSize );
+    }
+}

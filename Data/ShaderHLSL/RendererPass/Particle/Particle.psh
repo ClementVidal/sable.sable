@@ -1,0 +1,18 @@
+struct SInput
+{
+    float4 Position     : SV_POSITION;
+    float2 UVCoord      : TEXCOORD0;
+    float4 Color        : COLOR0;
+};
+
+Texture2D <float4>  Material_Texture; 
+SamplerState Material_Sampler;
+
+float4 main( SInput input ) : SV_TARGET0
+{
+    float4 pixel;
+
+    pixel = /*Material_Texture.Sample( Material_Sampler, input.UVCoord ) */ input.Color;
+
+    return  pixel;
+}

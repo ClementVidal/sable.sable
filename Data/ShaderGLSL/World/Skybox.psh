@@ -1,0 +1,12 @@
+precision mediump float;
+
+varying vec3 Var_UVCoord;
+
+uniform samplerCube Texture;
+uniform vec4 Color;
+
+void main( void )
+{
+    gl_FragColor = textureCube( Texture, Var_UVCoord ) * Color;
+    gl_FragColor.a = 1.0;
+}

@@ -1,0 +1,21 @@
+struct SInput
+{
+    float4 HPosition    : SV_POSITION;
+    float4 UV           : TEXCOORD0;
+};
+
+TextureCube <float4>  Texture; 
+SamplerState Sampler;
+
+uniform float4 Color;
+uniform float System_Time;
+
+float4 main( SInput input ) : SV_TARGET0
+{
+    float4 Pixel;
+
+    Pixel = Texture.Sample( Sampler, input.UV ) ; 
+    Pixel.a = 1.0; 
+
+    return  Pixel;
+}
