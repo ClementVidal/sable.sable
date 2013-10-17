@@ -146,18 +146,18 @@
     
         <BuildConfig Name="MswDirectXDebug" ImplTypes="Msw DirectX" ToolChain="Win32">
         
-            <CodePackage Path="S:/Sable/Source/Sable/Audio/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Physic/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Core/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Graphics/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Input/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Media/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Gui/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Game/" >
-                <ExcludedDir Path="S:/Sable/Source/Sable/Game/Script/Lua" />
+            <CodePackage Path="/Sable/Source/Sable/Audio/" />
+            <CodePackage Path="/Sable/Source/Sable/Physic/" />
+            <CodePackage Path="/Sable/Source/Sable/Core/" />
+            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
+            <CodePackage Path="/Sable/Source/Sable/Input/" />
+            <CodePackage Path="/Sable/Source/Sable/Media/" />
+            <CodePackage Path="/Sable/Source/Sable/Gui/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/" >
+                <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
             </CodePackage>
-            <CodePackage Path="S:/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
-            <CodePackage Path="S:/Sable/Source/Sable/Application/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
+            <CodePackage Path="/Sable/Source/Sable/Application/" />
             
             <BuildOptions Name="Win32Common" />
             <BuildOptions Name="Win32Debug" />
@@ -167,18 +167,18 @@
         
         <BuildConfig Name="MswDirectXRelease" ImplTypes="Msw DirectX" ToolChain="Win32">
         
-            <CodePackage Path="S:/Sable/Source/Sable/Audio/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Physic/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Core/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Graphics/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Input/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Media/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Gui/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Game/" >
-                <ExcludedDir Path="S:/Sable/Source/Sable/Game/Script/Lua" />
+            <CodePackage Path="/Sable/Source/Sable/Audio/" />
+            <CodePackage Path="/Sable/Source/Sable/Physic/" />
+            <CodePackage Path="/Sable/Source/Sable/Core/" />
+            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
+            <CodePackage Path="/Sable/Source/Sable/Input/" />
+            <CodePackage Path="/Sable/Source/Sable/Media/" />
+            <CodePackage Path="/Sable/Source/Sable/Gui/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/" >
+                <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
             </CodePackage>
-            <CodePackage Path="S:/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
-            <CodePackage Path="S:/Sable/Source/Sable/Application/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
+            <CodePackage Path="/Sable/Source/Sable/Application/" />
             
             <BuildOptions Name="Win32Common" />
             <BuildOptions Name="Win32Release" />
@@ -188,18 +188,18 @@
         
         <BuildConfig Name="MswGlesRelease" ImplTypes="Msw GLES" ToolChain="Win32">
         
-            <CodePackage Path="S:/Sable/Source/Sable/Audio/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Physic/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Core/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Graphics/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Input/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Media/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Gui/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Game/" >
-                <ExcludedDir Path="S:/Sable/Source/Sable/Game/Script/Lua" />
+            <CodePackage Path="/Sable/Source/Sable/Audio/" />
+            <CodePackage Path="/Sable/Source/Sable/Physic/" />
+            <CodePackage Path="/Sable/Source/Sable/Core/" />
+            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
+            <CodePackage Path="/Sable/Source/Sable/Input/" />
+            <CodePackage Path="/Sable/Source/Sable/Media/" />
+            <CodePackage Path="/Sable/Source/Sable/Gui/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/" >
+                <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
             </CodePackage>
-            <CodePackage Path="S:/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
-            <CodePackage Path="S:/Sable/Source/Sable/Application/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
+            <CodePackage Path="/Sable/Source/Sable/Application/" />
             
             <BuildOptions Name="Win32Common" />
             <BuildOptions Name="Win32Release" />
@@ -210,18 +210,18 @@
         
         <BuildConfig Name="MswGlesDebug" ImplTypes="Msw GLES" ToolChain="Win32">
         
-            <CodePackage Path="S:/Sable/Source/Sable/Audio/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Physic/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Core/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Graphics/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Input/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Media/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Gui/" />
-            <CodePackage Path="S:/Sable/Source/Sable/Game/" >
-                <ExcludedDir Path="S:/Sable/Source/Sable/Game/Script/Lua" />
+            <CodePackage Path="/Sable/Source/Sable/Audio/" />
+            <CodePackage Path="/Sable/Source/Sable/Physic/" />
+            <CodePackage Path="/Sable/Source/Sable/Core/" />
+            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
+            <CodePackage Path="/Sable/Source/Sable/Input/" />
+            <CodePackage Path="/Sable/Source/Sable/Media/" />
+            <CodePackage Path="/Sable/Source/Sable/Gui/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/" >
+                <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
             </CodePackage>
-            <CodePackage Path="S:/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
-            <CodePackage Path="S:/Sable/Source/Sable/Application/" />
+            <CodePackage Path="/Sable/Source/Sable/Game/Script/Lua" IsAgregated="False"/>
+            <CodePackage Path="/Sable/Source/Sable/Application/" />
             
             <BuildOptions Name="Win32Common" />
             <BuildOptions Name="Win32Debug" />
