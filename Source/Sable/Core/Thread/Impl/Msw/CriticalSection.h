@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_THREAD_IMPL_MSW_CRITICALSECTION_
 #define _SABLE_CORE_THREAD_IMPL_MSW_CRITICALSECTION_
 
-#include <Sable\Core\Thread\Impl\Stub\CriticalSection.h>
+#include <Sable/Core/Thread/Impl/Stub/CriticalSection.h>
 
 namespace Sable
 {

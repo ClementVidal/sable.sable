@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_GLES_TEXTURE_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_GLES_TEXTURE_
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\Texture.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/Texture.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

@@ -1,12 +1,12 @@
 #ifndef _SABLE_CORE_MATH_MATRIX3X3_
 #define _SABLE_CORE_MATH_MATRIX3X3_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Math\Vector2f.h>
-#include <Sable\Core\Math\Quaternion.h>
-#include <Sable\Core\Math\EulerAngle.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector2f.h>
+#include <Sable/Core/Math/Quaternion.h>
+#include <Sable/Core/Math/EulerAngle.h>
 
 namespace Sable
 {

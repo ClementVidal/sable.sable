@@ -1,14 +1,14 @@
 #ifndef _GRAPHICS_RENDER_ENTRY_
 #define _GRAPHICS_RENDER_ENTRY_
 
-#include <Sable\Core\String\String.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Math\Range.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Math/Range.h>
 
-#include <Sable\Graphics\Light\Light.h>
-#include <Sable\Graphics\Node\Header.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Node\ShaderConnector\TransformMatrix.h>
+#include <Sable/Graphics/Light/Light.h>
+#include <Sable/Graphics/Node/Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Node/ShaderConnector/TransformMatrix.h>
 
 namespace Sable
 {

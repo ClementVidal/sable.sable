@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Texture\Impl\GLES\TextureCube.h>
+#include <Sable/Graphics/Texture/Impl/GLES/TextureCube.h>
 
 using namespace Sable;
 

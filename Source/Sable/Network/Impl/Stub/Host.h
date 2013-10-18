@@ -1,7 +1,7 @@
 #ifndef _SABLE_NETWORK_IMPL_STUB_HOST_
 #define _SABLE_NETWORK_IMPL_STUB_HOST_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

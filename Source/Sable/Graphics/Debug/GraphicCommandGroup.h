@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_DEBUG_GRAPHICCOMMANDGROUP_
 #define _SABLE_GRAPHICS_DEBUG_GRAPHICCOMMANDGROUP_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Setup.h>
 
 #ifdef SETUP_CONFIG_DEBUG
 

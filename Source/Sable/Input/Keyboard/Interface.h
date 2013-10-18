@@ -1,14 +1,14 @@
 #ifndef _SABLE_INPUT_KEYBOARD_INTERFACE_
 #define _SABLE_INPUT_KEYBOARD_INTERFACE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Map.h>
-#include <Sable\Input\Keyboard\Event.h>
-#include <Sable\Core\ManagedObject\Header.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Map.h>
+#include <Sable/Input/Keyboard/Event.h>
+#include <Sable/Core/ManagedObject/Header.h>
+#include <Sable/Core/Collection/Array.h>
 
-#include <Sable\Input\Mouse\Impl\Header.h>
-#include <Sable\Core\Event\Header.h>
+#include <Sable/Input/Mouse/Impl/Header.h>
+#include <Sable/Core/Event/Header.h>
 
 namespace Sable
 {

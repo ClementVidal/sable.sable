@@ -1,7 +1,7 @@
 #ifndef _CORE_MATH_TUPLE_
 #define _CORE_MATH_TUPLE_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

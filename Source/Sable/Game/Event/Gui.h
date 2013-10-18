@@ -1,7 +1,7 @@
 #ifndef _SABLE_GAME_EVENT_GUI_
 #define _SABLE_GAME_EVENT_GUI_
 
-#include <Sable\Game\Event\Event.h>
+#include <Sable/Game/Event/Event.h>
 
 namespace Sable
 {

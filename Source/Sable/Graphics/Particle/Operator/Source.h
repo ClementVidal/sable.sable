@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_PARTICLE_OPERATOR_SOURCE_
 #define _GRAPHICS_PARTICLE_OPERATOR_SOURCE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Range.h>
-#include <Sable\Graphics\Particle\Operator\Operator.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Range.h>
+#include <Sable/Graphics/Particle/Operator/Operator.h>
 
 namespace Sable
 {

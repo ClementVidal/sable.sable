@@ -1,13 +1,13 @@
 #ifndef _SABLE_CORE_FILE_FILE_
 #define _SABLE_CORE_FILE_FILE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\IODevice.h>
-#include <Sable\Core\String\String.h>
-#include <Sable\Core\File\FilePath.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/IODevice.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Core/File/FilePath.h>
+#include <Sable/Setup.h>
 
-#include <Sable\Core\File\Impl\Header.h>
+#include <Sable/Core/File/Impl/Header.h>
 
 namespace Sable
 {

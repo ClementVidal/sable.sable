@@ -1,7 +1,7 @@
 #ifndef _SABLE_PHYSIC_BUILDFILEHEADER_
 #define _SABLE_PHYSIC_BUILDFILEHEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -22,9 +22,9 @@
 
 #if defined( SETUP_IMPLTYPE_GLES )
 
-#include <EGL\egl.h>
-#include <GLES2\gl2.h>
-#include <GLES2\gl2ext.h>
+#include <EGL/egl.h>
+#include <GLES2/gl2.h>
+#include <GLES2/gl2ext.h>
 
 #endif
 

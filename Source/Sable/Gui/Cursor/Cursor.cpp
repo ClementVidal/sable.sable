@@ -1,4 +1,4 @@
-#include <Sable\Gui\Cursor\Cursor.h>
+#include <Sable/Gui/Cursor/Cursor.h>
 
 #include <stdio.h>
 

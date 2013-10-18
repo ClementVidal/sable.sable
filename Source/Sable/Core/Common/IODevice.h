@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_COMMON_IOBUFFER_
 #define _SABLE_CORE_COMMON_IOBUFFER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 namespace Sable
 {

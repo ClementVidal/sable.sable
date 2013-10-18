@@ -1,9 +1,9 @@
 #ifndef _SABLE_GAME_OBJECT_PROTOTYPE_
 #define _SABLE_GAME_OBJECT_PROTOTYPE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Game\Property\Property.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Game/Property/Property.h>
 
 namespace Sable
 {

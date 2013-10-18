@@ -1,10 +1,10 @@
-#include <Sable\Core\Geometry\Plane.h>
+#include <Sable/Core/Geometry/Plane.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Math\Matrix4x4f.h>
-#include <Sable\Core\Geometry\Ray.h>
-#include <Sable\Core\Geometry\Sphere.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
+#include <Sable/Core/Geometry/Ray.h>
+#include <Sable/Core/Geometry/Sphere.h>
  
 using namespace Sable;
 

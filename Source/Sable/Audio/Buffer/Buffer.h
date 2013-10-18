@@ -1,9 +1,9 @@
 #ifndef _SABLE_AUDIO_BUFFER_BUFFER_
 #define _SABLE_AUDIO_BUFFER_BUFFER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Collection/Array.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
 #ifndef _CORE_COMMON_COLOR_
 #define _CORE_COMMON_COLOR_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

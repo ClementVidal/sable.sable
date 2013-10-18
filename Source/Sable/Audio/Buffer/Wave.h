@@ -1,10 +1,10 @@
 #ifndef _SABLE_AUDIO_BUFFER_WAVE_
 #define _SABLE_AUDIO_BUFFER_WAVE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\File\FilePath.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/File/FilePath.h>
 
-#include <Sable\Audio\Buffer\Buffer.h>
+#include <Sable/Audio/Buffer/Buffer.h>
 
 namespace Sable
 {

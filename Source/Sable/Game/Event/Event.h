@@ -1,8 +1,8 @@
 #ifndef _SABLE_GAME_EVENT_EVENT_
 #define _SABLE_GAME_EVENT_EVENT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 namespace Sable
 {

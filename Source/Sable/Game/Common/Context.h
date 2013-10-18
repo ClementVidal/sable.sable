@@ -1,8 +1,8 @@
 #ifndef _SABLE_GAME_COMMON_CONTEXT_
 #define _SABLE_GAME_COMMON_CONTEXT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Game\Script\Engine.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Game/Script/Engine.h>
 
 namespace Sable
 {

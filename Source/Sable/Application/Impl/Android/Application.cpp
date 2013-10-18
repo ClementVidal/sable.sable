@@ -1,6 +1,6 @@
-#include <Sable\Application\Impl\Android\Application.h>
+#include <Sable/Application/Impl/Android/Application.h>
 
-#include <Sable\Application\Impl\Android\Helper.h>
+#include <Sable/Application/Impl/Android/Helper.h>
 
 #include <locale.h>
 

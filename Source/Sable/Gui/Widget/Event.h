@@ -1,8 +1,8 @@
 #ifndef _SABLE_GUI_WIDGET_EVENT_
 #define _SABLE_GUI_WIDGET_EVENT_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Core\Collection\Header.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Core/Collection/Header.h>
 
 namespace Sable
 {

@@ -1,8 +1,8 @@
-#include <Sable\Graphics\Light\Light.h>
+#include <Sable/Graphics/Light/Light.h>
 
-#include <Sable\Graphics\Texture\Texture.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Texture\Texture2D.h>
+#include <Sable/Graphics/Texture/Texture.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Texture/Texture2D.h>
 
 using namespace Sable;
 

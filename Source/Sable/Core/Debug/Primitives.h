@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_DEBUG_PRIMITIVES_
 #define _SABLE_CORE_DEBUG_PRIMITIVES_
 
-#include <Sable\Setup.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 \file Sable\Core\Debug\Primitives.h

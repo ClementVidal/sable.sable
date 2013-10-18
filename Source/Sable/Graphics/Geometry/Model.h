@@ -1,11 +1,11 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_MODEL_
 #define _SABLE_GRAPHICS_GEOMETRY_MODEL_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\Persistent\Header.h>
-#include <Sable\Graphics\Node\Spatial.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/Persistent/Header.h>
+#include <Sable/Graphics/Node/Spatial.h>
 
 namespace Sable
 {

@@ -1,8 +1,8 @@
 #ifndef _SABLE_PHYSIC_SHAPE_HEIGHTFIELD_
 #define _SABLE_PHYSIC_SHAPE_HEIGHTFIELD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Physic\Shape\Shape.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Physic/Shape/Shape.h>
 
 #include <NxHeightFieldShapeDesc.h>
 

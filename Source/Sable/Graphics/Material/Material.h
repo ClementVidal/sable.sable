@@ -1,14 +1,14 @@
 #ifndef _GRAPHICS_MATERIAL_METERIAL_
 #define _GRAPHICS_MATERIAL_METERIAL_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Material\Parameter.h>
-#include <Sable\Graphics\Renderer\Header.h>
-#include <Sable\Graphics\Shader\Connector.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Material/Parameter.h>
+#include <Sable/Graphics/Renderer/Header.h>
+#include <Sable/Graphics/Shader/Connector.h>
 
-#include <Sable\Graphics\States\Blend.h>
-#include <Sable\Graphics\States\DepthStencil.h>
-#include <Sable\Graphics\States\Rasterizer.h>
+#include <Sable/Graphics/States/Blend.h>
+#include <Sable/Graphics/States/DepthStencil.h>
+#include <Sable/Graphics/States/Rasterizer.h>
 
 #define MATERIAL_MAX_SHADER 4
 

@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_COLLECTION_HASHTABLE_
 #define _SABLE_CORE_COLLECTION_HASHTABLE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Memory\Heap.h>
-#include <SAble\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Memory/Heap.h>
+#include <SAble/Core/Collection/Array.h>
 
 namespace Sable
 {
@@ -190,7 +190,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\HashTable.hpp>
+#include <Sable/Core/Collection/HashTable.hpp>
 
 }
 

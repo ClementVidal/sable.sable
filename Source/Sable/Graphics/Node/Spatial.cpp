@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Node\Spatial.h>
+#include <Sable/Graphics/Node/Spatial.h>
 
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 using namespace Sable;
 

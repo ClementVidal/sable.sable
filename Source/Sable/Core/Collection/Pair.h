@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_COLLECTION_PAIR_
 #define _SABLE_CORE_COLLECTION_PAIR_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {
@@ -54,7 +54,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\Pair.hpp>
+#include <Sable/Core/Collection/Pair.hpp>
 
 }
 #endif

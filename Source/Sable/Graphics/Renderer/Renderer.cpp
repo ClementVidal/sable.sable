@@ -1,15 +1,15 @@
-#include <Sable\Graphics\Renderer\Renderer.h>
+#include <Sable/Graphics/Renderer/Renderer.h>
 
-#include <Sable\Graphics\PostProcess\PostProcess.h>
-#include <Sable\Graphics\RenderTarget\Texture.h>
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\RenderPass\Lighting.h>
-#include <Sable\Graphics\Debug\RenderPass.h>
-#include <Sable\Graphics\RenderPass\Depth.h>
-#include <Sable\Application\Window.h>
-#include <Sable\Gui\Common\RenderPass.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Node\Traversal.h>
+#include <Sable/Graphics/PostProcess/PostProcess.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/RenderPass/Lighting.h>
+#include <Sable/Graphics/Debug/RenderPass.h>
+#include <Sable/Graphics/RenderPass/Depth.h>
+#include <Sable/Application/Window.h>
+#include <Sable/Gui/Common/RenderPass.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Node/Traversal.h>
 
 using namespace Sable;
 

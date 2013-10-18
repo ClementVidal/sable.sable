@@ -1,7 +1,7 @@
-#include <Sable\Core\Math\Quaternion.h>
+#include <Sable/Core/Math/Quaternion.h>
 
-#include <Sable\Core\Math\Matrix4x4f.h>
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 using namespace Sable;
 

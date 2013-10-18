@@ -1,8 +1,8 @@
 #ifndef _CORE_GEOMETRY_SPHERE_
 #define _CORE_GEOMETRY_SPHERE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 namespace Sable
 {

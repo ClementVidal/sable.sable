@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_GEOMETRY_PLANE_
 #define _SABLE_CORE_GEOMETRY_PLANE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector4f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector4f.h>
 
 namespace Sable
 {

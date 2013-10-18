@@ -1,6 +1,6 @@
-#include <Sable\Core\Thread\Impl\Msw\Thread.h>
+#include <Sable/Core/Thread/Impl/Msw/Thread.h>
 
-#include <Sable\Core\Thread\Thread.h>
+#include <Sable/Core/Thread/Thread.h>
 
 using namespace Sable;
 

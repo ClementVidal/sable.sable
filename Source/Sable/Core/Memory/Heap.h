@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_MEMORY_HEAP_
 #define _SABLE_CORE_MEMORY_HEAP_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\StaticString.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/StaticString.h>
 
 namespace Sable
 {

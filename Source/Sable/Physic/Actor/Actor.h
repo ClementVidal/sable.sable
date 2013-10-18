@@ -1,9 +1,9 @@
 #ifndef _SABLE_PHYSIC_ACTOR_ACTOR_
 #define _SABLE_PHYSIC_ACTOR_ACTOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 #include <NxActor.h>
 

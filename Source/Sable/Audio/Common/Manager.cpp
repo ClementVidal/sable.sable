@@ -1,7 +1,7 @@
-#include <Sable\Audio\Common\Manager.h>
+#include <Sable/Audio/Common/Manager.h>
 
-#include <Sable\Audio\Common\World.h>
-#include <Sable\Core\Debug\Prof.h>
+#include <Sable/Audio/Common/World.h>
+#include <Sable/Core/Debug/Prof.h>
 
 #include <al.h>
 

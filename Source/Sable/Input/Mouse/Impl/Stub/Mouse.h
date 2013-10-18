@@ -1,7 +1,7 @@
 #ifndef _SABLE_INPUT_MOUSE_IMPL_STUB_MOUSE_
 #define _SABLE_INPUT_MOUSE_IMPL_STUB_MOUSE_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

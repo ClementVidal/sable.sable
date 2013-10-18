@@ -1,8 +1,8 @@
-#include <Sample\Application\Application.h>
+#include <Sample/Application/Application.h>
 
-#include <Sable\Input\Keyboard\Header.h>
+#include <Sable/Input/Keyboard/Header.h>
 
-#include <Sample\View\ViewGame.h>
+#include <Sample/View/ViewGame.h>
 
 using namespace Sample;
 

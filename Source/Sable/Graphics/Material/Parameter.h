@@ -1,11 +1,11 @@
 #ifndef _GRAPHICS_MATERIAL_DATA_
 #define _GRAPHICS_MATERIAL_DATA_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\ParameterData.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\String\StaticString.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/ParameterData.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/String/StaticString.h>
 
 namespace Sable
 {

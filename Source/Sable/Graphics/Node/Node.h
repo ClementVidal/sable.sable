@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_NODE_NODE_
 #define _SABLE_GRAPHICS_NODE_NODE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

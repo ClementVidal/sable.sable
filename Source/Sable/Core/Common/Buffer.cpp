@@ -1,4 +1,4 @@
-#include <Sable\Core\Common\Buffer.h>
+#include <Sable/Core/Common/Buffer.h>
 
 CBuffer::CBuffer( ) :
     CIODevice()

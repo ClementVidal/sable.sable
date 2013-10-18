@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Texture\Impl\DirectX\Texture3D.h>
+#include <Sable/Graphics/Texture/Impl/DirectX/Texture3D.h>
 
 using namespace Sable;
 

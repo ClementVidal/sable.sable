@@ -1,7 +1,7 @@
-#include <Sable\Core\Common\Color.h>
+#include <Sable/Core/Common/Color.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\Math\Vector4f.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/Math/Vector4f.h>
 
 using namespace Sable;
 

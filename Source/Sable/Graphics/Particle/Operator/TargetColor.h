@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_PARTICLE_OPERATOR_TARGETCOLOR_
 #define _SABLE_GRAPHICS_PARTICLE_OPERATOR_TARGETCOLOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Range.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Range.h>
 
-#include <Sable\Graphics\Particle\Operator\Operator.h>
+#include <Sable/Graphics/Particle/Operator/Operator.h>
 
 namespace Sable
 {

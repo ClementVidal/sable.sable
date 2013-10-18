@@ -1,6 +1,6 @@
-#include <Sable\Network\Socket\Impl\Msw\TCP.h>
+#include <Sable/Network/Socket/Impl/Msw/TCP.h>
 
-#include <Sable\Core\Debug\Header.h>
+#include <Sable/Core/Debug/Header.h>
 
 CImplMswSocketTCP::CImplMswSocketTCP( CSocketTCP& publicSocket, Bool isBlocking ) : 
 	CImplStubSocketTCP( publicSocket, isBlocking )

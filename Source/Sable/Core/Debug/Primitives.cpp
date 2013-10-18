@@ -1,6 +1,6 @@
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Debug/Primitives.h>
 
-#include <Sable\Core\File\FilePath.h>
+#include <Sable/Core/File/FilePath.h>
 
 using namespace Sable;
 

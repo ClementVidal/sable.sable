@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Material\Parameter.h>
+#include <Sable/Graphics/Material/Parameter.h>
 
-#include<Sable\Graphics\Texture\Header.h>
+#include<Sable/Graphics/Texture/Header.h>
 
 using namespace Sable;
 

@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_TEXTURE_IMPL_DIRECTX_TEXTURE3D_
 #define _SABLE_GRAPHICS_TEXTURE_IMPL_DIRECTX_TEXTURE3D_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Texture\Impl\Stub\Texture3D.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Texture/Impl/Stub/Texture3D.h>
 
 struct ID3D10Texture3D;
 

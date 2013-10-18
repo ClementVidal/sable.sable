@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderPass\Lighting.h>
+#include <Sable/Graphics/RenderPass/Lighting.h>
 
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 using namespace Sable;
 

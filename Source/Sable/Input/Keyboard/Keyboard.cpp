@@ -1,7 +1,7 @@
-#include <Sable\Input\Keyboard\Keyboard.h>
+#include <Sable/Input/Keyboard/Keyboard.h>
 
-#include <Sable\Input\Common\Impl\Header.h>
-#include <Sable\Input\Common\Manager.h>
+#include <Sable/Input/Common/Impl/Header.h>
+#include <Sable/Input/Common/Manager.h>
 
 using namespace Sable;
 

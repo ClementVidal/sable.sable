@@ -1,8 +1,8 @@
 #ifndef _SABLE_USERINTERFACE_LAYOUT_ITEM_
 #define _SABLE_USERINTERFACE_LAYOUT_ITEM_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Gui\Common\DataTypes.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Gui/Common/DataTypes.h>
 
 namespace Sable
 {

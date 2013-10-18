@@ -1,7 +1,7 @@
 #ifndef _SABLE_GAME_SERVICE_RENDERMESH_
 #define _SABLE_GAME_SERVICE_RENDERMESH_
 
-#include <Sable\Game\Service\Service.h>
+#include <Sable/Game/Service/Service.h>
 
 namespace Sable
 {

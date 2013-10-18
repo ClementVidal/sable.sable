@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_MATH_TCBCURVE_
 #define _SABLE_CORE_MATH_TCBCURVE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
-#include <Sable\Core\Collection\Pair.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
+#include <Sable/Core/Collection/Pair.h>
 
 namespace Sable
 {
@@ -76,7 +76,7 @@ private:
 
 };
 
-#include <Sable\Core\Math\TCBCurve.hpp>
+#include <Sable/Core/Math/TCBCurve.hpp>
 
 typedef CTCBCurve<CVector3f> CTCBCurve3f;
 typedef CTCBCurve<CVector2f> CTCBCurve2f;

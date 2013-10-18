@@ -1,4 +1,4 @@
-#include <Sample\Application\Application.h>
+#include <Sample/Application/Application.h>
 
 using namespace Sample;
 

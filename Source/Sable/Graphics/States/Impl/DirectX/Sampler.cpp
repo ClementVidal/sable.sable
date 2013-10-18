@@ -1,4 +1,4 @@
-#include <Sable\Graphics\States\Impl\DirectX\Sampler.h>
+#include <Sable/Graphics/States/Impl/DirectX/Sampler.h>
 
 using namespace Sable;
 

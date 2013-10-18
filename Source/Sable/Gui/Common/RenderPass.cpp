@@ -1,13 +1,13 @@
-#include <Sable\Gui\Common\RenderPass.h>
+#include <Sable/Gui/Common/RenderPass.h>
 
-#include <Sable\Input\Common\Manager.h>
-#include <Sable\Input\Keyboard\Header.h>
-#include <Sable\Gui\Layout\Item.h>
-#include <Sable\Gui\Layout\Layout.h>
-#include <Sable\Gui\Layout\WidgetItem.h>
-#include <Sable\Graphics\Text\Text.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Input/Common/Manager.h>
+#include <Sable/Input/Keyboard/Header.h>
+#include <Sable/Gui/Layout/Item.h>
+#include <Sable/Gui/Layout/Layout.h>
+#include <Sable/Gui/Layout/WidgetItem.h>
+#include <Sable/Graphics/Text/Text.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 #define UIMANAGER_PRERENDER_TABLE_SIZE 128
 //#define DEBUG_EVENTS

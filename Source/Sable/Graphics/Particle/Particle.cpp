@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Particle\Particle.h>
+#include <Sable/Graphics/Particle/Particle.h>
 
 using namespace Sable;
 

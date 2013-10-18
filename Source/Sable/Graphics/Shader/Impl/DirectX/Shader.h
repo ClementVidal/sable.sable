@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_SHADER_IMPL_MSW_SHADER_
 #define _SABLE_GRAPHICS_SHADER_IMPL_MSW_SHADER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Impl\Stub\Shader.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManagerHelper.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManager.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Impl/Stub/Shader.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManagerHelper.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManager.h>
 
 namespace Sable
 {

@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_FILE_IMPL_STUB_SYSTEM_
 #define _SABLE_CORE_FILE_IMPL_STUB_SYSTEM_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\File\FilePath.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/File/FilePath.h>
 
 namespace Sable
 {

@@ -1,8 +1,8 @@
 #ifndef _SABLE_PHYSIC_ACTOR_BODYDESC_
 #define _SABLE_PHYSIC_ACTOR_BODYDESC_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Physic\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Physic/Common/DataTypes.h>
 
 namespace Sable
 {

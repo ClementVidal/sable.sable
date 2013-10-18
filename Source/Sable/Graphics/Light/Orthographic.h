@@ -1,8 +1,8 @@
 #ifndef _GRAPHICS_LIGHT_ORTHOGRAPHIC_
 #define _GRAPHICS_LIGHT_ORTHOGRAPHIC_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Light\Light.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Light/Light.h>
 
 namespace Sable
 {

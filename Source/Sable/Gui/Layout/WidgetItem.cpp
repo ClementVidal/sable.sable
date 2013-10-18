@@ -1,4 +1,4 @@
-#include <Sable\Gui\Layout\WidgetItem.h>
+#include <Sable/Gui/Layout/WidgetItem.h>
 
 using namespace Sable;
 

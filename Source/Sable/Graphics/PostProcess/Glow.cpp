@@ -1,10 +1,10 @@
-#include <Sable\Graphics\PostProcess\Glow.h>
+#include <Sable/Graphics/PostProcess/Glow.h>
 
-#include <Sable\Core\Math\Primitives.h>
+#include <Sable/Core/Math/Primitives.h>
 
-#include <Sable\Graphics\RenderTarget\Texture.h>
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 using namespace Sable;
 

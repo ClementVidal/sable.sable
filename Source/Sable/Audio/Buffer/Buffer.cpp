@@ -1,7 +1,7 @@
-#include <Sable\Audio\Buffer\Buffer.h>
+#include <Sable/Audio/Buffer/Buffer.h>
 
-#include <Sable\Audio\Common\Helper.h>
-#include <Sable\Audio\Common\World.h>
+#include <Sable/Audio/Common/Helper.h>
+#include <Sable/Audio/Common/World.h>
 
 #include <Al.h>
 

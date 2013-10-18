@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Shader\Program.h>
+#include <Sable/Graphics/Shader/Program.h>
 
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Shader\Parameter.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Shader/Parameter.h>
 
 using namespace Sable;
 

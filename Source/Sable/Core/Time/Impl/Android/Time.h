@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_TIME_IMPL_ANDROID_TIME_
 #define _SABLE_CORE_TIME_IMPL_ANDROID_TIME_
 
-#include <Sable\Core\Time\Impl\Stub\Time.h>
+#include <Sable/Core/Time/Impl/Stub/Time.h>
 
 #include <time.h>
 

@@ -1,4 +1,4 @@
-#include <Sable\Graphics\SwapChain\Info.h>
+#include <Sable/Graphics/SwapChain/Info.h>
 
 using namespace Sable;
 

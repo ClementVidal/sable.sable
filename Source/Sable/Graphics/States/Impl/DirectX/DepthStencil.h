@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_STATES_IMPL_MSW_DEPTHSTENCIL_
 #define _SABLE_GRAPHICS_STATES_IMPL_MSW_DEPTHSTENCIL_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\States\Impl\Stub\DepthStencil.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/States/Impl/Stub/DepthStencil.h>
 
 namespace Sable
 {

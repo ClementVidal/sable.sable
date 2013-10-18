@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Camera\Perspective.h>
+#include <Sable/Graphics/Camera/Perspective.h>
 
-#include <Sable\Core\Geometry\Ray.h>
+#include <Sable/Core/Geometry/Ray.h>
 
 using namespace Sable;
 

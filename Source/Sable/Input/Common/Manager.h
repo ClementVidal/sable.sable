@@ -1,9 +1,9 @@
 #ifndef _SABLE_INPUT_COMMON_MANAGER_
 #define _SABLE_INPUT_COMMON_MANAGER_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Core\ManagedObject\Header.h>
-#include <Sable\Input\Common\Impl\Header.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Core/ManagedObject/Header.h>
+#include <Sable/Input/Common/Impl/Header.h>
 
 #define		InputManager  Sable::CInputManager::GetInstance()
 

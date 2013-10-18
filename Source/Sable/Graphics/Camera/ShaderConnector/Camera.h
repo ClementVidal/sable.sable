@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_CAMERA_SHADERCONNECTOR_CAMERA_
 #define _SABLE_GRAPHICS_CAMERA_SHADERCONNECTOR_CAMERA_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\SystemConnector.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/SystemConnector.h>
 
 namespace Sable
 {

@@ -1,6 +1,6 @@
-#include <Sable\Core\Math\Primitives.h>
+#include <Sable/Core/Math/Primitives.h>
 
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 #include <math.h>
 #include <float.h>

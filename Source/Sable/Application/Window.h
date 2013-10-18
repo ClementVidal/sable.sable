@@ -1,9 +1,9 @@
 #ifndef _SABLE_APPLICATION_WINDOW_
 #define _SABLE_APPLICATION_WINDOW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Graphics\SwapChain\SwapChain.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Graphics/SwapChain/SwapChain.h>
 
 namespace Sable
 {

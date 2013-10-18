@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MEMORY_STACKHEAP_
 #define _SABLE_CORE_MEMORY_STACKHEAP_
 
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Memory/Heap.h>
 
 #define MEMORYSTACKHEAP_STACKSIZE 128
 

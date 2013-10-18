@@ -1,10 +1,10 @@
 #ifndef _SABLE_APPLICATION_IMPL_ANDROID_HELPER_
 #define _SABLE_APPLICATION_IMPL_ANDROID_HELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
-#include <Sable\Application\Impl\Android\android_native_app_glue.h>
+#include <Sable/Application/Impl/Android/android_native_app_glue.h>
 
 namespace Sable
 {

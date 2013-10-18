@@ -1,7 +1,7 @@
-#include <Sable\Game\Service\RenderMesh.h>
+#include <Sable/Game/Service/RenderMesh.h>
 
-#include <Sable\Game\Object\Object.h>
-#include <Sable\Graphics\Node\Render.h>
+#include <Sable/Game/Object/Object.h>
+#include <Sable/Graphics/Node/Render.h>
 
 using namespace Sable;
 

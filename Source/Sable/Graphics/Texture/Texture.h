@@ -1,11 +1,11 @@
 #ifndef _GRAPHICS_TEXTURE_TEXTURE_
 #define _GRAPHICS_TEXTURE_TEXTURE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\BitArray.h>
-#include <Sable\Graphics\Texture\TextureInfo.h>
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/BitArray.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 namespace Sable
 {

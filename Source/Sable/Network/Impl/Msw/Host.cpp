@@ -1,6 +1,6 @@
-#include <Sable\Network\Impl\Msw\Host.h>
+#include <Sable/Network/Impl/Msw/Host.h>
 
-#include <Sable\Core\Debug\Header.h>
+#include <Sable/Core/Debug/Header.h>
 
 CImplMswNetworkHost::CImplMswNetworkHost(CNetworkHost& publicHost) : 
 	CImplStubNetworkHost( publicHost )

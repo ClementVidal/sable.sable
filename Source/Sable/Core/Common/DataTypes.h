@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_COMMON_DATATYPES_
 #define _SABLE_CORE_COMMON_DATATYPES_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #include <stddef.h>
 

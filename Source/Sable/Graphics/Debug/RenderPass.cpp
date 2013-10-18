@@ -1,10 +1,10 @@
-#include <Sable\Graphics\Debug\RenderPass.h>
+#include <Sable/Graphics/Debug/RenderPass.h>
 
-#include <Sable\Core\Geometry\AABoxTree.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
-#include <Sable\Graphics\Renderer\Header.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Geometry/AABoxTree.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
+#include <Sable/Graphics/Renderer/Header.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 
 using namespace Sable;

@@ -1,6 +1,6 @@
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Memory/Heap.h>
 
-#include <Sable\Core\Memory\Primitives.h>
+#include <Sable/Core/Memory/Primitives.h>
 
 using namespace Sable;
 

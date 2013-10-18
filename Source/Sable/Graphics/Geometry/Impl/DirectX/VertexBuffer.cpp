@@ -1,12 +1,12 @@
-#include <Sable\Graphics\Geometry\Impl\DirectX\VertexBuffer.h>
-#include <Sable\Graphics\Geometry\Impl\DirectX\Helper.h>
+#include <Sable/Graphics/Geometry/Impl/DirectX/VertexBuffer.h>
+#include <Sable/Graphics/Geometry/Impl/DirectX/Helper.h>
 
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Math\Vector2f.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\VertexBuffer.h>
-#include <Sable\Graphics\Geometry\VertexLayout.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManager.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector2f.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/VertexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManager.h>
 
 using namespace Sable;
 

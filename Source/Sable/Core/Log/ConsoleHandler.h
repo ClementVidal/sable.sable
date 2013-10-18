@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_LOG_CONSOLEHANDLER_
 #define _SABLE_CORE_LOG_CONSOLEHANDLER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Log\Handler.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Log/Handler.h>
 
 namespace Sable
 {

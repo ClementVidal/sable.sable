@@ -1,6 +1,6 @@
-#include <Sable\Physic\Joint\DescRevolute.h>
+#include <Sable/Physic/Joint/DescRevolute.h>
 
-#include <Sable\Physic\Common\Helper.h>
+#include <Sable/Physic/Common/Helper.h>
 
 using namespace Sable;
 

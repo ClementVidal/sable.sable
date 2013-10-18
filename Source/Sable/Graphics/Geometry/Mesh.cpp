@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Geometry\Mesh.h>
+#include <Sable/Graphics/Geometry/Mesh.h>
 
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 using namespace Sable;
 

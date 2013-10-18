@@ -1,7 +1,7 @@
-#include <Sable\Core\Geometry\Triangle.h>
+#include <Sable/Core/Geometry/Triangle.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\Geometry\Ray.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/Geometry/Ray.h>
 
 using namespace Sable;
 

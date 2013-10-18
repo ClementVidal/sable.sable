@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_MESHTNBCALCULATOR_
 #define _SABLE_GRAPHICS_GEOMETRY_MESHTNBCALCULATOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Matrix3x3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Matrix3x3f.h>
 
-#include <Sable\Graphics\Geometry\Mesh.h>
+#include <Sable/Graphics/Geometry/Mesh.h>
 
 namespace Sable
 {
@@ -105,7 +105,7 @@ private:
 
 };
 
-#include <Sable\Graphics\Geometry\MeshTNBCalculator.hpp>
+#include <Sable/Graphics/Geometry/MeshTNBCalculator.hpp>
 
 }
 

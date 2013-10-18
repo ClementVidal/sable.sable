@@ -1,10 +1,10 @@
 #ifndef _SABLE_CORE_EVENT_BASE_
 #define _SABLE_CORE_EVENT_BASE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\List.h>
-#include <Sable\Core\Common\MethodPointer.h>
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/List.h>
+#include <Sable/Core/Common/MethodPointer.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 namespace Sable
 {

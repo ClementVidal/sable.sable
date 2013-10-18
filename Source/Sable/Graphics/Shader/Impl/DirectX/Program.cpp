@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Shader\Impl\DirectX\Program.h>
+#include <Sable/Graphics/Shader/Impl/DirectX/Program.h>
 
 using namespace Sable;
 

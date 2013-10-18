@@ -1,11 +1,11 @@
 #ifndef _SABLE_APPLICATION_IMPL_ANDROID_STANDALONEWINDOW_
 #define _SABLE_APPLICATION_IMPL_ANDROID_STANDALONEWINDOW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Application\Impl\Stub\Window.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Application/Impl/Stub/Window.h>
 
-#include <EGL\egl.h>
-#include <GLES\gl.h>
+#include <EGL/egl.h>
+#include <GLES/gl.h>
 
 namespace Sable
 {

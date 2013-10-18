@@ -1,4 +1,4 @@
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/String/Primitives.h>
 
 using namespace Sable;
 

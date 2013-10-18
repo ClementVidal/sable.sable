@@ -1,6 +1,6 @@
-#include <Sable\Core\Math\Vector2i.h>
+#include <Sable/Core/Math/Vector2i.h>
 
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 using namespace Sable;
 

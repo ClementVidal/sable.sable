@@ -1,9 +1,9 @@
 #ifndef _CORE_MATH_RANGE_
 #define _CORE_MATH_RANGE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Random.h>
-#include <Sable\Core\Common\Manager.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Random.h>
+#include <Sable/Core/Common/Manager.h>
 
 namespace Sable
 {
@@ -70,7 +70,7 @@ typedef CRange<Int32> CInt32Range;
 typedef CRange<UInt32> CUInt32Range;
 typedef CRange<CColor> CColorRange;
 
-#include <Sable\Core\Math\Range.hpp>
+#include <Sable/Core/Math/Range.hpp>
 
 }
 

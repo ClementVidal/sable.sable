@@ -1,6 +1,6 @@
-#include <Sable\Core\Debug\ProfNode.h>
+#include <Sable/Core/Debug/ProfNode.h>
 
-#include <Sable\Core\Debug\Prof.h>
+#include <Sable/Core/Debug/Prof.h>
 
 using namespace Sable;
 

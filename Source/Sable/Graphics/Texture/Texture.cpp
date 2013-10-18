@@ -1,5 +1,5 @@
-#include <Sable\Graphics\Texture\Texture.h>
-#include <Sable\Media\Dds\DDSFile.h>
+#include <Sable/Graphics/Texture/Texture.h>
+#include <Sable/Media/Dds/DDSFile.h>
 
 using namespace Sable;
 

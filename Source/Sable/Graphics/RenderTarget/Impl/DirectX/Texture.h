@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_DIRECTX_TEXTURE_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_DIRECTX_TEXTURE_
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\Texture.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/Texture.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 struct ID3D10Texture2D;
 struct ID3D10RenderTargetView;

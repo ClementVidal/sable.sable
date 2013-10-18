@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_BANK_LIBRARY_
 #define _SABLE_CORE_BANK_LIBRARY_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

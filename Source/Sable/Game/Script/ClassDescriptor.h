@@ -1,11 +1,11 @@
 #ifndef _SABLE_GAME_SCRIPT_CLASSDESCRIPTOR_
 #define _SABLE_GAME_SCRIPT_CLASSDESCRIPTOR_
 
-#include <Sable\Game\Script\MethodDescriptor.h>
+#include <Sable/Game/Script/MethodDescriptor.h>
 extern "C" 
 {
-#include <Sable\Game\Script\Lua\Lua.h>
-#include <Sable\Game\Script\Lua\lauxlib.h>
+#include <Sable/Game/Script/Lua/Lua.h>
+#include <Sable/Game/Script/Lua/lauxlib.h>
 }
 
 namespace Sable

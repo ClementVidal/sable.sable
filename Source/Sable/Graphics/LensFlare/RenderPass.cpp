@@ -1,6 +1,6 @@
-#include <Sable\Graphics\LensFlare\RenderPass.h>
+#include <Sable/Graphics/LensFlare/RenderPass.h>
 
-#include <Sable\Graphics\RenderPass\Depth.h>
+#include <Sable/Graphics/RenderPass/Depth.h>
 
 using namespace Sable;
 

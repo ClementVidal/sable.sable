@@ -1,6 +1,6 @@
-#include <Sable\Game\Object\Prototype.h>
+#include <Sable/Game/Object/Prototype.h>
 
-#include <Sable\Game\Service\Service.h>
+#include <Sable/Game/Service/Service.h>
 
 using namespace Sable;
 

@@ -1,7 +1,7 @@
 #ifndef _SABLE_NETWORK_SOCKET_IMPL_STUB_UDP_
 #define _SABLE_NETWORK_SOCKET_IMPL_STUB_UDP_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

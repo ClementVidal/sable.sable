@@ -1,11 +1,11 @@
 #ifndef _SABLE_AUDIO_ACTOR_ACTOR_
 #define _SABLE_AUDIO_ACTOR_ACTOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\BitArray.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/BitArray.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 namespace Sable
 {

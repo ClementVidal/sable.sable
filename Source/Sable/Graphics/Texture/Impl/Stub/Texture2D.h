@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_TEXTURE_IMPL_STUB_TEXTURE2D_
 #define _SABLE_GRAPHICS_TEXTURE_IMPL_STUB_TEXTURE2D_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 
 namespace Sable

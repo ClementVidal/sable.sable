@@ -1,4 +1,4 @@
-#include <Sable\Core\Memory\Impl\Android\Manager.h>
+#include <Sable/Core/Memory/Impl/Android/Manager.h>
 
 #include <stdlib.h>
 #include <unistd.h>

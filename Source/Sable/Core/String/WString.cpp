@@ -1,7 +1,7 @@
-#include <Sable\Core\String\WString.h>
+#include <Sable/Core/String/WString.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/String/Primitives.h>
 
 #include <stdarg.h>
 

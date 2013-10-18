@@ -1,15 +1,15 @@
 #ifndef _SABLE_GUI_WIDGET_WIDGET_
 #define _SABLE_GUI_WIDGET_WIDGET_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Core\Collection\Header.h>
-#include <Sable\Core\Geometry\Header.h>
-#include <Sable\Graphics\Node\Node.h>
-#include <Sable\Input\Mouse\Event.h>
-#include <Sable\Core\Math\Header.h>
-#include <Sable\Core\Event\Header.h>
-#include <Sable\Gui\Common\DataTypes.h>
-#include <Sable\Gui\Widget\Event.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Core/Collection/Header.h>
+#include <Sable/Core/Geometry/Header.h>
+#include <Sable/Graphics/Node/Node.h>
+#include <Sable/Input/Mouse/Event.h>
+#include <Sable/Core/Math/Header.h>
+#include <Sable/Core/Event/Header.h>
+#include <Sable/Gui/Common/DataTypes.h>
+#include <Sable/Gui/Widget/Event.h>
 
 namespace Sable
 {

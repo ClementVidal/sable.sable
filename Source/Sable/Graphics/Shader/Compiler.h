@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_SHADER_COMPILER_
 #define _SABLE_GRAPHICS_SHADER_COMPILER_
 
-#include <Sable\Core\String\String.h>
-#include <Sable\Core\File\FilePath.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Core/File/FilePath.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

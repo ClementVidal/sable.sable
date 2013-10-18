@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_LIGHT_PERSPECTIVE_
 #define _GRAPHICS_LIGHT_PERSPECTIVE_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Graphics\Light\Light.h>
+#include <Sable/Graphics/Light/Light.h>
 
 namespace Sable
 {

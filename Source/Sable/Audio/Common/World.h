@@ -1,10 +1,10 @@
 #ifndef _SABLE_AUDIO_COMMON_WORLD_
 #define _SABLE_AUDIO_COMMON_WORLD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Audio\Common\Listener.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Audio/Common/Listener.h>
 
 namespace Sable
 {

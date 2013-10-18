@@ -1,8 +1,8 @@
-#include <Sable\Core\Geometry\Sphere.h>
+#include <Sable/Core/Geometry/Sphere.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\Geometry\Ray.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/Geometry/Ray.h>
 
 using namespace Sable;
 

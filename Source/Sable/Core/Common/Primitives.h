@@ -1,7 +1,7 @@
 #ifndef _CORE_COMMON_PRIMITIVES_
 #define _CORE_COMMON_PRIMITIVES_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 @file Primitives.h

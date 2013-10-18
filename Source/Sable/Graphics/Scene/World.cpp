@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Scene\World.h>
+#include <Sable/Graphics/Scene/World.h>
 
-#include <Sable\Graphics\Skybox\Skybox.h>
-#include <Sable\Graphics\LensFlare\RenderPass.h>
+#include <Sable/Graphics/Skybox/Skybox.h>
+#include <Sable/Graphics/LensFlare/RenderPass.h>
 
 using namespace Sable;
 

@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_TIME_IMPL_STUB_TIME_
 #define _SABLE_CORE_TIME_IMPL_STUB_TIME_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

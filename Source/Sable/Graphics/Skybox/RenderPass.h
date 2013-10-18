@@ -1,11 +1,11 @@
 #ifndef _SABLE_SCENE_WORLD_SKYBOXRENDERPASS_
 #define _SABLE_SCENE_WORLD_SKYBOXRENDERPASS_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Shader\Header.h>
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Shader/Header.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/States/Header.h>
 
 namespace Sable
 {

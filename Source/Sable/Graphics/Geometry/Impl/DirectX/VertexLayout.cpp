@@ -1,8 +1,8 @@
-#include <Sable\Graphics\Geometry\Impl\DirectX\VertexLayout.h>
+#include <Sable/Graphics/Geometry/Impl/DirectX/VertexLayout.h>
 
-#include <Sable\Graphics\Geometry\VertexLayout.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManager.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManagerHelper.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManager.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManagerHelper.h>
 
 using namespace Sable;
 

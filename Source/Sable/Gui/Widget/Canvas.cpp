@@ -1,6 +1,6 @@
-#include <Sable\Gui\Widget\Canvas.h>
+#include <Sable/Gui/Widget/Canvas.h>
 
-#include <Sable\Gui\Common\Header.h>
+#include <Sable/Gui/Common/Header.h>
 
 using namespace Sable;
 

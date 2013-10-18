@@ -1,4 +1,4 @@
-#include <Sable\Application\WindowStandAlone.h>
+#include <Sable/Application/WindowStandAlone.h>
 
 using namespace Sable;
 

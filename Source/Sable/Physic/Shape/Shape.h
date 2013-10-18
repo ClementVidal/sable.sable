@@ -1,8 +1,8 @@
 #ifndef _SABLE_PHYSIC_SHAPE_SHAPE_
 #define _SABLE_PHYSIC_SHAPE_SHAPE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 class NxShapeDesc;
 

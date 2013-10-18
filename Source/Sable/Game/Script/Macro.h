@@ -1,8 +1,8 @@
 #ifndef _SABLE_GAME_SCRIPT_MACRO_
 #define _SABLE_GAME_SCRIPT_MACRO_
 
-#include <Sable\Game\Script\ClassDescriptor.h>
-#include <Sable\Game\Script\MethodDescriptor.h>
+#include <Sable/Game/Script/ClassDescriptor.h>
+#include <Sable/Game/Script/MethodDescriptor.h>
 
 /**
 Register a class to the script system

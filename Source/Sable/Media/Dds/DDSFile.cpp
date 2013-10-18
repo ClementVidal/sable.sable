@@ -1,9 +1,9 @@
-#include <Sable\Media\Dds\DDSFile.h>
+#include <Sable/Media/Dds/DDSFile.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Common\IODevice.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Common/IODevice.h>
 
-#include <Sable\Media\DDS\Squish\Squish.h>
+#include <Sable/Media/DDS/Squish/Squish.h>
 
 using namespace Sable;
 

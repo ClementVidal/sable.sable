@@ -1,14 +1,14 @@
 #ifndef _SABLE_GRAPHICS_DEBUG_RENDERER_
 #define _SABLE_GRAPHICS_DEBUG_RENDERER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Header.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Debug\RendererCommand.h>
-#include <Sable\Core\Geometry\Header.h>
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\States\Header.h>
-#include <Sable\Core\Math\TCBCurve.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Debug/RendererCommand.h>
+#include <Sable/Core/Geometry/Header.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/States/Header.h>
+#include <Sable/Core/Math/TCBCurve.h>
 
 namespace Sable
 {

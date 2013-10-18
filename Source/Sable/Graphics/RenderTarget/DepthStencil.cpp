@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderTarget\DepthStencil.h>
+#include <Sable/Graphics/RenderTarget/DepthStencil.h>
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\DepthStencil.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/DepthStencil.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

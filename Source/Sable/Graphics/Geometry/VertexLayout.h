@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_VERTEXDESCRIPTOR_
 #define _SABLE_GRAPHICS_GEOMETRY_VERTEXDESCRIPTOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\VertexElement.h>
-#include <Sable\Core\Common\BufferVisitor.h>
-#include <Sable\Graphics\Geometry\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/VertexElement.h>
+#include <Sable/Core/Common/BufferVisitor.h>
+#include <Sable/Graphics/Geometry/Impl/Header.h>
 
 namespace Sable
 {

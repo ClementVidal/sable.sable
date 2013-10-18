@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_STATES_IMPL_STUB_SAMPLER_
 #define _SABLE_GRAPHICS_STATES_IMPL_STUB_SAMPLER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
-#include <Sable\Core\ManagedObject\TypeInfo.h>
+#include <Sable/Core/ManagedObject/TypeInfo.h>
 
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Setup.h>
 
 using namespace Sable;
 

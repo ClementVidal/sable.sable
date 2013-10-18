@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_MATH_POLARCOORDINATE_
 #define _SABLE_CORE_MATH_POLARCOORDINATE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 namespace Sable
 {

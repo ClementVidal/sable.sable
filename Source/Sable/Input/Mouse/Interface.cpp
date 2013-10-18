@@ -1,4 +1,4 @@
-#include <Sable\Input\Mouse\Interface.h>
+#include <Sable/Input/Mouse/Interface.h>
 
 using namespace Sable;
 

@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_DIRECTX_BACKBUFFER_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_DIRECTX_BACKBUFFER_
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\BackBuffer.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/BackBuffer.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 struct ID3D10RenderTargetView;
 struct ID3D10Texture2D;

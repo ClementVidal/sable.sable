@@ -1,8 +1,8 @@
 #ifndef _SABLE_NETWORK_SOCKET_IMPL_MSW_TCP_
 #define _SABLE_NETWORK_SOCKET_IMPL_MSW_TCP_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Network\Socket\Impl\Stub\TCP.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Network/Socket/Impl/Stub/TCP.h>
 
 #include <Winsock.h>
 

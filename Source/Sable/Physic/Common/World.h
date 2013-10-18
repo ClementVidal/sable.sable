@@ -1,10 +1,10 @@
 #ifndef _SABLE_PHYSIC_COMMON_WORLD_
 #define _SABLE_PHYSIC_COMMON_WORLD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\List.h>
-#include <Sable\Physic\Common\DataTypes.h>
-#include <Sable\Core\Memory\FreeListHeap.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/List.h>
+#include <Sable/Physic/Common/DataTypes.h>
+#include <Sable/Core/Memory/FreeListHeap.h>
 
 #include <NxScene.h> 
 

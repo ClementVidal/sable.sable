@@ -1,10 +1,10 @@
-#include <Sable\Audio\Queue\Mp3.h>
+#include <Sable/Audio/Queue/Mp3.h>
 
-#include <Sable\Audio\Common\Helper.h>
-#include <Sable\Audio\Common\World.h>
-#include <Sable\Core\Log\Header.h>
-#include <Sable\Core\File\Header.h>
-#include <Sable\Core\Common\Manager.h>
+#include <Sable/Audio/Common/Helper.h>
+#include <Sable/Audio/Common/World.h>
+#include <Sable/Core/Log/Header.h>
+#include <Sable/Core/File/Header.h>
+#include <Sable/Core/Common/Manager.h>
 
 #define INPUT_BUFFER_SIZE	(5*1152*4)
 #define OUTPUT_BUFFER_SIZE	 (1152*4) 

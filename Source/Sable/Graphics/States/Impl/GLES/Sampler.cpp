@@ -1,4 +1,4 @@
-#include <Sable\Graphics\States\Impl\GLES\Sampler.h>
+#include <Sable/Graphics/States/Impl/GLES/Sampler.h>
 
 using namespace Sable;
 

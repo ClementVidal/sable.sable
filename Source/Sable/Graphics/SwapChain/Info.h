@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_SWAPCHAIN_INFO_
 #define _SABLE_GRAPHICS_SWAPCHAIN_INFO_
 
-#include <Sable\Graphics\RenderTarget\Info.h>
+#include <Sable/Graphics/RenderTarget/Info.h>
 
 namespace Sable
 {

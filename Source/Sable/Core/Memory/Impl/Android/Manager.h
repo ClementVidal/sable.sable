@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_MEMORY_IMPL_ANDROID_MANAGER_
 #define _SABLE_CORE_MEMORY_IMPL_ANDROID_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Memory\Impl\Stub\Manager.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Memory/Impl/Stub/Manager.h>
 
 namespace Sable
 {

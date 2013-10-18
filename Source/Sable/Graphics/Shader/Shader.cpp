@@ -1,8 +1,8 @@
-#include <Sable\Graphics\Shader\Shader.h>
+#include <Sable/Graphics/Shader/Shader.h>
 
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Shader\Parameter.h>
-#include <Sable\Graphics\Renderer\Header.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Shader/Parameter.h>
+#include <Sable/Graphics/Renderer/Header.h>
 
 using namespace Sable;
 

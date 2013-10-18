@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Skybox\RenderPass.h>
+#include <Sable/Graphics/Skybox/RenderPass.h>
 
 using namespace Sable;
 

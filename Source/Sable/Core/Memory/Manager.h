@@ -1,15 +1,15 @@
 #ifndef _SABLE_CORE_MEMORY_MANAGER_
 #define _SABLE_CORE_MEMORY_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Singleton.h>
-#include <Sable\Core\Memory\BuddyHeap.h>
-#include <Sable\Core\Memory\StackHeap.h>
-#include <Sable\Core\Memory\MallocHeap.h>
-#include <Sable\Core\Memory\FreeListHeap.h>
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Singleton.h>
+#include <Sable/Core/Memory/BuddyHeap.h>
+#include <Sable/Core/Memory/StackHeap.h>
+#include <Sable/Core/Memory/MallocHeap.h>
+#include <Sable/Core/Memory/FreeListHeap.h>
+#include <Sable/Core/Memory/Heap.h>
 
-#include <Sable\Core\Memory\Impl\Header.h> 
+#include <Sable/Core/Memory/Impl/Header.h> 
 
 #define MEMORYMANAGER_MAXHEAP 128
 

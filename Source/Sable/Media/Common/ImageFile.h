@@ -1,12 +1,12 @@
 #ifndef _SABLE_MEDIA_COMMON_IMAGEFILE_
 #define _SABLE_MEDIA_COMMON_IMAGEFILE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Core\File\FilePath.h>
-#include <Sable\Core\Common\IODevice.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Core/File/FilePath.h>
+#include <Sable/Core/Common/IODevice.h>
 
 namespace Sable
 {

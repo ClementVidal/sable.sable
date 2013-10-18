@@ -1,7 +1,7 @@
-#include <Sable\Audio\Queue\Queue.h>
+#include <Sable/Audio/Queue/Queue.h>
 
-#include <Sable\Audio\Common\Header.h>
-#include <Sable\Audio\Source\Source.h>
+#include <Sable/Audio/Common/Header.h>
+#include <Sable/Audio/Source/Source.h>
 
 #include <Al.h>
 

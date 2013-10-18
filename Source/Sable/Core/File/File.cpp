@@ -1,6 +1,6 @@
-#include <Sable\Core\File\File.h>
+#include <Sable/Core/File/File.h>
 
-#include <Sable\Core\File\System.h>
+#include <Sable/Core/File/System.h>
 
 #include <stdarg.h>
 

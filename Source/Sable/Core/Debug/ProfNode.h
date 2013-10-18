@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_DEBUG_PROFNODE_
 #define _SABLE_CORE_DEBUG_PROFNODE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Setup.h>
 
 namespace Sable
 {

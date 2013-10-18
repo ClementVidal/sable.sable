@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_IMPL_DIRECTX_INDEXBUFFER_
 #define _SABLE_GRAPHICS_GEOMETRY_IMPL_DIRECTX_INDEXBUFFER_
 
-#include <Sable\Graphics\Geometry\Impl\Stub\IndexBuffer.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/IndexBuffer.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

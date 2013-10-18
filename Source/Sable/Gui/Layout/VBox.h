@@ -1,8 +1,8 @@
 #ifndef _SABLE_USERINTERFACE_LAYOUT_VBOX_
 #define _SABLE_USERINTERFACE_LAYOUT_VBOX_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Gui\Layout\Layout.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Gui/Layout/Layout.h>
 
 namespace Sable
 {

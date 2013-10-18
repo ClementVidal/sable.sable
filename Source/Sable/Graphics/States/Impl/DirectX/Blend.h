@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_STATES_IMPL_MSW_BLEND_
 #define _SABLE_GRAPHICS_STATES_IMPL_MSW_BLEND_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\States\Impl\Stub\Blend.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/States/Impl/Stub/Blend.h>
 
 namespace Sable
 {

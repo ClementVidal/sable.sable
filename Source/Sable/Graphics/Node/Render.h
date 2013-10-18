@@ -1,12 +1,12 @@
 #ifndef _SABLE_GRAPHICS_NODE_RENDER_
 #define _SABLE_GRAPHICS_NODE_RENDER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Graphics\Node\Spatial.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Geometry\Model.h>
-#include <Sable\Graphics\Node\ShaderConnector\Node.h>
+#include <Sable/Graphics/Node/Spatial.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Geometry/Model.h>
+#include <Sable/Graphics/Node/ShaderConnector/Node.h>
 
 namespace Sable
 {

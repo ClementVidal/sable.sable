@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderPass\Depth.h>
+#include <Sable/Graphics/RenderPass/Depth.h>
 
-#include <Sable\Graphics\RenderTarget\Texture.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 using namespace Sable;
 

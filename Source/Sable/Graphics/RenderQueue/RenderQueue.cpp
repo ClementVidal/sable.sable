@@ -1,11 +1,11 @@
-#include <Sable\Graphics\RenderQueue\RenderQueue.h>
+#include <Sable/Graphics/RenderQueue/RenderQueue.h>
 
-#include <Sable\Core\Collection\BitArray.h>
-#include <Sable\Setup.h>
-#include <Sable\Graphics\Geometry\Model.h>
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\Node\Render.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Core/Collection/BitArray.h>
+#include <Sable/Setup.h>
+#include <Sable/Graphics/Geometry/Model.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/Node/Render.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

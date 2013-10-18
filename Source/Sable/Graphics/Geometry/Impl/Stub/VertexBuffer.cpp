@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexBuffer.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexBuffer.h>
 
 using namespace Sable;
 

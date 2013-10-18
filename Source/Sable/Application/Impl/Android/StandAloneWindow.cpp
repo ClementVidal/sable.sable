@@ -1,6 +1,6 @@
-#include <Sable\Application\Impl\Android\StandAloneWindow.h>
+#include <Sable/Application/Impl/Android/StandAloneWindow.h>
 
-#include <Sable\Application\Impl\Android\Helper.h>
+#include <Sable/Application/Impl/Android/Helper.h>
 
 using namespace Sable;
 

@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_THREAD_IMPL_THREAD_
 #define _SABLE_CORE_THREAD_IMPL_THREAD_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

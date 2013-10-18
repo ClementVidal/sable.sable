@@ -1,8 +1,8 @@
-#include <Sable\Media\Tga\TGAFile.h>
+#include <Sable/Media/Tga/TGAFile.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Common\IODevice.h>
-#include <Sable\Media\Tga\TGAFileData.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Common/IODevice.h>
+#include <Sable/Media/Tga/TGAFileData.h>
 
 #define BUFFER_SIZE 2048
 

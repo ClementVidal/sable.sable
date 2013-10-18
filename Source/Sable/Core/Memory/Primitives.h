@@ -1,7 +1,7 @@
 #ifndef _CORE_MEMORY_PRIMITIVES_
 #define _CORE_MEMORY_PRIMITIVES_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 \file Sable\Core\Memory\Primitives.h

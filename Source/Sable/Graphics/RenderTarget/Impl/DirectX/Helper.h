@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_MSW_HELPER_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_MSW_HELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 struct ID3D10RenderTargetView;
 struct ID3D10DepthStencilView;

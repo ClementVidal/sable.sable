@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_HELPER_
 #define _SABLE_GRAPHICS_GEOMETRY_HELPER_
 
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

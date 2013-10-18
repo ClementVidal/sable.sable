@@ -1,11 +1,11 @@
 #ifndef _SABLE_GRAPHICS_PARTICLE_SYSTEM_
 #define _SABLE_GRAPHICS_PARTICLE_SYSTEM_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Random.h>
-#include <Sable\Graphics\Node\Render.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Random.h>
+#include <Sable/Graphics/Node/Render.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/States/Header.h>
 
 namespace Sable
 {

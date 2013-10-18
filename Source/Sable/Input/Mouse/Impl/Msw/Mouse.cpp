@@ -1,7 +1,7 @@
-#include <Sable\Input\Mouse\Impl\Msw\Mouse.h>
+#include <Sable/Input/Mouse/Impl/Msw/Mouse.h>
 
-#include <Sable\Input\Mouse\Mouse.h>
-#include <Sable\Application\Window.h>
+#include <Sable/Input/Mouse/Mouse.h>
+#include <Sable/Application/Window.h>
 
 #define DX9MOUSE_BufferSize 128
 

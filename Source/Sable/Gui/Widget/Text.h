@@ -1,11 +1,11 @@
 #ifndef _SABLE_USERINTERFACE_WIDGET_TEXT_
 #define _SABLE_USERINTERFACE_WIDGET_TEXT_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Text\Text.h>
-#include <Sable\Graphics\Text\Font.h>
-#include <Sable\Gui\Widget\Widget.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Text/Text.h>
+#include <Sable/Graphics/Text/Font.h>
+#include <Sable/Gui/Widget/Widget.h>
 
 namespace Sable
 {

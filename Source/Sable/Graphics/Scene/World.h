@@ -1,9 +1,9 @@
 #ifndef _SABLE_SCENE_SCENE_WORLD_
 #define _SABLE_SCENE_SCENE_WORLD_
 
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Node\Spatial.h>
-#include <Sable\Gui\Widget\Widget.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Node/Spatial.h>
+#include <Sable/Gui/Widget/Widget.h>
 
 namespace Sable
 {

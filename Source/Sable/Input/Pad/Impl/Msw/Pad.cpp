@@ -1,4 +1,4 @@
-#include <Sable\Input\Pad\Impl\Stub\Pad.h>
+#include <Sable/Input/Pad/Impl/Stub/Pad.h>
 
 CImplMswPad::CImplMswPad(CPad& pad) : 
 	CImplStubPad(pad)

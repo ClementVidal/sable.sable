@@ -1,6 +1,6 @@
-#include <Sable\Graphics\RenderTarget\BackBuffer.h>
+#include <Sable/Graphics/RenderTarget/BackBuffer.h>
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\BackBuffer.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/BackBuffer.h>
 
 using namespace Sable;
 

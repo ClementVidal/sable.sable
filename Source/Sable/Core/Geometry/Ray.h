@@ -1,8 +1,8 @@
 #ifndef _CORE_GEOMETRY_RAY_
 #define _CORE_GEOMETRY_RAY_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 namespace Sable
 {

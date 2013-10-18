@@ -4,10 +4,10 @@
 /** @file Type.h
 Define standard macro for Meta typing*/
 
-#include <Sable\Setup.h>
-#include <Sable\Core\ManagedObject\TypeInfo.h>
-#include <Sable\Core\Memory\Manager.h>
-#include <Sable\Core\Memory\Primitives.h>
+#include <Sable/Setup.h>
+#include <Sable/Core/ManagedObject/TypeInfo.h>
+#include <Sable/Core/Memory/Manager.h>
+#include <Sable/Core/Memory/Primitives.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_SWAPCHAIN_IMPL_STUP_SWAPCHAIN_
 #define _SABLE_GRAPHICS_SWAPCHAIN_IMPL_STUP_SWAPCHAIN_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

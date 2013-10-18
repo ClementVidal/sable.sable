@@ -1,12 +1,12 @@
 #ifndef _SABLE_INPUT_COMMON_IMPL_HEADER_
 #define _SABLE_INPUT_COMMON_IMPL_HEADER_ 
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #if defined( SETUP_IMPLTYPE_MSW )
-#include <Sable\Input\Common\Impl\Msw\InputManager.h>
+#include <Sable/Input/Common/Impl/Msw/InputManager.h>
 #else
-#include <Sable\Input\Common\Impl\Stub\InputManager.h>
+#include <Sable/Input/Common/Impl/Stub/InputManager.h>
 #endif
 
 namespace Sable

@@ -1,10 +1,10 @@
 #ifndef _SABLE_CORE_FILE_FILESYSTEM_
 #define _SABLE_CORE_FILE_FILESYSTEM_
 
-#include <Sable\Core\Collection\Header.h>
-#include <Sable\Core\String\StaticString.h>
+#include <Sable/Core/Collection/Header.h>
+#include <Sable/Core/String/StaticString.h>
 
-#include <Sable\Core\File\Impl\Header.h>
+#include <Sable/Core/File/Impl/Header.h>
 
 namespace Sable
 {

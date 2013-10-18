@@ -1,4 +1,4 @@
-#include <Sable\Core\Log\OutputWindowHandler.h>
+#include <Sable/Core/Log/OutputWindowHandler.h>
 
 #ifdef SETUP_IMPLTYPE_MSW
 #include <Windows.h>

@@ -1,7 +1,7 @@
 #ifndef _SABLE_INPUT_PAD_EVENT_
 #define _SABLE_INPUT_PAD_EVENT_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 \file Sable\Input\Pad\PadEvent.h

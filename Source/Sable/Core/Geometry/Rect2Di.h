@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_GEOMETRY_RECT3DI_
 #define _SABLE_CORE_GEOMETRY_RECT3DI_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector2i.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector2i.h>
 
 namespace Sable
 {

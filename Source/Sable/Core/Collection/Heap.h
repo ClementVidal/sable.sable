@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_COLLECTION_HEAP_
 #define _SABLE_CORE_COLLECTION_HEAP_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Memory/Heap.h>
 
 namespace Sable
 {
@@ -60,7 +60,7 @@ private:
     CMemoryHeap* m_MemoryHeap;
 };
 
-#include <Sable\Core\Collection\Heap.hpp>
+#include <Sable/Core/Collection/Heap.hpp>
 
 }
 

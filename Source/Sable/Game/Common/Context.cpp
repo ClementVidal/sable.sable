@@ -1,6 +1,6 @@
-#include <Sable\Game\Common\Context.h>
+#include <Sable/Game/Common/Context.h>
 
-#include <Sable\Game\Object\Object.h>
+#include <Sable/Game/Object/Object.h>
 
 using namespace Sable;
 

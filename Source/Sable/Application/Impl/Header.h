@@ -1,17 +1,17 @@
 #ifndef _SABLE_APPLICATION_IMPL_HEADER_
 #define _SABLE_APPLICATION_IMPL_HEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #if defined( SETUP_IMPLTYPE_MSW )
-#include <Sable\Application\Impl\Msw\Application.h>
-#include <Sable\Application\Impl\Msw\StandAloneWindow.h>
+#include <Sable/Application/Impl/Msw/Application.h>
+#include <Sable/Application/Impl/Msw/StandAloneWindow.h>
 #elif defined( SETUP_IMPLTYPE_ANDROID )
-#include <Sable\Application\Impl\Android\Application.h>
-#include <Sable\Application\Impl\Android\StandAloneWindow.h>
+#include <Sable/Application/Impl/Android/Application.h>
+#include <Sable/Application/Impl/Android/StandAloneWindow.h>
 #else
-#include <Sable\Application\Impl\Stub\Application.h>
-#include <Sable\Application\Impl\Stub\Window.h>
+#include <Sable/Application/Impl/Stub/Application.h>
+#include <Sable/Application/Impl/Stub/Window.h>
 #endif
 
 namespace Sable

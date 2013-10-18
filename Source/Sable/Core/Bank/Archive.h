@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_BANK_ARCHIVE_
 #define _SABLE_CORE_BANK_ARCHIVE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 namespace Sable
 {

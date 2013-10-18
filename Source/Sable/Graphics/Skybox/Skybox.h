@@ -1,11 +1,11 @@
 #ifndef _SABLE_SCENE_WORLD_SKYBOX_
 #define _SABLE_SCENE_WORLD_SKYBOX_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Header.h>
-#include <Sable\Graphics\Camera\Camera.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Header.h>
+#include <Sable/Graphics/Camera/Camera.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/States/Header.h>
 
 namespace Sable
 {

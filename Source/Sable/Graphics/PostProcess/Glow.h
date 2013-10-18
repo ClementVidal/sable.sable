@@ -1,12 +1,12 @@
 #ifndef _GRAPHICS_POSTPROCESS_GLOW_
 #define _GRAPHICS_POSTPROCESS_GLOW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Graphics\PostProcess\PostProcess.h>
-#include <Sable\Core\String\StaticString.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Graphics/PostProcess/PostProcess.h>
+#include <Sable/Core/String/StaticString.h>
+#include <Sable/Graphics/States/Header.h>
 
 #define BLUR_PASS_COUNT 2
 #define BLUR_KERNEL_WIDTH 5

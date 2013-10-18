@@ -1,8 +1,8 @@
 #ifndef _SABLE_APPLICATION_IMPL_MSW_STANDALONEWINDOW_
 #define _SABLE_APPLICATION_IMPL_MSW_STANDALONEWINDOW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Application\Impl\Stub\Window.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Application/Impl/Stub/Window.h>
 
 namespace Sable
 {

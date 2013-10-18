@@ -1,10 +1,10 @@
 #ifndef _SABLE_SCENE_VIEW_VIEW_
 #define _SABLE_SCENE_VIEW_VIEW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Memory\Header.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Shader\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Memory/Header.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Shader/Header.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
-#include <Sable\Core\Log\ConsoleHandler.h>
+#include <Sable/Core/Log/ConsoleHandler.h>
 
 #ifdef SETUP_IMPLTYPE_ANDROID
-#include <Android\Log.h>
+#include <Android/Log.h>
 #endif
 
 using namespace Sable;

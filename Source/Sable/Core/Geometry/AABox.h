@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_GEOMETRY_AABOX_
 #define _SABLE_CORE_GEOMETRY_AABOX_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 namespace Sable
 {

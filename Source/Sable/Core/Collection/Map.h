@@ -1,10 +1,10 @@
 #ifndef _CORE_COLLECTION_MAP_
 #define _CORE_COLLECTION_MAP_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\Primitives.h>
-#include <Sable\Core\Collection\MapNode.h>
-#include <Sable\Core\Memory\Manager.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/Primitives.h>
+#include <Sable/Core/Collection/MapNode.h>
+#include <Sable/Core/Memory/Manager.h>
 
 namespace Sable
 {
@@ -131,7 +131,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\Map.hpp>
+#include <Sable/Core/Collection/Map.hpp>
 
 }
 #endif

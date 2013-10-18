@@ -1,8 +1,8 @@
 #ifndef _CORE_MANAGEDOBJECT_TYPEINFO_
 #define _CORE_MANAGEDOBJECT_TYPEINFO_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/Primitives.h>
 
 #define TYPEINFO_MAX_SUBTYPE 64
 #define TYPEINFO_CLASSNAME_LENGTH 64

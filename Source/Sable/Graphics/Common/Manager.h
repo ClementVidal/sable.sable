@@ -1,17 +1,17 @@
 #ifndef _SABLE_GRAPHICS_COMMON_MANAGER_
 #define _SABLE_GRAPHICS_COMMON_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Time\Timer.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Time/Timer.h>
 
-#include <Sable\Graphics\Common\Header.h>
-#include <Sable\Graphics\Common\ScreenQuad.h>
-#include <Sable\Graphics\Text\Font.h>
-#include <Sable\Graphics\RenderTarget\Header.h>
-#include <Sable\Graphics\SwapChain\SwapChain.h>
-#include <Sable\Graphics\Renderer\Header.h>
-#include <Sable\Core\ManagedObject\Singleton.h>
-#include <Sable\Graphics\Common\Impl\Header.h>
+#include <Sable/Graphics/Common/Header.h>
+#include <Sable/Graphics/Common/ScreenQuad.h>
+#include <Sable/Graphics/Text/Font.h>
+#include <Sable/Graphics/RenderTarget/Header.h>
+#include <Sable/Graphics/SwapChain/SwapChain.h>
+#include <Sable/Graphics/Renderer/Header.h>
+#include <Sable/Core/ManagedObject/Singleton.h>
+#include <Sable/Graphics/Common/Impl/Header.h>
 
 namespace Sable
 {

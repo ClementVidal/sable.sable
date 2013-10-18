@@ -1,9 +1,9 @@
-#include <Sable\Media\Common\ImageFile.h>
+#include <Sable/Media/Common/ImageFile.h>
 
-#include <Sable\Core\Math\Primitives.h>
-//#include <Sable\Core\File\System.h>
-#include <Sable\Media\Dds\DDSFile.h>
-#include <Sable\Media\Tga\TGAFile.h>
+#include <Sable/Core/Math/Primitives.h>
+//#include <Sable/Core/File/System.h>
+#include <Sable/Media/Dds/DDSFile.h>
+#include <Sable/Media/Tga/TGAFile.h>
 
 using namespace Sable;
 

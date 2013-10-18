@@ -1,16 +1,16 @@
 #ifndef _SABLE_GRAPHICS_RENDERER_RENDERER_
 #define _SABLE_GRAPHICS_RENDERER_RENDERER_
 
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\Geometry\Rect2Df.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\RenderQueue\RenderQueue.h>
-#include <Sable\Graphics\Node\Header.h>
-#include <Sable\Graphics\Scene\View.h>
-#include <Sable\Graphics\Scene\World.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/Geometry/Rect2Df.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/RenderQueue/RenderQueue.h>
+#include <Sable/Graphics/Node/Header.h>
+#include <Sable/Graphics/Scene/View.h>
+#include <Sable/Graphics/Scene/World.h>
 
-#include <Sable\Graphics\Node\ShaderConnector\Header.h>
-#include <Sable\Graphics\Camera\ShaderConnector\Camera.h>
+#include <Sable/Graphics/Node/ShaderConnector/Header.h>
+#include <Sable/Graphics/Camera/ShaderConnector/Camera.h>
 
 namespace Sable
 {

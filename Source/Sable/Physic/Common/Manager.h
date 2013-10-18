@@ -1,12 +1,12 @@
 #ifndef _SABLE_PHYSIC_COMMON_MANAGER_
 #define _SABLE_PHYSIC_COMMON_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Singleton.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\Time\Timer.h>
-#include <Sable\Physic\Common\Helper.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Singleton.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/Time/Timer.h>
+#include <Sable/Physic/Common/Helper.h>
+#include <Sable/Setup.h>
 
 #include <NxPhysics.h>
 

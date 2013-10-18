@@ -1,12 +1,12 @@
 #ifndef _SABLE_GRAPHICS_SHADER_SHADERCONNECTOR_
 #define _SABLE_GRAPHICS_SHADER_SHADERCONNECTOR_
 
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\String.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 
 namespace Sable

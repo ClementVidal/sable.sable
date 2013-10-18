@@ -1,10 +1,10 @@
 #ifndef _SABLE_PHYSIC_JOINT_DESCREVOLUTE_
 #define _SABLE_PHYSIC_JOINT_DESCREVOLUTE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Physic\Joint\Desc.h>
-#include <Sable\Core\Math\Range.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Physic/Joint/Desc.h>
+#include <Sable/Core/Math/Range.h>
 
 #include <NxRevoluteJointDesc.h> 
 #include <NxJointDesc.h> 

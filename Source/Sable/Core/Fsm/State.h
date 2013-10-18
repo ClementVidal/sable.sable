@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_FSM_STATE_
 #define _SABLE_CORE_FSM_STATE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Event\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Event/Header.h>
 
 namespace Sable
 {

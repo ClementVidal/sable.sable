@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_PARTICLE_OPERATOR_SOURCERECTANGLE_
 #define _GRAPHICS_PARTICLE_OPERATOR_SOURCERECTANGLE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Random.h>
-#include <Sable\Graphics\Particle\Operator\Source.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Random.h>
+#include <Sable/Graphics/Particle/Operator/Source.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_STUP_DEPTHSTENCIL_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_STUP_DEPTHSTENCIL_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

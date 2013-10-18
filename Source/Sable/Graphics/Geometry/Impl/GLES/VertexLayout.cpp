@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Geometry\Impl\GLES\VertexLayout.h>
+#include <Sable/Graphics/Geometry/Impl/GLES/VertexLayout.h>
 
-#include <Sable\Graphics\Geometry\VertexLayout.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
 
 using namespace Sable;
 

@@ -1,4 +1,4 @@
-#include <Sable\Game\Property\Property.h>
+#include <Sable/Game/Property/Property.h>
 
 using namespace Sable;
 

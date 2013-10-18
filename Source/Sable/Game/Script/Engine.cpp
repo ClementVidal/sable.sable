@@ -1,15 +1,15 @@
-#include <Sable\Game\Script\Engine.h>
+#include <Sable/Game/Script/Engine.h>
 
-#include <Sable\Game\Script\ClassDescriptor.h>
-#include <Sable\Game\Script\MethodDescriptor.h>
-#include <Sable\Game\Script\ArgumentDescriptor.h>
-#include <Sable\Game\Script\Macro.h>
+#include <Sable/Game/Script/ClassDescriptor.h>
+#include <Sable/Game/Script/MethodDescriptor.h>
+#include <Sable/Game/Script/ArgumentDescriptor.h>
+#include <Sable/Game/Script/Macro.h>
 
 #include <stdlib.h>
 
 extern "C" 
 {
-#include <Sable\Game\Script\Lua\LAuxLib.h>
+#include <Sable/Game/Script/Lua/LAuxLib.h>
 }
 
 using namespace Sable;

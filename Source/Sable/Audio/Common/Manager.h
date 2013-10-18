@@ -1,10 +1,10 @@
 #ifndef _SABLE_AUDIO_COMMON_MANAGER_
 #define _SABLE_AUDIO_COMMON_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Singleton.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Singleton.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Setup.h>
 
 #include <alc.h>
 

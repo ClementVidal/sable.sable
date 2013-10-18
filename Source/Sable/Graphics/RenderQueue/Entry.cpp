@@ -1,9 +1,9 @@
-#include <Sable\Graphics\RenderQueue\Entry.h>
+#include <Sable/Graphics/RenderQueue/Entry.h>
 
-#include <Sable\Graphics\Camera\Camera.h>
-#include <Sable\Graphics\Node\Render.h>
-#include <Sable\Graphics\Shader\Connector.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Camera/Camera.h>
+#include <Sable/Graphics/Node/Render.h>
+#include <Sable/Graphics/Shader/Connector.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

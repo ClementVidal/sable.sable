@@ -1,11 +1,11 @@
 #ifndef _SABLE_INPUT_MOUSE_MOUSE_
 #define _SABLE_INPUT_MOUSE_MOUSE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Header.h>
-#include <Sable\Input\Mouse\Interface.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Header.h>
+#include <Sable/Input/Mouse/Interface.h>
 
-#include <Sable\Input\Mouse\Impl\Header.h>
+#include <Sable/Input/Mouse/Impl/Header.h>
 
 #define MOUSE_Sensitivity 400
 

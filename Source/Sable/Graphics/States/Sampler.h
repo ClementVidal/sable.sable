@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_STATES_SAMPLER_
 #define _SABLE_GRAPHICS_STATES_SAMPLER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\States\States.h>
-#include <Sable\Graphics\States\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/States/States.h>
+#include <Sable/Graphics/States/Impl/Header.h>
 
 namespace Sable
 {

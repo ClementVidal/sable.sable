@@ -1,14 +1,14 @@
 #ifndef _SABLE_GRAPHICS_PARTICLE_GROUP_
 #define _SABLE_GRAPHICS_PARTICLE_GROUP_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Core\Time\Timer.h>
-#include <Sable\Core\Math\Range.h>
-#include <Sable\Core\Math\Random.h>
+#include <Sable/Core/Time/Timer.h>
+#include <Sable/Core/Math/Range.h>
+#include <Sable/Core/Math/Random.h>
 
-#include <Sable\Graphics\Particle\Particle.h>
-#include <Sable\Graphics\Geometry\Header.h>
+#include <Sable/Graphics/Particle/Particle.h>
+#include <Sable/Graphics/Geometry/Header.h>
 
 namespace Sable
 {

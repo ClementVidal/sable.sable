@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderTarget\Impl\DirectX\Texture.h>
+#include <Sable/Graphics/RenderTarget/Impl/DirectX/Texture.h>
 
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManagerHelper.h>
-#include <Sable\Graphics\RenderTarget\Impl\DirectX\Helper.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManagerHelper.h>
+#include <Sable/Graphics/RenderTarget/Impl/DirectX/Helper.h>
 
 using namespace Sable;
 

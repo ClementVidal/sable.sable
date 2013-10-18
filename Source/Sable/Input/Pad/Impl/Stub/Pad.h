@@ -1,7 +1,7 @@
 #ifndef _SABLE_INPUT_PAD_IMPL_STUB_PAD_
 #define _SABLE_INPUT_PAD_IMPL_STUB_PAD_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

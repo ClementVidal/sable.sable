@@ -1,10 +1,10 @@
 #ifndef _SABLE_CORE_DEBUG_PROF_
 #define _SABLE_CORE_DEBUG_PROF_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Time\Timer.h>
-#include <Sable\Core\Debug\ProfNode.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Time/Timer.h>
+#include <Sable/Core/Debug/ProfNode.h>
+#include <Sable/Setup.h>
 
 #ifdef SETUP_USE_PROF
 	#define	DebugProfile( name )			Sable::CProfileSample profileSample( name )

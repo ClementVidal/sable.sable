@@ -1,15 +1,15 @@
 #ifndef _SABLE_GRAPHICS_RENDERPASS_DEFAULT_
 #define _SABLE_GRAPHICS_RENDERPASS_DEFAULT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\Light\Light.h>
-#include <Sable\Graphics\Node\Render.h>
-#include <Sable\Graphics\Texture\TextureCube.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/Light/Light.h>
+#include <Sable/Graphics/Node/Render.h>
+#include <Sable/Graphics/Texture/TextureCube.h>
+#include <Sable/Graphics/States/Header.h>
 
 namespace Sable
 {

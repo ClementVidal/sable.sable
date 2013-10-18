@@ -1,7 +1,7 @@
 #ifndef _SABLE_USERINTERFACE_COMMON_DATATYPES_
 #define _SABLE_USERINTERFACE_COMMON_DATATYPES_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 enum ESizePolicy
 {

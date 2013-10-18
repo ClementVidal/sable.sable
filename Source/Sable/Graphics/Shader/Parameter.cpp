@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Shader\Parameter.h>
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\Shader\Connector.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Graphics/Shader/Parameter.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/Shader/Connector.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 using namespace Sable;
 

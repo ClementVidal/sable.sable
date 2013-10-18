@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_PARTICLE_OPERATOR_SOURCEPOINT_
 #define _GRAPHICS_PARTICLE_OPERATOR_SOURCEPOINT_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Graphics\Particle\Operator\Source.h>
-#include <Sable\Graphics\Node\Header.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Graphics/Particle/Operator/Source.h>
+#include <Sable/Graphics/Node/Header.h>
 
 namespace Sable
 {

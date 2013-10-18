@@ -1,9 +1,9 @@
 #ifndef _SABLE_INPUT_PAD_IMPL_MSW_PAD_
 #define _SABLE_INPUT_PAD_IMPL_MSW_PAD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Input\Pad\Impl\Stub\Pad.h>
-#include <Sable\Input\Pad\Event.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Input/Pad/Impl/Stub/Pad.h>
+#include <Sable/Input/Pad/Event.h>
 
 #define DIRECTINPUT_VERSION 0x0800
 

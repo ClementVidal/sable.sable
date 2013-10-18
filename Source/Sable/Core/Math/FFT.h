@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_MATH_FFT_
 #define _SABLE_CORE_MATH_FFT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
 
 namespace Sable
 {

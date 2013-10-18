@@ -1,4 +1,4 @@
-#include <Sable\Physic\Shape\TriangleMesh.h>
+#include <Sable/Physic/Shape/TriangleMesh.h>
 
 using namespace Sable;
 

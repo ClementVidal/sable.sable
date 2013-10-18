@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_SHADER_IMPL_STUB_SHADER_
 #define _SABLE_GRAPHICS_SHADER_IMPL_STUB_SHADER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

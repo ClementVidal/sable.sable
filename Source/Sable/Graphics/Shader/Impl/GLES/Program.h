@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_SHADER_IMPL_GLES_PROGRAM_
 #define _SABLE_GRAPHICS_SHADER_IMPL_GLES_PROGRAM_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Impl\Stub\Program.h>
-#include <Sable\Graphics\Common\Impl\GLES\GraphicsManagerHelper.h>
-#include <Sable\Graphics\Common\Impl\GLES\GraphicsManager.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Impl/Stub/Program.h>
+#include <Sable/Graphics/Common/Impl/GLES/GraphicsManagerHelper.h>
+#include <Sable/Graphics/Common/Impl/GLES/GraphicsManager.h>
 
 namespace Sable
 {

@@ -1,4 +1,4 @@
-#include <Sable\Input\Pad\Pad.h>
+#include <Sable/Input/Pad/Pad.h>
 
 using namespace Sable;
 

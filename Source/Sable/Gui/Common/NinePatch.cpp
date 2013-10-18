@@ -1,7 +1,7 @@
-#include <Sable\Gui\Common\NinePatch.h>
+#include <Sable/Gui/Common/NinePatch.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\File\File.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/File/File.h>
 
 using namespace Sable;
 

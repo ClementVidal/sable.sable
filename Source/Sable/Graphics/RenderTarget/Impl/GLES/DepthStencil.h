@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_IMPL_GLES_DEPTHSTENCIL_
 #define _SABLE_GRAPHICS_RENDERTARGET_IMPL_GLES_DEPTHSTENCIL_
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\DepthStencil.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/DepthStencil.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

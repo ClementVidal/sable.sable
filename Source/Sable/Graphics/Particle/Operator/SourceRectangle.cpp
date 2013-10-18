@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Particle\Operator\SourceRectangle.h>
+#include <Sable/Graphics/Particle/Operator/SourceRectangle.h>
 
 using namespace Sable;
 

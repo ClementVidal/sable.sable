@@ -1,8 +1,8 @@
 #ifndef _CORE_COLLECTION_STACK_
 #define _CORE_COLLECTION_STACK_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Memory/Heap.h>
 
 namespace Sable
 {
@@ -127,7 +127,7 @@ private:
     CMemoryHeap*	m_MemoryHeap;
 };
 
-#include <Sable\Core\Collection\Stack.hpp>
+#include <Sable/Core/Collection/Stack.hpp>
 
 }
 

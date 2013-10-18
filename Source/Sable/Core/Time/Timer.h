@@ -1,12 +1,12 @@
 #ifndef _SABLE_CORE_TIME_TIMER_
 #define _SABLE_CORE_TIME_TIMER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\BitArray.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/BitArray.h>
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
-#include <Sable\Core\Time\Impl\Header.h>
+#include <Sable/Core/Time/Impl/Header.h>
 
 namespace Sable
 {

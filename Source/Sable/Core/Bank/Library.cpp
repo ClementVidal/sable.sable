@@ -1,4 +1,4 @@
-#include <Sable\Core\Bank\Library.h>
+#include <Sable/Core/Bank/Library.h>
 
 IMPLEMENT_MANAGED_CLASS1( Sable, CBankLibrary, CPersistentArchive )
 

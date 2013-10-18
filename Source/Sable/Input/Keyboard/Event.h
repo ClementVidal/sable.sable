@@ -1,7 +1,7 @@
 #ifndef _SABLE_INPUT_KEYBOARD_EVENT_
 #define _SABLE_INPUT_KEYBOARD_EVENT_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 \file Sable\Input\Keyboard\KeyboardEvent.h

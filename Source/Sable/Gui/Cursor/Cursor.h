@@ -1,12 +1,12 @@
 #ifndef _USERINTERFACE_CURSOR_CURSOR_
 #define _USERINTERFACE_CURSOR_CURSOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Texture\Header.h>
-#include <Sable\Graphics\Shader\Header.h>
-#include <Sable\Graphics\States\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Texture/Header.h>
+#include <Sable/Graphics/Shader/Header.h>
+#include <Sable/Graphics/States/Header.h>
 
 namespace Sable
 {

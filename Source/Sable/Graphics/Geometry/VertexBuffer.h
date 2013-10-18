@@ -1,13 +1,13 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_GEOMETRYVERTEXBUFFER_
 #define _SABLE_GRAPHICS_GEOMETRY_GEOMETRYVERTEXBUFFER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Persistent\Header.h>
-#include <Sable\Graphics\Geometry\VertexElement.h>
-#include <Sable\Core\Common\BufferVisitor.h>
-#include <Sable\Graphics\Geometry\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Persistent/Header.h>
+#include <Sable/Graphics/Geometry/VertexElement.h>
+#include <Sable/Core/Common/BufferVisitor.h>
+#include <Sable/Graphics/Geometry/Impl/Header.h>
 
 namespace Sable
 {

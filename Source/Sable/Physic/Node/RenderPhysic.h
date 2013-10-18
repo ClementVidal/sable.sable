@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_NODE_RENDERPHYSIC_
 #define _SABLE_GRAPHICS_NODE_RENDERPHYSIC_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Graphics\Node\Render.h>
+#include <Sable/Graphics/Node/Render.h>
 
 namespace Sable
 {

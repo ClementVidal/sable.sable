@@ -1,12 +1,12 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_RIBBONMESH_
 #define _SABLE_GRAPHICS_GEOMETRY_RIBBONMESH_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
-#include <Sable\Core\Math\TCBCurve.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Geometry\Vertexlayout.h>
+#include <Sable/Core/Math/TCBCurve.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Geometry/Vertexlayout.h>
 
 namespace Sable
 {

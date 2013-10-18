@@ -1,8 +1,8 @@
 #ifndef _SABLE_NETWORK_HOST_
 #define _SABLE_NETWORK_HOST_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Network\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Network/Impl/Header.h>
 
 namespace Sable 
 {

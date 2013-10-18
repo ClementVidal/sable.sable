@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_TEXTURE_IMPL_DIRECTX_TEXTURECUBE_
 #define _SABLE_GRAPHICS_TEXTURE_IMPL_DIRECTX_TEXTURECUBE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Texture\Impl\Stub\TextureCube.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Texture/Impl/Stub/TextureCube.h>
 
 struct ID3D10Texture2D;
 struct ID3D10ShaderResourceView;

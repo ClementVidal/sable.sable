@@ -1,8 +1,8 @@
-#include <Sable\Input\Common\Manager.h>
+#include <Sable/Input/Common/Manager.h>
 
-#include <Sable\Input\Mouse\Interface.h>
-#include <Sable\Input\Keyboard\Interface.h>
-#include <Sable\Input\Pad\Interface.h>
+#include <Sable/Input/Mouse/Interface.h>
+#include <Sable/Input/Keyboard/Interface.h>
+#include <Sable/Input/Pad/Interface.h>
 
 using namespace Sable;
 

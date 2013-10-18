@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_SHADER_SYSTEMSHADERCONNECTOR_
 #define _SABLE_GRAPHICS_SHADER_SYSTEMSHADERCONNECTOR_
 
-#include <Sable\Graphics\Shader\Connector.h>
+#include <Sable/Graphics/Shader/Connector.h>
 
 namespace Sable
 {

@@ -1,9 +1,9 @@
 #ifndef _SABLE_PHYSIC_SHAPE_SPHERE_
 #define _SABLE_PHYSIC_SHAPE_SPHERE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Physic\Shape\Shape.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Physic/Shape/Shape.h>
 
 #include <NxSphereShapeDesc.h>
 

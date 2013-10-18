@@ -1,8 +1,8 @@
-#include <Sable\Graphics\PostProcess\PostProcess.h>
+#include <Sable/Graphics/PostProcess/PostProcess.h>
 
-#include <Sable\Graphics\Renderer\Renderer.h>
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\RenderTarget\RenderTarget.h>
+#include <Sable/Graphics/Renderer/Renderer.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/RenderTarget/RenderTarget.h>
 
 using namespace Sable;
 

@@ -1,8 +1,8 @@
 #ifndef _CORE_GEOMETRY_DISK_
 #define _CORE_GEOMETRY_DISK_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Geometry\Plane.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Geometry/Plane.h>
 
 namespace Sable
 {

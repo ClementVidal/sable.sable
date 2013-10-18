@@ -1,9 +1,9 @@
 #ifndef _CORE_COMMON_WSTRING_
 #define _CORE_COMMON_WSTRING_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Debug\Primitives.h>
-#include <Sable\Core\Memory\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Debug/Primitives.h>
+#include <Sable/Core/Memory/Primitives.h>
 
 namespace Sable
 {

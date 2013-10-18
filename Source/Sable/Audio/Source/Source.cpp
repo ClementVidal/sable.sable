@@ -1,8 +1,8 @@
-#include <Sable\Audio\Source\Source.h>
+#include <Sable/Audio/Source/Source.h>
 
-#include <Sable\Audio\Common\World.h>
-#include <Sable\Audio\Buffer\Buffer.h>
-#include <Sable\Audio\Queue\Queue.h>
+#include <Sable/Audio/Common/World.h>
+#include <Sable/Audio/Buffer/Buffer.h>
+#include <Sable/Audio/Queue/Queue.h>
 
 #include <al.h>
 

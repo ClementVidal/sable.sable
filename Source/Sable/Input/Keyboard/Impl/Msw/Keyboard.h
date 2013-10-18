@@ -1,8 +1,8 @@
 #ifndef _SABLE_INPUT_KEYBOARD_IMPL_MSW_KEYBOARD_
 #define _SABLE_INPUT_KEYBOARD_IMPL_MSW_KEYBOARD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Input\Keyboard\Impl\Stub\Keyboard.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Input/Keyboard/Impl/Stub/Keyboard.h>
 
 #define DIRECTINPUT_VERSION 0x0800
 

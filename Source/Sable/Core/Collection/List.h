@@ -1,11 +1,11 @@
 #ifndef _CORE_COLLECTION_LIST_
 #define _CORE_COLLECTION_LIST_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\Primitives.h>
-#include <Sable\Core\Memory\Heap.h>
-#include <Sable\Core\Memory\Manager.h>
-#include <Sable\Core\Memory\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/Primitives.h>
+#include <Sable/Core/Memory/Heap.h>
+#include <Sable/Core/Memory/Manager.h>
+#include <Sable/Core/Memory/Primitives.h>
 
 namespace Sable
 {
@@ -175,7 +175,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\List.hpp>
+#include <Sable/Core/Collection/List.hpp>
 
 }
 

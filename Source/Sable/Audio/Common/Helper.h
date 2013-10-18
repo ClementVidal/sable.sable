@@ -1,8 +1,8 @@
 #ifndef _SABLE_AUDIO_COMMON_HELPER_
 #define _SABLE_AUDIO_COMMON_HELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Audio\Buffer\Buffer.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Audio/Buffer/Buffer.h>
 
 #include <al.h>
 

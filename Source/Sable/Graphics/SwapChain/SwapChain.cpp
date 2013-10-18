@@ -1,6 +1,6 @@
-#include <Sable\Graphics\SwapChain\SwapChain.h>
+#include <Sable/Graphics/SwapChain/SwapChain.h>
 
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

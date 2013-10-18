@@ -1,8 +1,8 @@
 #ifndef _MEDIA_DDS_DDSFILEDATA_
 #define _MEDIA_DDS_DDSFILEDATA_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

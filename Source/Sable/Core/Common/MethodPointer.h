@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_COMMON_METHODPOINTER_
 #define _SABLE_CORE_COMMON_METHODPOINTER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 namespace Sable
 {

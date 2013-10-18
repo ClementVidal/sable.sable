@@ -1,7 +1,7 @@
 #ifndef _GRAPHICS_COMMON_TEXTUREINFO_
 #define _GRAPHICS_COMMON_TEXTUREINFO_
 
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

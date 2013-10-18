@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Particle\Operator\SourcePoint.h>
+#include <Sable/Graphics/Particle/Operator/SourcePoint.h>
 
 using namespace Sable;
 

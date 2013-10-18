@@ -1,7 +1,7 @@
-#include <Sable\Core\Xml\Reader.h>
+#include <Sable/Core/Xml/Reader.h>
 
-#include <Sable\Core\File\File.h>
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/File/File.h>
+#include <Sable/Core/String/Primitives.h>
 
 #define XMLREADER_ATTRIBUTE_BUFFER_INC 16
 #define XMLREADER_ATTR_NAME_LENGTH 256

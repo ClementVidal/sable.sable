@@ -1,7 +1,7 @@
-#include <Sable\Core\Bank\Archive.h>
+#include <Sable/Core/Bank/Archive.h>
 
-#include <Sable\Core\Bank\Library.h>
-#include <Sable\Core\Bank\Bank.h>
+#include <Sable/Core/Bank/Library.h>
+#include <Sable/Core/Bank/Bank.h>
 
 
 using namespace Sable;

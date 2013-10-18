@@ -1,8 +1,8 @@
 #ifndef _GRAPHICS_CAMERA_ORTHOGRAPHIC_
 #define _GRAPHICS_CAMERA_ORTHOGRAPHIC_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Camera\Camera.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Camera/Camera.h>
 
 namespace Sable
 {

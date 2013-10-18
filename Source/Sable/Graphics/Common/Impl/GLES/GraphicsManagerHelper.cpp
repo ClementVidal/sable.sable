@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Common\Impl\GLES\GraphicsManagerHelper.h>
+#include <Sable/Graphics/Common/Impl/GLES/GraphicsManagerHelper.h>
 
 using namespace Sable;
 

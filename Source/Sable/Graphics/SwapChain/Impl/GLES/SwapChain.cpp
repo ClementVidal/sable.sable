@@ -1,7 +1,7 @@
-#include <Sable\Graphics\SwapChain\Impl\GLES\SwapChain.h>
+#include <Sable/Graphics/SwapChain/Impl/GLES/SwapChain.h>
 
-#include <Sable\Application\Window.h>
-#include <Sable\Graphics\Common\Impl\GLES\GraphicsManagerHelper.h>
+#include <Sable/Application/Window.h>
+#include <Sable/Graphics/Common/Impl/GLES/GraphicsManagerHelper.h>
 
 using namespace Sable;
 

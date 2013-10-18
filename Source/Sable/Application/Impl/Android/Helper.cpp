@@ -1,6 +1,6 @@
-#include <Sable\Application\Impl\Android\Helper.h>
+#include <Sable/Application/Impl/Android/Helper.h>
 
-#include <Sable\Application\Impl\Android\android_native_app_glue.cxx>
+#include <Sable/Application/Impl/Android/android_native_app_glue.cxx>
 
 using namespace Sable;
 

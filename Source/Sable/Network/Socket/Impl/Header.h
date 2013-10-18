@@ -1,14 +1,14 @@
 #ifndef _SABLE_NETWORK_SOCKET_IMPL_HEADER_
 #define _SABLE_NETWORK_SOCKET_IMPL_HEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #if defined( SETUP_IMPLTYPE_MSW )
-#include <Sable\Network\Socket\Impl\Msw\TCP.h>
-#include <Sable\Network\Socket\Impl\Msw\UDP.h>
+#include <Sable/Network/Socket/Impl/Msw/TCP.h>
+#include <Sable/Network/Socket/Impl/Msw/UDP.h>
 #else
-#include <Sable\Network\Socket\Impl\Stub\TCP.h>
-#include <Sable\Network\Socket\Impl\Stub\UDP.h>
+#include <Sable/Network/Socket/Impl/Stub/TCP.h>
+#include <Sable/Network/Socket/Impl/Stub/UDP.h>
 #endif
 
 namespace Sable

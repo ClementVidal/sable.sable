@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_SWAPCHAIN_IMPL_GLES_SWAPCHAIN_
 #define _SABLE_GRAPHICS_SWAPCHAIN_IMPL_GLES_SWAPCHAIN_
 
-#include <Sable\Graphics\SwapChain\Impl\Stub\SwapChain.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/SwapChain/Impl/Stub/SwapChain.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <EGL\EGL.h>
+#include <EGL/EGL.h>
 
 namespace Sable
 {

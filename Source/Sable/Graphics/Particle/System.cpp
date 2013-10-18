@@ -1,8 +1,8 @@
-#include <Sable\Graphics\Particle\System.h>
+#include <Sable/Graphics/Particle/System.h>
 
-#include <Sable\Graphics\Material\Material.h>
-#include <Sable\Graphics\Renderer\Header.h>
-#include <Sable\Graphics\Particle\Group.h>
+#include <Sable/Graphics/Material/Material.h>
+#include <Sable/Graphics/Renderer/Header.h>
+#include <Sable/Graphics/Particle/Group.h>
 
 #define PARTICLESYSTEM_RENDERQUEUE_PRIORITY 65535
 

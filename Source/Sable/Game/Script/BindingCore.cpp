@@ -1,7 +1,7 @@
-#include <Sable\Game\Script\Macro.h>
+#include <Sable/Game/Script/Macro.h>
 
-#include <Sable\Core\Math\Header.h>
-#include <Sable\Core\File\Header.h>
+#include <Sable/Core/Math/Header.h>
+#include <Sable/Core/File/Header.h>
 
 REGISTER_SCRIPTED_CLASS( Sable, CVector3f, TRUE, TRUE  )
 REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CVector3f, GetX, Float32, TRUE )

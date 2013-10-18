@@ -1,4 +1,4 @@
-#include <Sable\Graphics\States\Impl\DirectX\DepthStencil.h>
+#include <Sable/Graphics/States/Impl/DirectX/DepthStencil.h>
 
 using namespace Sable;
 

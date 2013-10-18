@@ -1,10 +1,10 @@
 #ifndef _SABLE_INPUT_PAD_PAD_
 #define _SABLE_INPUT_PAD_PAD_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Input\Pad\Interface.h>
-#include <Sable\Input\Pad\Impl\Header.h>
+#include <Sable/Input/Pad/Interface.h>
+#include <Sable/Input/Pad/Impl/Header.h>
 
 namespace Sable
 {

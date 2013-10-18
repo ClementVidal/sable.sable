@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_TEXT_TEXT_
 #define _SABLE_GRAPHICS_TEXT_TEXT_
 
-#include <Sable\Core\ManagedObject\Header.h>
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Graphics\Geometry\Header.h>
+#include <Sable/Core/ManagedObject/Header.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
 
 namespace Sable
 {

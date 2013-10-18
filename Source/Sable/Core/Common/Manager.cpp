@@ -1,7 +1,7 @@
-#include <Sable\Core\Common\Manager.h>
+#include <Sable/Core/Common/Manager.h>
 
-#include <Sable\Core\File\System.h>
-#include <Sable\Core\Math\Range.h>
+#include <Sable/Core/File/System.h>
+#include <Sable/Core/Math/Range.h>
 
 #include <Sable/Setup.h>
 

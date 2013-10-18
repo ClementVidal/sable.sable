@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Shader\SystemConnector.h>
+#include <Sable/Graphics/Shader/SystemConnector.h>
 
 #define ShaderConnector_MaximumInputTexture 4
 

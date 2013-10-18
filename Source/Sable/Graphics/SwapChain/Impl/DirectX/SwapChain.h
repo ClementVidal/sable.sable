@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_SWAPCHAIN_IMPL_MSW_SWAPCHAIN_
 #define _SABLE_GRAPHICS_SWAPCHAIN_IMPL_MSW_SWAPCHAIN_
 
-#include <Sable\Graphics\SwapChain\Impl\Stub\SwapChain.h>
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector2i.h>
+#include <Sable/Graphics/SwapChain/Impl/Stub/SwapChain.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector2i.h>
 
 namespace Sable
 {

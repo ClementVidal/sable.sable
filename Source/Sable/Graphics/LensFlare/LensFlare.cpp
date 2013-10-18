@@ -1,6 +1,6 @@
-#include <Sable\Graphics\LensFlare\LensFlare.h>
+#include <Sable/Graphics/LensFlare/LensFlare.h>
 
-#include <Sable\Graphics\LensFlare\RenderPass.h>
+#include <Sable/Graphics/LensFlare/RenderPass.h>
 
 #define WorldLensFlare_DefaultShaderFilePath "World\\LensFlare.fx"
 

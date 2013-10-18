@@ -1,11 +1,11 @@
 #ifndef _SABLE_PHYSIC_SHAPE_PLANE_
 #define _SABLE_PHYSIC_SHAPE_PLANE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Physic\Shape\Shape.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Physic/Shape/Shape.h>
 
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 #include <NxPlaneShapeDesc.h>
 

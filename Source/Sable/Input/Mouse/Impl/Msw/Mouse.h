@@ -1,9 +1,9 @@
 #ifndef _SABLE_INPUT_MOUSE_IMPL_MSW_MOUSE_
 #define _SABLE_INPUT_MOUSE_IMPL_MSW_MOUSE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Input\Mouse\Impl\Stub\Mouse.h>
-#include <Sable\Input\Mouse\Event.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Input/Mouse/Impl/Stub/Mouse.h>
+#include <Sable/Input/Mouse/Event.h>
 
 #define DIRECTINPUT_VERSION 0x0800
 

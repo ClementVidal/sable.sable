@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_TEXTURE_CUBE_
 #define _GRAPHICS_TEXTURE_CUBE_
 
-#include <Sable\Graphics\Texture\Texture.h>
+#include <Sable/Graphics/Texture/Texture.h>
 
-#include <Sable\Graphics\Texture\Impl\Header.h>
+#include <Sable/Graphics/Texture/Impl/Header.h>
 
 namespace Sable
 {

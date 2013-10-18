@@ -1,12 +1,12 @@
 #ifndef _SABLE_GAME_SCRIPT_ENGINE_
 #define _SABLE_GAME_SCRIPT_ENGINE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 extern "C" 
 {
-#include <Sable\Game\Script\Lua\Lua.h>
+#include <Sable/Game/Script/Lua/Lua.h>
 }
 
 namespace Sable

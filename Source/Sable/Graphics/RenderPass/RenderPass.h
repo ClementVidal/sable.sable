@@ -1,13 +1,13 @@
 #ifndef _GRAPHICS_RENDERER_RENDERERPASS_
 #define _GRAPHICS_RENDERER_RENDERERPASS_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Node\Node.h>
-#include <Sable\Graphics\Node\Render.h>
-#include <Sable\Graphics\RenderQueue\RenderQueue.h>
-#include <Sable\Graphics\Material\Material.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Node/Node.h>
+#include <Sable/Graphics/Node/Render.h>
+#include <Sable/Graphics/RenderQueue/RenderQueue.h>
+#include <Sable/Graphics/Material/Material.h>
 
 namespace Sable
 {

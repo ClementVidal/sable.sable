@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_RENDERTARGET_INFO_
 #define _SABLE_GRAPHICS_RENDERTARGET_INFO_
 
-#include <Sable\Graphics\Texture\TextureInfo.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
 
 namespace Sable
 {

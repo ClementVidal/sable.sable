@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_NODE_TRAVERSAL_
 #define _SABLE_GRAPHICS_NODE_TRAVERSAL_
 
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Core\Common\MethodPointer.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Core/Common/MethodPointer.h>
 
 namespace Sable
 {

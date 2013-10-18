@@ -1,7 +1,7 @@
-#include <Sable\Application\Window.h>
+#include <Sable/Application/Window.h>
 
-#include <Sable\Graphics\Scene\View.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Scene/View.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

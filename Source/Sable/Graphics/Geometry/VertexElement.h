@@ -1,7 +1,7 @@
 #ifndef _GRAPHICS_GEOMETRY_GEOMETRYVERTEXELEMENT_
 #define _GRAPHICS_GEOMETRY_GEOMETRYVERTEXELEMENT_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

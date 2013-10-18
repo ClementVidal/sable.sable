@@ -1,6 +1,6 @@
-#include <Sable\Core\Geometry\Rect2Di.h>
+#include <Sable/Core/Geometry/Rect2Di.h>
 
-#include <Sable\Core\Math\Primitives.h>
+#include <Sable/Core/Math/Primitives.h>
 
 using namespace Sable;
 

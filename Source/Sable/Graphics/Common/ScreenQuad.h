@@ -1,15 +1,15 @@
 #ifndef _SABLE_GRAPHICS_COMMON_SCREENQUAD_
 #define _SABLE_GRAPHICS_COMMON_SCREENQUAD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Graphics\Geometry\IndexBuffer.h>
-#include <Sable\Graphics\Geometry\VertexBuffer.h>
-#include <Sable\Graphics\Geometry\VertexLayout.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Math\Vector2f.h>
-#include <Sable\Core\Math\Vector4f.h>
-#include <Sable\Core\Common\Color.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Graphics/Geometry/IndexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector2f.h>
+#include <Sable/Core/Math/Vector4f.h>
+#include <Sable/Core/Common/Color.h>
 
 namespace Sable
 { 

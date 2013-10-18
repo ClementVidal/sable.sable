@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MATH_COMPLEX_
 #define _SABLE_CORE_MATH_COMPLEX_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

@@ -1,8 +1,8 @@
 #ifndef _DUNE_CORE_STRING_PRIMITIVES_
 #define _DUNE_CORE_STRING_PRIMITIVES_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Setup.h>
 
 /** 
 \file Sable\Core\String\Primitives.h

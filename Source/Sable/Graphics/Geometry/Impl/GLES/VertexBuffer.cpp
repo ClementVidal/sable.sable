@@ -1,10 +1,10 @@
-#include <Sable\Graphics\Geometry\Impl\GLES\VertexBuffer.h>
+#include <Sable/Graphics/Geometry/Impl/GLES/VertexBuffer.h>
 
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Math\Vector2f.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\VertexBuffer.h>
-#include <Sable\Graphics\Geometry\VertexLayout.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector2f.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/VertexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
 
 #include <GLES2/gl2ext.h>
 

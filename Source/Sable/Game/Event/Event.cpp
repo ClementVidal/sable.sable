@@ -1,4 +1,4 @@
-#include <Sable\Game\Event\Event.h>
+#include <Sable/Game/Event/Event.h>
 
 using namespace Sable;
 

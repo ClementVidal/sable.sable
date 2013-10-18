@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderPass\RenderPass.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
 
-#include <Sable\Graphics\Renderer\Renderer.h>
-#include <Sable\Graphics\Material\Header.h>
+#include <Sable/Graphics/Renderer/Renderer.h>
+#include <Sable/Graphics/Material/Header.h>
 
 using namespace Sable;
 

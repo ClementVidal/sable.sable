@@ -1,8 +1,8 @@
-#include <Sable\Game\Script\Macro.h>
+#include <Sable/Game/Script/Macro.h>
 
-#include <Sable\Game\Service\Header.h>
-#include <Sable\Game\Common\Header.h>
-#include <Sable\Game\Object\Header.h>
+#include <Sable/Game/Service/Header.h>
+#include <Sable/Game/Common/Header.h>
+#include <Sable/Game/Object/Header.h>
 
 REGISTER_SCRIPTED_CLASS( Sable, CGameContext, FALSE, FALSE )
 

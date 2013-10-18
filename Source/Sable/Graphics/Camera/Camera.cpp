@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Camera\Camera.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Graphics/Camera/Camera.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 using namespace Sable;
 

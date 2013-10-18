@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_MATH_VECTOR2F_
 #define _SABLE_CORE_MATH_VECTOR2F_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
 
 
 namespace Sable

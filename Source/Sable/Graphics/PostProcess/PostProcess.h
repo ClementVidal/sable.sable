@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_POSTPROCESS_POSTPROCESS_
 #define _GRAPHICS_POSTPROCESS_POSTPROCESS_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Header.h>
-#include <Sable\Core\Collection\List.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Header.h>
+#include <Sable/Core/Collection/List.h>
 
 namespace Sable
 {

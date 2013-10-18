@@ -1,10 +1,10 @@
 #ifndef _GRAPHICS_LIGHT_LIGHT_
 #define _GRAPHICS_LIGHT_LIGHT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Graphics\Node\Spatial.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Graphics/Node/Spatial.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 namespace Sable
 {

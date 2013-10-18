@@ -1,8 +1,8 @@
 #ifndef _CORE_MATH_QUATERNION_
 #define _CORE_MATH_QUATERNION_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
 
 namespace Sable
 {

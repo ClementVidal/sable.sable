@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Viewport\Impl\DirectX\Viewport.h>
+#include <Sable/Graphics/Viewport/Impl/DirectX/Viewport.h>
 
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManagerHelper.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManagerHelper.h>
 
 #include <D3D10.h>
 

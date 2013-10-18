@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_TIME_IMPL_MSW_TIME_
 #define _SABLE_CORE_TIME_IMPL_MSW_TIME_
 
-#include <Sable\Core\Time\Impl\Stub\Time.h>
+#include <Sable/Core/Time/Impl/Stub/Time.h>
 
 #ifdef SETUP_IMPLTYPE_MSW
 

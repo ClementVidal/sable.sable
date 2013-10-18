@@ -1,9 +1,9 @@
 #ifndef _INPUT_KEYBOARD_KEYBOARD_
 #define _INPUT_KEYBOARD_KEYBOARD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Input\Keyboard\Interface.h>
-#include <Sable\Input\Keyboard\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Input/Keyboard/Interface.h>
+#include <Sable/Input/Keyboard/Impl/Header.h>
 
 namespace Sable
 {

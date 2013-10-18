@@ -1,7 +1,7 @@
-#include <Sable\Core\Math\Vector4f.h>
+#include <Sable/Core/Math/Vector4f.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 using namespace Sable;
 

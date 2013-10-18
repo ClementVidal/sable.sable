@@ -1,7 +1,7 @@
 #ifndef _CORE_MANAGEDOBJECT_OBJECTMETHOD_
 #define _CORE_MANAGEDOBJECT_OBJECTMETHOD_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

@@ -1,12 +1,12 @@
 #ifndef _SABLE_GRAPHICS_CAMERA_CAMERA_
 #define _SABLE_GRAPHICS_CAMERA_CAMERA_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Node\Spatial.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\Geometry\Frustum.h>
-#include <Sable\Core\Geometry\Ray.h>
-#include <Sable\Graphics\Camera\ShaderConnector\Camera.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Node/Spatial.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/Geometry/Frustum.h>
+#include <Sable/Core/Geometry/Ray.h>
+#include <Sable/Graphics/Camera/ShaderConnector/Camera.h>
 
 namespace Sable
 {

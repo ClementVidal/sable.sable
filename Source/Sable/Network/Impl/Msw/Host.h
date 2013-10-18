@@ -1,9 +1,9 @@
 #ifndef _SABLE_NETWORK_IMPL_MSW_HOST_
 #define _SABLE_NETWORK_IMPL_MSW_HOST_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\StaticString.h>
-#include <Sable\Network\Impl\Stub\Host.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/StaticString.h>
+#include <Sable/Network/Impl/Stub/Host.h>
 
 #include <Winsock.h>
 

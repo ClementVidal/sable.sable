@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Material\Material.h>
+#include <Sable/Graphics/Material/Material.h>
 
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 using namespace Sable;
 

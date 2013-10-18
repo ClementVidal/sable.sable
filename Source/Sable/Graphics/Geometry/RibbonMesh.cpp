@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Geometry\RibbonMesh.h>
+#include <Sable/Graphics/Geometry/RibbonMesh.h>
 
 using namespace Sable;
 

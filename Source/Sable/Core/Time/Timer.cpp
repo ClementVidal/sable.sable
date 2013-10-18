@@ -1,6 +1,6 @@
-#include <Sable\Core\Time\Timer.h>
+#include <Sable/Core/Time/Timer.h>
 
-#include <Sable\Core\Common\Manager.h>
+#include <Sable/Core/Common/Manager.h>
 
 using namespace Sable;
 

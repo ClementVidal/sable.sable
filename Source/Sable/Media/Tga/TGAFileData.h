@@ -1,8 +1,8 @@
 #ifndef _SABLE_MEDIA_TGA_TGAFILEDATA_
 #define _SABLE_MEDIA_TGA_TGAFILEDATA_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

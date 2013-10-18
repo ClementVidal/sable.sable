@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_COMMON_IMPL_GLES_GRAPHICSMANAGERHELPER_
 #define _SABLE_GRAPHICS_COMMON_IMPL_GLES_GRAPHICSMANAGERHELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 #ifdef SETUP_CONFIG_DEBUG
 
@@ -43,7 +43,7 @@ DebugBreakExecution();\
 
 #endif
 
-#include <EGL\egl.h>
+#include <EGL/egl.h>
 
 namespace Sable
 {

@@ -1,10 +1,10 @@
 #ifndef _SABLE_SCENE_WORLD_LENSFLARE_
 #define _SABLE_SCENE_WORLD_LENSFLARE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Node\Header.h>
-#include <Sable\Graphics\Texture\Header.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Node/Header.h>
+#include <Sable/Graphics/Texture/Header.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 namespace Sable
 {

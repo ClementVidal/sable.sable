@@ -2,9 +2,9 @@
 #define _SABLE_USERINTERFACE_BUILDFILEHEADER_
 
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 #include <stdarg.h>
-#include <Sable\Core\Math\Header.h>
+#include <Sable/Core/Math/Header.h>
 
 #ifdef SETUP_IMPLTYPE_MSW
 
@@ -25,15 +25,15 @@
 
 #ifdef SETUP_IMPLTYPE_ANDROID
 
-#include <Android\Log.h>
+#include <Android/Log.h>
 
 #endif
 
 #if defined( SETUP_IMPLTYPE_GLES )
 
-#include <EGL\egl.h>
-#include <GLES2\gl2.h>
-#include <GLES2\gl2ext.h>
+#include <EGL/egl.h>
+#include <GLES2/gl2.h>
+#include <GLES2/gl2ext.h>
 
 #endif
 

@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_BUILDFILEHEADER_
 #define _SABLE_CORE_BUILDFILEHEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -15,7 +15,7 @@
 
 #ifdef SETUP_IMPLTYPE_ANDROID
 
-#include <Android\Log.h>
+#include <Android/Log.h>
 
 #endif
 

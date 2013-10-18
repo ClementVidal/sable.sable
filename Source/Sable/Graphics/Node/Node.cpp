@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Node\Node.h>
+#include <Sable/Graphics/Node/Node.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Graphics\Node\Spatial.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Graphics/Node/Spatial.h>
 
 using namespace Sable;
 

@@ -1,12 +1,12 @@
-#include <Sable\Application\Application.h>
+#include <Sable/Application/Application.h>
 
-#include <Sable\\Application\WindowStandAlone.h>
-#include <Sable\Input\Mouse\Mouse.h>
-#include <Sable\Input\Keyboard\Keyboard.h>
-#include <Sable\Input\Pad\Pad.h>
+#include <Sable//Application/WindowStandAlone.h>
+#include <Sable/Input/Mouse/Mouse.h>
+#include <Sable/Input/Keyboard/Keyboard.h>
+#include <Sable/Input/Pad/Pad.h>
 
-#include <Sable\Application\Window.h>
-#include <Sable\Game\Script\Engine.h>
+#include <Sable/Application/Window.h>
+#include <Sable/Game/Script/Engine.h>
 
 using namespace Sable;
 

@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_IMPL_MSW_VERTEXSTREAM_
 #define _SABLE_GRAPHICS_GEOMETRY_IMPL_MSW_VERTEXSTREAM_
 
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexBuffer.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexBuffer.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

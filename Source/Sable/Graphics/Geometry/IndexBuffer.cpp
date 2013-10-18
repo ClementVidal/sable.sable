@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Geometry\IndexBuffer.h>
+#include <Sable/Graphics/Geometry/IndexBuffer.h>
 
-#include <Sable\Graphics\Geometry\Impl\Stub\IndexBuffer.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/IndexBuffer.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

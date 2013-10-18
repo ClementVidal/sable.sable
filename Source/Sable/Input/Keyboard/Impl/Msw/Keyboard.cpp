@@ -1,8 +1,8 @@
-#include <Sable\Input\Keyboard\Impl\Msw\Keyboard.h>
+#include <Sable/Input/Keyboard/Impl/Msw/Keyboard.h>
 
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Input\Keyboard\Keyboard.h>
-#include <Sable\Application\Window.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Input/Keyboard/Keyboard.h>
+#include <Sable/Application/Window.h>
 
 #define DX9KEYBOARD_BufferSize 16
 

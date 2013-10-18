@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_FILE_IMPL_MSW_SYSTEM_
 #define _SABLE_CORE_FILE_IMPL_MSW_SYSTEM_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\File\Impl\Stub\System.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/File/Impl/Stub/System.h>
 
 namespace Sable
 {

@@ -1,19 +1,19 @@
 #ifndef _SABLE_GRAPHICS_SHADER_SHADER_
 #define _SABLE_GRAPHICS_SHADER_SHADER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\StaticString.h>
-#include <Sable\Core\Collection\HashTable.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Connector.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/StaticString.h>
+#include <Sable/Core/Collection/HashTable.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Connector.h>
 
-#include <Sable\Graphics\States\Blend.h>
-#include <Sable\Graphics\States\DepthStencil.h>
-#include <Sable\Graphics\States\Sampler.h>
-#include <Sable\Graphics\States\Rasterizer.h>
+#include <Sable/Graphics/States/Blend.h>
+#include <Sable/Graphics/States/DepthStencil.h>
+#include <Sable/Graphics/States/Sampler.h>
+#include <Sable/Graphics/States/Rasterizer.h>
 
-#include <Sable\Graphics\Shader\Parameter.h>
-#include <Sable\Graphics\Shader\Impl\Header.h>
+#include <Sable/Graphics/Shader/Parameter.h>
+#include <Sable/Graphics/Shader/Impl/Header.h>
 
 namespace Sable
 {

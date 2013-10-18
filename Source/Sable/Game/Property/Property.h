@@ -1,7 +1,7 @@
 #ifndef _SABLE_GAME_PARAMETER_PROPERTY_
 #define _SABLE_GAME_PARAMETER_PROPERTY_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

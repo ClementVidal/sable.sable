@@ -1,13 +1,13 @@
 #ifndef _GRAPHICS_GEOMETRY_INDEXBUFFER_
 #define _GRAPHICS_GEOMETRY_INDEXBUFFER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Persistent\Header.h>
-#include <Sable\Core\Common\BufferVisitor.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Persistent/Header.h>
+#include <Sable/Core/Common/BufferVisitor.h>
+#include <Sable/Core/Collection/Array.h>
 
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\Impl\Header.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/Impl/Header.h>
 
 namespace Sable
 {

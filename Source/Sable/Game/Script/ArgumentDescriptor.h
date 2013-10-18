@@ -3,8 +3,8 @@
 
 extern "C" 
 {
-#include <Sable\Game\Script\Lua\Lua.h>
-#include <Sable\Game\Script\Lua\lauxlib.h>
+#include <Sable/Game/Script/Lua/Lua.h>
+#include <Sable/Game/Script/Lua/lauxlib.h>
 }
 
 namespace Sable

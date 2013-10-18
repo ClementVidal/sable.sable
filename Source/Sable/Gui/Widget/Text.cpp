@@ -1,7 +1,7 @@
-#include <Sable\Gui\Widget\Text.h>
+#include <Sable/Gui/Widget/Text.h>
 
-#include <Sable\Graphics\Text\Font.h>
-#include <Sable\Graphics\Text\Text.h>
+#include <Sable/Graphics/Text/Font.h>
+#include <Sable/Graphics/Text/Text.h>
 
 IMPLEMENT_MANAGED_CLASS1_ALLOC( Sable, CWidgetText, CWidget );
 

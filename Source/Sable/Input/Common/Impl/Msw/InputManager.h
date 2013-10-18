@@ -1,10 +1,10 @@
 #ifndef _INPUT_COMMON_IMPL_MANAGERDX9_
 #define _INPUT_COMMON_IMPL_MANAGERDX9_
 
-#include <Sable\Input\Common\Impl\Stub\InputManager.h>
+#include <Sable/Input/Common/Impl/Stub/InputManager.h>
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
 
 #define DIRECTINPUT_VERSION 0x0800
 

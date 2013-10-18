@@ -1,15 +1,15 @@
 #ifndef _SABLE_GRAPHICS_COMMON_IMPL_MSW_MANAGER_
 #define _SABLE_GRAPHICS_COMMON_IMPL_MSW_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\BitArray.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Core\Collection\List.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/BitArray.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Core/Collection/List.h>
 
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DisplayInfo.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DisplayInfo.h>
 
-#include <Sable\Graphics\Common\Impl\Stub\GraphicsManager.h>
+#include <Sable/Graphics/Common/Impl/Stub/GraphicsManager.h>
 
 #include <Windows.h>
 

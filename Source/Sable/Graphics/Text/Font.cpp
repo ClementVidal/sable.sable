@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Text\Font.h>
+#include <Sable/Graphics/Text/Font.h>
 
-#include <Sable\Core\File\Header.h>
+#include <Sable/Core/File/Header.h>
 
 IMPLEMENT_MANAGED_CLASS1_ALLOC( Sable, CTextFont, CManagedObject );
 

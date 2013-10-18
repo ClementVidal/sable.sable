@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_COMMON_BUFFERVISITOR_
 #define _SABLE_CORE_COMMON_BUFFERVISITOR_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

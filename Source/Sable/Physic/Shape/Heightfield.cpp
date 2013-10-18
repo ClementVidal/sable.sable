@@ -1,6 +1,6 @@
-#include <Sable\Physic\Shape\Heightfield.h>
+#include <Sable/Physic/Shape/Heightfield.h>
 
-#include <Sable\Physic\Common\Manager.h>
+#include <Sable/Physic/Common/Manager.h>
 
 #include "NxHeightField.h"
 #include "NxHeightFieldDesc.h"

@@ -1,7 +1,7 @@
-#include <Sable\Core\Geometry\Disk.h>
+#include <Sable/Core/Geometry/Disk.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Geometry\Ray.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Geometry/Ray.h>
 
 using namespace Sable;
 

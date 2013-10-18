@@ -1,4 +1,4 @@
-#include <Sable\Core\Thread\Impl\Msw\CriticalSection.h>
+#include <Sable/Core/Thread/Impl/Msw/CriticalSection.h>
 
 using namespace Sable;
 

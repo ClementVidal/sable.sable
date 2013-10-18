@@ -1,8 +1,8 @@
-#include <Sable\Graphics\Particle\Group.h>
+#include <Sable/Graphics/Particle/Group.h>
 
-#include <Sable\Graphics\Particle\Operator\Operator.h>
-#include <Sable\Graphics\Renderer\Header.h>
-#include <Sable\Graphics\Particle\System.h>
+#include <Sable/Graphics/Particle/Operator/Operator.h>
+#include <Sable/Graphics/Renderer/Header.h>
+#include <Sable/Graphics/Particle/System.h>
 
 using namespace Sable;
 

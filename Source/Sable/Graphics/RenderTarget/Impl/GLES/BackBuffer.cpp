@@ -1,6 +1,6 @@
-#include <Sable\Graphics\RenderTarget\Impl\GLES\BackBuffer.h>
+#include <Sable/Graphics/RenderTarget/Impl/GLES/BackBuffer.h>
 
-#include <Sable\Graphics\SwapChain\SwapChain.h>
+#include <Sable/Graphics/SwapChain/SwapChain.h>
 
 using namespace Sable;
 

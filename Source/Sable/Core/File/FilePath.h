@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_FILE_FILENAME_
 #define _SABLE_CORE_FILE_FILENAME_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\String.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/String.h>
 
 #define FILENAME_BUFFER_SIZE 128
 

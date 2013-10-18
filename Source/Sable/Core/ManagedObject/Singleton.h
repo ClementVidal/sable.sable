@@ -1,8 +1,8 @@
 #ifndef _CORE_MANAGEDOBJECT_SINGLETON_
 #define _CORE_MANAGEDOBJECT_SINGLETON_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 namespace Sable
 {

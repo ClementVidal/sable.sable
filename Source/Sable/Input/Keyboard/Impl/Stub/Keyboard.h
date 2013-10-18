@@ -1,8 +1,8 @@
 #ifndef _SABLE_INPUT_KEYBOARD_IMPL_STUB_KEYBOARD_
 #define _SABLE_INPUT_KEYBOARD_IMPL_STUB_KEYBOARD_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Input\Keyboard\Event.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Input/Keyboard/Event.h>
 namespace Sable
 {
 

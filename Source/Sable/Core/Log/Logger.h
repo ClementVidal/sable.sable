@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_LOG_LOGGER_
 #define _SABLE_CORE_LOG_LOGGER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 #include <stdarg.h>
 

@@ -1,6 +1,6 @@
-#include <Sable\Graphics\States\Sampler.h>
+#include <Sable/Graphics/States/Sampler.h>
 
-#include <Sable\Core\Collection\Heap.h>
+#include <Sable/Core/Collection/Heap.h>
 
 using namespace Sable;
 

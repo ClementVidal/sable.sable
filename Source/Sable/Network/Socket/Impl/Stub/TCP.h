@@ -1,7 +1,7 @@
 #ifndef _SABLE_NETWORK_SOCKET_IMPL_STUB_KEYBOARD_
 #define _SABLE_NETWORK_SOCKET_IMPL_STUB_KEYBOARD_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

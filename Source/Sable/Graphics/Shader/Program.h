@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_SHADER_PROGRAM_
 #define _SABLE_GRAPHICS_SHADER_PROGRAM_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\Shader\Impl\Header.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/Shader/Impl/Header.h>
 
 namespace Sable
 {

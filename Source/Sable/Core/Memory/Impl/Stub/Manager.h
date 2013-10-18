@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MEMORY_IMPL_STUB_MANAGER_
 #define _SABLE_CORE_MEMORY_IMPL_STUB_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

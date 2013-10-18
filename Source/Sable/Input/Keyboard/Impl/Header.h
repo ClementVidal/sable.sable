@@ -1,12 +1,12 @@
 #ifndef _SABLE_INPUT_KEYBOARD_IMPL_HEADER_
 #define _SABLE_INPUT_KEYBOARD_IMPL_HEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #if defined( SETUP_IMPLTYPE_MSW )
-#include <Sable\Input\Keyboard\Impl\Msw\Keyboard.h>
+#include <Sable/Input/Keyboard/Impl/Msw/Keyboard.h>
 #else
-#include <Sable\Input\Keyboard\Impl\Stub\Keyboard.h>
+#include <Sable/Input/Keyboard/Impl/Stub/Keyboard.h>
 #endif
 
 namespace Sable

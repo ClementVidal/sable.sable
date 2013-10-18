@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_MANAGEDOBJECT_REF_
 #define _SABLE_CORE_MANAGEDOBJECT_REF_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\ManagedObject\RefBase.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/ManagedObject/RefBase.h>
 
 namespace Sable
 {
@@ -57,7 +57,7 @@ protected:
 
 };
 
-#include <Sable\Core\ManagedObject\Ref.hpp>
+#include <Sable/Core/ManagedObject/Ref.hpp>
 
 
 }

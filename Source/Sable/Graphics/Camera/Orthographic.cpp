@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Camera\Orthographic.h>
+#include <Sable/Graphics/Camera/Orthographic.h>
 
 using namespace Sable;
 

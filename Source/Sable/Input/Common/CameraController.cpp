@@ -1,17 +1,17 @@
-#include <Sable\Input\Common\CameraController.h>
+#include <Sable/Input/Common/CameraController.h>
 
-#include <Sable\Input\Keyboard\Interface.h>
-#include <Sable\Input\Mouse\Interface.h>
-#include <Sable\Input\Common\Manager.h>
+#include <Sable/Input/Keyboard/Interface.h>
+#include <Sable/Input/Mouse/Interface.h>
+#include <Sable/Input/Common/Manager.h>
 
-#include <Sable\Core\Geometry\Ray.h>
-#include <Sable\Core\Math\Vector2f.h>
-#include <Sable\Core\Math\Matrix3x3f.h>
+#include <Sable/Core/Geometry/Ray.h>
+#include <Sable/Core/Math/Vector2f.h>
+#include <Sable/Core/Math/Matrix3x3f.h>
 
-#include <Sable\Graphics\Camera\Camera.h>
-#include <Sable\Graphics\Scene\View.h>
-#include <Sable\Graphics\Scene\World.h>
-#include <Sable\Graphics\Camera\Perspective.h>
+#include <Sable/Graphics/Camera/Camera.h>
+#include <Sable/Graphics/Scene/View.h>
+#include <Sable/Graphics/Scene/World.h>
+#include <Sable/Graphics/Camera/Perspective.h>
 
 using namespace Sable;
 

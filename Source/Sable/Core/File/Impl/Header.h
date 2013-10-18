@@ -2,17 +2,17 @@
 //#define _SABLE_CORE_FILE_IMPL_HEADER_
 
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 
 #if defined( SETUP_IMPLTYPE_MSW )
-#include <Sable\Core\File\Impl\Msw\System.h>
-#include <Sable\Core\File\Impl\Msw\File.h>
+#include <Sable/Core/File/Impl/Msw/System.h>
+#include <Sable/Core/File/Impl/Msw/File.h>
 #elif defined( SETUP_IMPLTYPE_ANDROID )
-#include <Sable\Core\File\Impl\Android\System.h>
-#include <Sable\Core\File\Impl\Android\File.h>
+#include <Sable/Core/File/Impl/Android/System.h>
+#include <Sable/Core/File/Impl/Android/File.h>
 #else
-#include <Sable\Core\File\Impl\Stub\System.h>
-#include <Sable\Core\File\Impl\Stub\File.h>
+#include <Sable/Core/File/Impl/Stub/System.h>
+#include <Sable/Core/File/Impl/Stub/File.h>
 #endif
 
 namespace Sable

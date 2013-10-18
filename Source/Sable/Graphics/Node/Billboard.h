@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_NODE_BILLBOARD_
 #define _SABLE_GRAPHICS_NODE_BILLBOARD_
 
-#include <Sable\Graphics\Node\Render.h>
+#include <Sable/Graphics/Node/Render.h>
 
 namespace Sable 
 {

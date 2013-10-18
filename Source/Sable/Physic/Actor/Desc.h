@@ -1,8 +1,8 @@
 #ifndef _SABLE_PHYSIC_ACTOR_DESC_
 #define _SABLE_PHYSIC_ACTOR_DESC_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
 
 #include <NxActorDesc.h> 
 

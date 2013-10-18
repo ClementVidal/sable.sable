@@ -1,9 +1,9 @@
 #ifndef _SAMPLE_APPLICATION_RENDERER_
 #define _SAMPLE_APPLICATION_RENDERER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Graphics\Renderer\Header.h>
+#include <Sable/Graphics/Renderer/Header.h>
 
 #define RENDERERPASS_DEPTH 0
 #define RENDERERPASS_STATIC_LIGHTING 1

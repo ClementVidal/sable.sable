@@ -1,10 +1,10 @@
 #ifndef _SABLE_USERINTERFACE_WIDGET_CANVAS_
 #define _SABLE_USERINTERFACE_WIDGET_CANVAS_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Geometry\Rect2Df.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Gui\Widget\Widget.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Geometry/Rect2Df.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Gui/Widget/Widget.h>
 
 namespace Sable
 {

@@ -1,7 +1,7 @@
-#include <Sable\Core\Math\Vector2f.h>
+#include <Sable/Core/Math/Vector2f.h>
 
-#include <Sable\Core\Math\Matrix3x3f.h>
-#include <Sable\Core\Persistent\Archive.h>
+#include <Sable/Core/Math/Matrix3x3f.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 using namespace Sable;
 

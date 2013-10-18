@@ -1,11 +1,11 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_MESH_
 #define _SABLE_GRAPHICS_GEOMETRY_MESH_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\Geometry\AABox.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/Geometry/AABox.h>
 
 namespace Sable
 {

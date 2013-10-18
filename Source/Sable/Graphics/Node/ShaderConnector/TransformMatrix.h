@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_SCENEGRAPH_SHADERCONNECTOR_TRANSFORMMATRIX_
 #define _GRAPHICS_SCENEGRAPH_SHADERCONNECTOR_TRANSFORMMATRIX_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\String.h>
-#include <Sable\Graphics\Shader\SystemConnector.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Graphics/Shader/SystemConnector.h>
 
 namespace Sable
 {

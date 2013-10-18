@@ -1,7 +1,7 @@
-#include <Sable\Graphics\RenderTarget\Texture.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
 
-#include <Sable\Graphics\RenderTarget\Impl\Stub\Texture.h>
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/RenderTarget/Impl/Stub/Texture.h>
+#include <Sable/Graphics/Common/Manager.h>
 
 using namespace Sable;
 

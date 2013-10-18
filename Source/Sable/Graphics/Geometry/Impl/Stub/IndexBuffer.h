@@ -1,7 +1,7 @@
 #ifndef _GEOMETRY_INTERFACE_WRAPPERINDEXBUFFER_
 #define _GEOMETRY_INTERFACE_WRAPPERINDEXBUFFER_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

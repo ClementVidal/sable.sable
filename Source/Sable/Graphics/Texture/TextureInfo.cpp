@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Texture\TextureInfo.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
 
 using namespace Sable;
 

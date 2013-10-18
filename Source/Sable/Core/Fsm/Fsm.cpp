@@ -1,7 +1,7 @@
-#include <Sable\Core\Fsm\Fsm.h>
+#include <Sable/Core/Fsm/Fsm.h>
 
-#include <Sable\Core\Fsm\State.h>
-#include <Sable\Core\Fsm\Instance.h>
+#include <Sable/Core/Fsm/State.h>
+#include <Sable/Core/Fsm/Instance.h>
 
 using namespace Sable;
 

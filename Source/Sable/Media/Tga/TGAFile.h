@@ -1,12 +1,12 @@
 #ifndef _SABLE_MEDIA_TGA_TGAFILE_
 #define _SABLE_MEDIA_TGA_TGAFILE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\File\Header.h>
-#include <Sable\Graphics\Texture\TextureInfo.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Media\Common\ImageFile.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/File/Header.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Media/Common/ImageFile.h>
 
 namespace Sable
 {

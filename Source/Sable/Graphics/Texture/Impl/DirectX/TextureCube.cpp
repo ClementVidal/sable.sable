@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Texture\Impl\DirectX\TextureCube.h>
+#include <Sable/Graphics/Texture/Impl/DirectX/TextureCube.h>
 
 using namespace Sable;
 

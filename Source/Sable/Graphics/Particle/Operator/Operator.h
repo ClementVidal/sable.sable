@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_PARTICLE_OPERATOR_OPERATOR_
 #define _SABLE_GRAPHICS_PARTICLE_OPERATOR_OPERATOR_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
 namespace Sable
 {

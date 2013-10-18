@@ -1,5 +1,5 @@
-#include <Sable\Core\Log\Handler.h>
-#include <Sable\Core\Log\Logger.h>
+#include <Sable/Core/Log/Handler.h>
+#include <Sable/Core/Log/Logger.h>
 
 using namespace Sable;
 

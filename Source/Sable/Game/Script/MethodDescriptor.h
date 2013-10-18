@@ -1,7 +1,7 @@
 #ifndef _SABLE_GAME_SCRIPT_METHODDESCRIPTOR_
 #define _SABLE_GAME_SCRIPT_METHODDESCRIPTOR_
 
-#include <Sable\Game\Script\ArgumentDescriptor.h>
+#include <Sable/Game/Script/ArgumentDescriptor.h>
 
 namespace Sable
 {

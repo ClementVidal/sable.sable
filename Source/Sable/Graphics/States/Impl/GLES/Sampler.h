@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_STATES_IMPL_GLES_SAMPLER_
 #define _SABLE_GRAPHICS_STATES_IMPL_GLES_SAMPLER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\States\Impl\Stub\Sampler.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/States/Impl/Stub/Sampler.h>
 
 namespace Sable
 {

@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Particle\Operator\Operator.h>
+#include <Sable/Graphics/Particle/Operator/Operator.h>
 
 using namespace Sable;
 

@@ -1,4 +1,4 @@
-#include <Sable\Physic\Actor\BodyDesc.h>
+#include <Sable/Physic/Actor/BodyDesc.h>
 
 #include <NxBodyDesc.h>
 

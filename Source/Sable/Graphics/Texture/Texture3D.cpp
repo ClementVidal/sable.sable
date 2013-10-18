@@ -1,10 +1,10 @@
-#include <Sable\Graphics\Texture\Texture3D.h>
+#include <Sable/Graphics/Texture/Texture3D.h>
 
-#include <Sable\Media\Dds\DDSFile.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Graphics\Texture\TextureInfo.h>
-#include <Sable\Graphics\Texture\Impl\Stub\Texture3D.h>
-#include <Sable\Core\File\FilePath.h>
+#include <Sable/Media/Dds/DDSFile.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
+#include <Sable/Graphics/Texture/Impl/Stub/Texture3D.h>
+#include <Sable/Core/File/FilePath.h>
 
 using namespace Sable;
 

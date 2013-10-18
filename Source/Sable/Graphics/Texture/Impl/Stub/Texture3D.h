@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_TEXTURE_IMPL_STUB_TEXTURE3D_
 #define _SABLE_GRAPHICS_TEXTURE_IMPL_STUB_TEXTURE3D_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

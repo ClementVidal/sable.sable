@@ -1,9 +1,9 @@
-#include <Sable\Graphics\Texture\Texture2D.h>
+#include <Sable/Graphics/Texture/Texture2D.h>
 
-#include <Sable\Media\Dds\DDSFile.h>
-#include <Sable\Media\Tga\TGAFile.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Graphics\Texture\TextureInfo.h>
+#include <Sable/Media/Dds/DDSFile.h>
+#include <Sable/Media/Tga/TGAFile.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
 
 using namespace Sable;
 

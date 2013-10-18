@@ -1,6 +1,6 @@
-#include <Sable\Core\File\FilePath.h>
+#include <Sable/Core/File/FilePath.h>
 
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/String/Primitives.h>
 
 using namespace Sable;
 

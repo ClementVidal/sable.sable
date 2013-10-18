@@ -1,9 +1,9 @@
-#include <Sable\Graphics\PostProcess\ToneMapper.h>
+#include <Sable/Graphics/PostProcess/ToneMapper.h>
 
-#include <Sable\Graphics\RenderTarget\RenderTarget.h>
-#include <Sable\Graphics\Shader\Connector.h>
-#include <Sable\Graphics\Common\Manager.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Graphics/RenderTarget/RenderTarget.h>
+#include <Sable/Graphics/Shader/Connector.h>
+#include <Sable/Graphics/Common/Manager.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 #define CPostProcessToneMapper_LuminancePassTextureCount 6
 

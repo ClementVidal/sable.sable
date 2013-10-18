@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_IMPL_GLES_VERTEXLAYOUT_
 #define _SABLE_GRAPHICS_GEOMETRY_IMPL_GLES_VERTEXLAYOUT_
 
-#include <Sable\Graphics\Geometry\VertexElement.h>
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexLayout.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/Geometry/VertexElement.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexLayout.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

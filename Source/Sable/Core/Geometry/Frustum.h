@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_GEOMETRY_FRUSTUM_
 #define _SABLE_CORE_GEOMETRY_FRUSTUM_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Geometry\Sphere.h>
-#include <Sable\Core\Geometry\Plane.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Geometry/Sphere.h>
+#include <Sable/Core/Geometry/Plane.h>
 
 namespace Sable
 {

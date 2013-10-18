@@ -1,9 +1,9 @@
 #ifndef _GRAPHICS_RENDER_RENDERTARGET_
 #define _GRAPHICS_RENDER_RENDERTARGET_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Graphics\RenderTarget\Info.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Graphics/RenderTarget/Info.h>
 
 namespace Sable
 {

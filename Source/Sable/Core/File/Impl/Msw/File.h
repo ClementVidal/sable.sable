@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_FILE_IMPL_MSW_FILE_
 #define _SABLE_CORE_FILE_IMPL_MSW_FILE_
 
-#include <Sable\Core\File\Impl\Stub\File.h>
+#include <Sable/Core/File/Impl/Stub/File.h>
 
 namespace Sable
 {

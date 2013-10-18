@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_IMPL_STUB_VERTEXSTREAM_
 #define _SABLE_GRAPHICS_GEOMETRY_IMPL_STUB_VERTEXSTREAM_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

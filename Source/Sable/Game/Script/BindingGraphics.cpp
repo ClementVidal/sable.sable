@@ -1,7 +1,7 @@
-#include <Sable\Game\Script\Macro.h>
+#include <Sable/Game/Script/Macro.h>
 
-#include <Sable\Graphics\Node\Header.h>
-#include <Sable\Graphics\Geometry\Header.h>
+#include <Sable/Graphics/Node/Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
 
 REGISTER_SCRIPTED_CLASS( Sable, CGeometryModel, FALSE, TRUE )
 

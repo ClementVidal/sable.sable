@@ -1,7 +1,7 @@
 #ifndef _SABLE_APPLICATION_IMPL_STUB_APPLICATION_
 #define _SABLE_APPLICATION_IMPL_STUB_APPLICATION_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {

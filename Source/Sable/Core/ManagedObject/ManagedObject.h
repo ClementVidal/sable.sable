@@ -1,9 +1,9 @@
 #ifndef _CORE_MMANAGEDOBJECT_MANAGEDOBJECT_
 #define _CORE_MMANAGEDOBJECT_MANAGEDOBJECT_
 
-#include <Sable\Core\Debug\Primitives.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\ManagedObject\TypeInfo.h>
+#include <Sable/Core/Debug/Primitives.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/ManagedObject/TypeInfo.h>
 
 namespace Sable
 {

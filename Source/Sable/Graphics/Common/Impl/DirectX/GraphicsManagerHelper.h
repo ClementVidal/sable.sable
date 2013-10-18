@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_COMMON_IMPL_DIRECTX_GRAPHICSMANAGERHELPER_
 #define _SABLE_GRAPHICS_COMMON_IMPL_DIRECTX_GRAPHICSMANAGERHELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 #include <DXGI.h>
 

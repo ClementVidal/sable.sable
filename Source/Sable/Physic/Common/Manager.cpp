@@ -1,6 +1,6 @@
-#include <Sable\Physic\Common\Manager.h>
+#include <Sable/Physic/Common/Manager.h>
 
-#include <Sable\Physic\Common\World.h>
+#include <Sable/Physic/Common/World.h>
 
 using namespace Sable;
 
@@ -29,7 +29,7 @@ CPhysicWorld* CPhysicManager::GetWorld() const
 	return m_World;
 }
 
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Common/Manager.h>
 Void CPhysicManager::Update()
 {
 	DebugProfile("CPhysicManager::Update" );

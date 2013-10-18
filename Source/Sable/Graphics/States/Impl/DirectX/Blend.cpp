@@ -1,9 +1,9 @@
-#include <Sable\Graphics\States\Impl\DirectX\Blend.h>
+#include <Sable/Graphics/States/Impl/DirectX/Blend.h>
 
-#include <Sable\Graphics\States\Sampler.h>
-#include <Sable\Graphics\States\Blend.h>
-#include <Sable\Graphics\States\Rasterizer.h>
-#include <Sable\Graphics\States\DepthStencil.h>
+#include <Sable/Graphics/States/Sampler.h>
+#include <Sable/Graphics/States/Blend.h>
+#include <Sable/Graphics/States/Rasterizer.h>
+#include <Sable/Graphics/States/DepthStencil.h>
 
 using namespace Sable;
 

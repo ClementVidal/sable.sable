@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_TEXTURE_2D_
 #define _SABLE_GRAPHICS_TEXTURE_2D_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Texture\Texture.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Texture/Texture.h>
 
-#include <Sable\Graphics\Texture\Impl\Header.h>
+#include <Sable/Graphics/Texture/Impl/Header.h>
 
 namespace Sable
 {

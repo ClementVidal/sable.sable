@@ -1,11 +1,11 @@
 #ifndef _SABLE_AUDIO_BUFFER_DECODERMP3_
 #define _SABLE_AUDIO_BUFFER_DECODERMP3_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\File\File.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Audio\Queue\Queue.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/File/File.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Audio/Queue/Queue.h>
 
 #include <mad.h> 
 

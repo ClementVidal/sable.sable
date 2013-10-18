@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MATH_PRIMITIVES_
 #define _SABLE_CORE_MATH_PRIMITIVES_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 /** 
 \file Sable\Core\Math\Primitives.h

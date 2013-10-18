@@ -1,7 +1,7 @@
-#include <Sable\Media\Ctes\CTESFile.h>
+#include <Sable/Media/Ctes/CTESFile.h>
 
-#include <Sable\Core\Math\Primitives.h>
-#include <Sable\Core\Common\IODevice.h>
+#include <Sable/Core/Math/Primitives.h>
+#include <Sable/Core/Common/IODevice.h>
 
 
 using namespace Sable;

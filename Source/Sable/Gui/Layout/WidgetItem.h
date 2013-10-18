@@ -1,8 +1,8 @@
 #ifndef _SABLE_USERINTERFACE_WIDGETITEM_
 #define _SABLE_USERINTERFACE_WIDGETITEM_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Gui\Layout\Item.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Gui/Layout/Item.h>
 
 namespace Sable
 {

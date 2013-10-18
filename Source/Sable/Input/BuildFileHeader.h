@@ -1,7 +1,7 @@
 #ifndef _SABLE_INPUT_BUILDFILEHEADER_
 #define _SABLE_INPUT_BUILDFILEHEADER_
 
-#include <Sable\Setup.h>
+#include <Sable/Setup.h>
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -23,15 +23,15 @@
 
 #ifdef SETUP_IMPLTYPE_ANDROID
 
-#include <Android\Log.h>
+#include <Android/Log.h>
 
 #endif
 
 #if defined( SETUP_IMPLTYPE_GLES )
 
-#include <EGL\egl.h>
-#include <GLES2\gl2.h>
-#include <GLES2\gl2ext.h>
+#include <EGL/egl.h>
+#include <GLES2/gl2.h>
+#include <GLES2/gl2ext.h>
 
 #endif
 

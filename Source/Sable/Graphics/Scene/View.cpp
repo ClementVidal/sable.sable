@@ -1,10 +1,10 @@
-#include <Sable\Graphics\Scene\View.h>
+#include <Sable/Graphics/Scene/View.h>
 
-#include <Sable\Graphics\Scene\World.h>
-#include <Sable\Graphics\Camera\Perspective.h>
-#include <Sable\Graphics\Common\Header.h>
-#include <Sable\Graphics\RenderTarget\Texture.h>
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Graphics/Scene/World.h>
+#include <Sable/Graphics/Camera/Perspective.h>
+#include <Sable/Graphics/Common/Header.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 using namespace Sable;
 

@@ -1,9 +1,9 @@
-#include <Sable\Graphics\Geometry\Model.h>
+#include <Sable/Graphics/Geometry/Model.h>
 
-#include <Sable\Graphics\Material\Material.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\IndexBuffer.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Graphics/Material/Material.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/IndexBuffer.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 using namespace Sable;
 

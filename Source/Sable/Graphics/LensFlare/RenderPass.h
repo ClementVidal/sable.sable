@@ -1,11 +1,11 @@
 #ifndef _SABLE_GRAPHICS_LENSFLARE_RENDERPASS_
 #define _SABLE_GRAPHICS_LENSFLARE_RENDERPASS_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Geometry\Header.h>
-#include <Sable\Graphics\Shader\Header.h>
-#include <Sable\Graphics\RenderPass\RenderPass.h>
-#include <Sable\Graphics\States\HEader.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Geometry/Header.h>
+#include <Sable/Graphics/Shader/Header.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
+#include <Sable/Graphics/States/HEader.h>
 
 #define WorldLensFlareRenderer CLensFlareRenderPass::GetInstance()
 #define WORLDLENSFLARERENDERER_MAX_FLARE 32

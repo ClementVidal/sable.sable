@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Common\ScreenQuad.h>
+#include <Sable/Graphics/Common/ScreenQuad.h>
 
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Graphics\Debug\GraphicCommandGroup.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Graphics/Debug/GraphicCommandGroup.h>
 
 using namespace Sable;
 

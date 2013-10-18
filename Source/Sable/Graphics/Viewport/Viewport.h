@@ -1,12 +1,12 @@
 #ifndef _SABLE_GRAPHICS_VIEWPORT_
 #define _SABLE_GRAPHICS_VIEWPORT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Math\Vector2i.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Math/Vector2i.h>
 
-#include <Sable\Graphics\Viewport\Impl\Header.h>
-#include <Sable\Graphics\Viewport\ShaderConnector\Viewport.h>
+#include <Sable/Graphics/Viewport/Impl/Header.h>
+#include <Sable/Graphics/Viewport/ShaderConnector/Viewport.h>
 
 namespace Sable
 {

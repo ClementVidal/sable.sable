@@ -1,10 +1,10 @@
 #ifndef _SABLE_CORE_DEBUG_PROFVIEW_
 #define _SABLE_CORE_DEBUG_PROFVIEW_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Debug\Prof.h>
-#include <Sable\Core\Collection\Stack.h>
-#include <Sable\Setup.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Debug/Prof.h>
+#include <Sable/Core/Collection/Stack.h>
+#include <Sable/Setup.h>
 
 namespace Sable
 {

@@ -1,10 +1,10 @@
 #ifndef _SABLE_CORE_EVENT_SIGNAL_
 #define _SABLE_CORE_EVENT_SIGNAL_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\List.h>
-#include <Sable\Core\Event\Base.h>
-#include <Sable\Core\Debug\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/List.h>
+#include <Sable/Core/Event/Base.h>
+#include <Sable/Core/Debug/Primitives.h>
 
 
 #define EVENT_CONNECT_SLOT( signalSrc, slotDst, func ) \

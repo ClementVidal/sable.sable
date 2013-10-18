@@ -1,7 +1,7 @@
 #ifndef _SABLE_GRAPHICS_MATERIAL_HELPER_
 #define _SABLE_GRAPHICS_MATERIAL_HELPER_
 
-#include <Sable\Graphics\Common\DataTypes.h>
+#include <Sable/Graphics/Common/DataTypes.h>
 
 namespace Sable
 {

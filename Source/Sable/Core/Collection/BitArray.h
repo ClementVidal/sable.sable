@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_COLLECTION_BITFLAGS_
 #define _SABLE_CORE_COLLECTION_BITFLAGS_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 namespace Sable
 {
@@ -63,7 +63,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\BitArray.hpp>
+#include <Sable/Core/Collection/BitArray.hpp>
 
 typedef CBitArray<16>		CBitArray16;
 typedef CBitArray<32>		CBitArray32;

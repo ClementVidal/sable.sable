@@ -1,8 +1,8 @@
 #ifndef _SABLE_APPLICATION_IMPL_ANDROID_APPLICATION_
 #define _SABLE_APPLICATION_IMPL_ANDROID_APPLICATION_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Application\Impl\Stub\Application.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Application/Impl/Stub/Application.h>
 
 
 namespace Sable

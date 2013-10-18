@@ -1,7 +1,7 @@
 #ifndef _SABLE_PHYSIC_JOINT_DESC_
 #define _SABLE_PHYSIC_JOINT_DESC_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
 #include <NxJointDesc.h> 
 

@@ -1,9 +1,9 @@
 #ifndef _SABLE_PHYSIC_COMMON_HELPER_
 #define _SABLE_PHYSIC_COMMON_HELPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Geometry\Ray.h>
-#include <Sable\Physic\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Geometry/Ray.h>
+#include <Sable/Physic/Common/DataTypes.h>
 
 #include <nxvec3.h>
 #include <nxmat34.h>

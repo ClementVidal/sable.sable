@@ -1,6 +1,6 @@
-#include <Sable\Core\Persistent\BinaryDataLayout.h>
+#include <Sable/Core/Persistent/BinaryDataLayout.h>
 
-#include <Sable\Core\Common\IODevice.h>
+#include <Sable/Core/Common/IODevice.h>
 
 using namespace Sable;
 

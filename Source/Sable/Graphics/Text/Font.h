@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_TEXT_FONT_
 #define _SABLE_GRAPHICS_TEXT_FONT_
 
-#include <Sable\Core\Common\Header.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Texture\Header.h>
-#include <Sable\Graphics\Shader\Header.h>
+#include <Sable/Core/Common/Header.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Texture/Header.h>
+#include <Sable/Graphics/Shader/Header.h>
 
 namespace Sable
 {

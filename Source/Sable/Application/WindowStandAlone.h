@@ -1,10 +1,10 @@
 #ifndef _SABLE_APPLICATION_WINDOWSTANDALONE_
 #define _SABLE_APPLICATION_WINDOWSTANDALONE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Application\Window.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Application/Window.h>
 
-#include <Sable\Application\Impl\Header.h>
+#include <Sable/Application/Impl/Header.h>
 
 namespace Sable
 {

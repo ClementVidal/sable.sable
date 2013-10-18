@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MEMORY_BUDDYHEAP_
 #define _SABLE_CORE_MEMORY_BUDDYHEAP_
 
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Memory/Heap.h>
 
 #define BUDDYHEAP_NODESTABLE_MAXSIZE 32
 

@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Light\Point.h>
+#include <Sable/Graphics/Light/Point.h>
 
 using namespace Sable;
 

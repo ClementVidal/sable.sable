@@ -1,10 +1,10 @@
 #ifndef _SABLE_PHYSIC_SHAPE_TRIANGLEMESH_
 #define _SABLE_PHYSIC_SHAPE_TRIANGLEMESH_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Physic\Shape\Shape.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Physic/Shape/Shape.h>
 
 #include <NxTriangleMeshShapeDesc.h> 
 

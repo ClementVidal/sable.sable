@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_COMMON_STATICSTRING_
 #define _SABLE_CORE_COMMON_STATICSTRING_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Debug\Primitives.h>
-#include <Sable\Core\String\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Debug/Primitives.h>
+#include <Sable/Core/String/Primitives.h>
 
 namespace Sable
 {
@@ -81,7 +81,7 @@ private:
 
 };
 
-#include <Sable\Core\String\StaticString.hpp>
+#include <Sable/Core/String/StaticString.hpp>
 
 typedef CStaticString<64>	CStringIdentifier;
 

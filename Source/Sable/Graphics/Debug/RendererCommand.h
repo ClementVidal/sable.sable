@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_DEBUG_RENDERERCOMMAND_
 #define _SABLE_GRAPHICS_DEBUG_RENDERERCOMMAND_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 namespace Sable
 {

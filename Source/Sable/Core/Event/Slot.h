@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_EVENT_SLOT_
 #define _SABLE_CORE_EVENT_SLOT_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\List.h>
-#include <Sable\Core\Event\Base.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/List.h>
+#include <Sable/Core/Event/Base.h>
 
 namespace Sable
 {

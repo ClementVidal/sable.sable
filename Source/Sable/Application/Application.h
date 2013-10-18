@@ -1,33 +1,33 @@
 #ifndef _SABLE_APPLICATION_APPLICATION_
 #define _SABLE_APPLICATION_APPLICATION_
 
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\Common\Manager.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/Common/Manager.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 #ifdef SETUP_PACKAGE_SABLE_GRAPHICS
-#include <Sable\Graphics\Common\Manager.h>
+#include <Sable/Graphics/Common/Manager.h>
 #endif
 
 #ifdef SETUP_PACKAGE_SABLE_INPUT
-#include <Sable\Input\Common\Manager.h>
+#include <Sable/Input/Common/Manager.h>
 #endif
 
 #ifdef SETUP_PACKAGE_SABLE_PHYSIC
-#include <Sable\Physic\Common\Manager.h>
+#include <Sable/Physic/Common/Manager.h>
 #endif
 
 #ifdef SETUP_PACKAGE_SABLE_AUDIO
-#include <Sable\Audio\Common\Manager.h>
+#include <Sable/Audio/Common/Manager.h>
 #endif
 
 #ifdef SETUP_PACKAGE_SABLE_GAME
-#include <Sable\Game\Common\Context.h>
+#include <Sable/Game/Common/Context.h>
 #endif
 
-#include <Sable\Application\Impl\Header.h>
+#include <Sable/Application/Impl/Header.h>
 
 namespace Sable
 {

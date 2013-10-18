@@ -1,11 +1,11 @@
 #ifndef _SABLE_MEDIA_CTES_CTESFILE_
 #define _SABLE_MEDIA_CTES_CTESFILE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Graphics\Texture\TextureInfo.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Media\Common\ImageFile.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Graphics/Texture/TextureInfo.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Media/Common/ImageFile.h>
 
 namespace Sable
 {

@@ -1,10 +1,10 @@
 #ifndef _SABLE_GUI_COMMON_NINEPATCH_
 #define _SABLE_GUI_COMMON_NINEPATCH_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\File\FilePath.h>
-#include <Sable\Core\Geometry\Rect2Di.h>
-#include <Sable\Graphics\Texture\Texture2D.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/File/FilePath.h>
+#include <Sable/Core/Geometry/Rect2Di.h>
+#include <Sable/Graphics/Texture/Texture2D.h>
 
 namespace Sable
 {

@@ -1,4 +1,4 @@
-#include <Sable\Physic\Joint\Joint.h>
+#include <Sable/Physic/Joint/Joint.h>
 
 using namespace Sable;
 

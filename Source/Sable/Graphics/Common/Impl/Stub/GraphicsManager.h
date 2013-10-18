@@ -1,9 +1,9 @@
 #ifndef _SABLE_GRAPHICS_COMMON_IMPL_STUB_MANAGER_
 #define _SABLE_GRAPHICS_COMMON_IMPL_STUB_MANAGER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Common\Color.h>
-#include <Sable\Graphics\Common\DisplayInfo.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Common/Color.h>
+#include <Sable/Graphics/Common/DisplayInfo.h>
 
 namespace Sable
 {

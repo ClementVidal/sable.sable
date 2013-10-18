@@ -1,13 +1,13 @@
 #ifndef _GRAPHICS_POSTPROCESS_TONEMAPPER_
 #define _GRAPHICS_POSTPROCESS_TONEMAPPER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/Collection/Array.h>
 
-#include <Sable\Graphics\PostProcess\PostProcess.h>
-#include <Sable\Core\ManagedObject\Ref.h>
+#include <Sable/Graphics/PostProcess/PostProcess.h>
+#include <Sable/Core/ManagedObject/Ref.h>
 
 namespace Sable
 {

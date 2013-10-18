@@ -1,17 +1,17 @@
 #ifndef _SABLE_GRAPHICS_SHADER_SHADERPARAMETER_
 #define _SABLE_GRAPHICS_SHADER_SHADERPARAMETER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Core\String\String.h>
-#include <Sable\Graphics\Common\DataTypes.h>
-#include <Sable\Core\Math\Matrix4x4f.h>
-#include <Sable\Graphics\Texture\Texture.h>
-#include <Sable\Core\Math\Vector3f.h>
-#include <Sable\Core\Math\Vector4f.h>
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\Shader\ParameterData.h>
-#include <Sable\Graphics\Shader\Impl\Header.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Graphics/Common/DataTypes.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
+#include <Sable/Graphics/Texture/Texture.h>
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector4f.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/Shader/ParameterData.h>
+#include <Sable/Graphics/Shader/Impl/Header.h>
 
 #define SHADERPARAMETER_SEMANTIC_LENGTH 64
 

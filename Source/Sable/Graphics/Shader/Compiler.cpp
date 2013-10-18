@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Shader\Compiler.h>
+#include <Sable/Graphics/Shader/Compiler.h>
 
-#include <Sable\Core\File\File.h>
+#include <Sable/Core/File/File.h>
 
 using namespace Sable;
 

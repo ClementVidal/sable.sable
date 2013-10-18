@@ -1,7 +1,7 @@
-#include <Sable\Graphics\Geometry\VertexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexBuffer.h>
 
-#include <Sable\Graphics\Geometry\VertexLayout.h>
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexBuffer.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexBuffer.h>
 
 using namespace Sable;
 

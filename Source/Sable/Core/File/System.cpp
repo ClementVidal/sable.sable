@@ -1,8 +1,8 @@
-#include <Sable\Core\File\System.h>
+#include <Sable/Core/File/System.h>
 
-#include <Sable\Core\File\File.h>
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Xml\Reader.h>
+#include <Sable/Core/File/File.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Xml/Reader.h>
 
 #define FILESYSTEM_CONFIG_FILE_NAME  "FileSystem.conf"
 

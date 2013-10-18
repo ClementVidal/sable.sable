@@ -1,7 +1,7 @@
 #ifndef _SABLE_CORE_MEMORY_MALLOVHEAP_
 #define _SABLE_CORE_MEMORY_MALLOVHEAP_
 
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Memory/Heap.h>
 
 namespace Sable
 {

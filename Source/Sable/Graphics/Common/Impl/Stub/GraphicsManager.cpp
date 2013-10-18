@@ -1,4 +1,4 @@
-#include <Sable\Graphics\Common\Impl\Stub\GraphicsManager.h>
+#include <Sable/Graphics/Common/Impl/Stub/GraphicsManager.h>
 
 using namespace Sable;
 

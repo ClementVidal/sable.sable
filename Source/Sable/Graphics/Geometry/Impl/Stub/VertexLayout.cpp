@@ -1,3 +1,3 @@
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexLayout.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexLayout.h>
 
 using namespace Sable;

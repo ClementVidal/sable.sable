@@ -1,10 +1,10 @@
 #ifndef _GRAPHICS_SCENEGRAPH_SHADERCONNECTOR_SHADERCONNECTORGRAPHNODE_
 #define _GRAPHICS_SCENEGRAPH_SHADERCONNECTOR_SHADERCONNECTORGRAPHNODE_
 
-#include <Sable\Core\Collection\Array.h>
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\String\String.h>
-#include <Sable\Graphics\Shader\SystemConnector.h>
+#include <Sable/Core/Collection/Array.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/String/String.h>
+#include <Sable/Graphics/Shader/SystemConnector.h>
 
 namespace Sable
 {

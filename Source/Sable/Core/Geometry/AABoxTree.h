@@ -1,9 +1,9 @@
 #ifndef _SABLE_CORE_GEOMETRY_AABOXTREE_
 #define _SABLE_CORE_GEOMETRY_AABOXTREE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\Geometry\Triangle.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/Geometry/Triangle.h>
 
 namespace Sable
 {

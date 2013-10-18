@@ -1,10 +1,10 @@
 #ifndef _SABLE_GRAPHICS_GEOMETRY_IMPL_GLES_VERTEXSTREAM_
 #define _SABLE_GRAPHICS_GEOMETRY_IMPL_GLES_VERTEXSTREAM_
 
-#include <Sable\Graphics\Geometry\Impl\Stub\VertexBuffer.h>
-#include <Sable\Core\Common\DataTypes.h>
+#include <Sable/Graphics/Geometry/Impl/Stub/VertexBuffer.h>
+#include <Sable/Core/Common/DataTypes.h>
 
-#include <GLES2\gl2.h>
+#include <GLES2/gl2.h>
 
 namespace Sable
 {

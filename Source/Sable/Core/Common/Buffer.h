@@ -1,8 +1,8 @@
 #ifndef _SABLE_CORE_COMMON_BUFFER_
 #define _SABLE_CORE_COMMON_BUFFER_
 
-#include <Sable\Core\Common\IODevice.h>
-#include <Sable\Core\Collection\Array.h>
+#include <Sable/Core/Common/IODevice.h>
+#include <Sable/Core/Collection/Array.h>
 
 namespace Sable
 {

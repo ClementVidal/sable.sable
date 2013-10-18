@@ -1,11 +1,11 @@
 #ifndef _SABLE_CORE_COLLECTION_ARRAY_
 #define _SABLE_CORE_COLLECTION_ARRAY_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Collection\List.h>
-#include <Sable\Core\Memory\Primitives.h>
-#include <Sable\Core\Memory\Heap.h>
-#include <Sable\Core\Math\Primitives.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Collection/List.h>
+#include <Sable/Core/Memory/Primitives.h>
+#include <Sable/Core/Memory/Heap.h>
+#include <Sable/Core/Math/Primitives.h>
 
 namespace Sable
 {
@@ -145,7 +145,7 @@ private:
 
 };
 
-#include <Sable\Core\Collection\Array.hpp>
+#include <Sable/Core/Collection/Array.hpp>
 
 typedef CArray<Byte> CArrayByte;
 typedef CArray<Int32> CArrayInt32;

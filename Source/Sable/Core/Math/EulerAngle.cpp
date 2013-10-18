@@ -1,8 +1,8 @@
-#include <Sable\Core\Math\EulerAngle.h>
+#include <Sable/Core/Math/EulerAngle.h>
 
-#include <Sable\Core\Math\Quaternion.h>
-#include <Sable\Core\Math\Matrix4x4f.h>
-#include <Sable\Core\Math\Matrix3x3f.h>
+#include <Sable/Core/Math/Quaternion.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
+#include <Sable/Core/Math/Matrix3x3f.h>
 
 using namespace Sable;
 

@@ -1,12 +1,12 @@
-#include <Sable\Physic\Actor\Desc.h>
+#include <Sable/Physic/Actor/Desc.h>
 
-#include <Sable\Core\Geometry\Sphere.h>
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\Geometry\Plane.h>
+#include <Sable/Core/Geometry/Sphere.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/Geometry/Plane.h>
 
-#include <Sable\Physic\Common\Helper.h>
-#include <Sable\Physic\Shape\Shape.h>
-#include <Sable\Physic\Actor\BodyDesc.h>
+#include <Sable/Physic/Common/Helper.h>
+#include <Sable/Physic/Shape/Shape.h>
+#include <Sable/Physic/Actor/BodyDesc.h>
 
 #include <NxBoxShapeDesc.h>
 #include <NxSphereShapeDesc.h> 

@@ -1,10 +1,10 @@
-#include <Sable\Graphics\Node\Render.h>
+#include <Sable/Graphics/Node/Render.h>
 
-#include <Sable\Graphics\Shader\Shader.h>
-#include <Sable\Graphics\RenderQueue\Entry.h>
-#include <Sable\Graphics\Renderer\Renderer.h>
-#include <Sable\Core\ManagedObject\Ref.h>
-#include <Sable\Graphics\Geometry\InstanceBuffer.h>
+#include <Sable/Graphics/Shader/Shader.h>
+#include <Sable/Graphics/RenderQueue/Entry.h>
+#include <Sable/Graphics/Renderer/Renderer.h>
+#include <Sable/Core/ManagedObject/Ref.h>
+#include <Sable/Graphics/Geometry/InstanceBuffer.h>
 
 using namespace Sable;
 

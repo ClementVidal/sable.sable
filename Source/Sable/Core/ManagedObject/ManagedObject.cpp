@@ -1,6 +1,6 @@
-#include <Sable\Core\ManagedObject\ManagedObject.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
 
-#include <Sable\Core\Memory\Heap.h>
+#include <Sable/Core/Memory/Heap.h>
 
 using namespace Sable;
 

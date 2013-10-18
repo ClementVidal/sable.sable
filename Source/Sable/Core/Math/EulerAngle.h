@@ -1,8 +1,8 @@
 #ifndef _CORE_MATH_EULERANGLE_
 #define _CORE_MATH_EULERANGLE_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\Math\Tuple.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Math/Tuple.h>
 
 namespace Sable
 {

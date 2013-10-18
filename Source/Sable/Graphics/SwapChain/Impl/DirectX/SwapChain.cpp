@@ -1,7 +1,7 @@
-#include <Sable\Graphics\SwapChain\Impl\DirectX\SwapChain.h>
+#include <Sable/Graphics/SwapChain/Impl/DirectX/SwapChain.h>
 
-#include <Sable\Application\Window.h>
-#include <Sable\Graphics\Common\Impl\DirectX\GraphicsManagerHelper.h>
+#include <Sable/Application/Window.h>
+#include <Sable/Graphics/Common/Impl/DirectX/GraphicsManagerHelper.h>
 
 #include <DXGI.h>
 

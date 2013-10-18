@@ -1,6 +1,6 @@
-#include <Sable\Graphics\Geometry\Helper.h>
+#include <Sable/Graphics/Geometry/Helper.h>
 
-#include <Sable\Graphics\Geometry\Header.h>
+#include <Sable/Graphics/Geometry/Header.h>
 
 using namespace Sable;
 

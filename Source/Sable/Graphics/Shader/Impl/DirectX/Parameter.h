@@ -1,8 +1,8 @@
 #ifndef _SABLE_GRAPHICS_SHADER_IMPL_DIRECTX_PARAMETER_
 #define _SABLE_GRAPHICS_SHADER_IMPL_DIRECTX_PARAMETER_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Graphics\Shader\Impl\Stub\Parameter.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Graphics/Shader/Impl/Stub/Parameter.h>
 
 namespace Sable
 {

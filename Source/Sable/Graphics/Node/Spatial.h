@@ -1,14 +1,14 @@
 #ifndef _SABLE_GRAPHICS_NODE_SPATIAL_
 #define _SABLE_GRAPHICS_NODE_SPATIAL_
 
-#include <Sable\Core\Common\DataTypes.h>
-#include <Sable\Core\ManagedObject\ManagedObject.h>
-#include <Sable\Core\ManagedObject\Macro.h>
-#include <Sable\Core\Geometry\AABox.h>
-#include <Sable\Core\Geometry\Sphere.h>
-#include <Sable\Core\Math\Matrix4x4f.h>
-#include <Sable\Core\Collection\BitArray.h>
-#include <Sable\Graphics\Node\Node.h>
+#include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/ManagedObject/ManagedObject.h>
+#include <Sable/Core/ManagedObject/Macro.h>
+#include <Sable/Core/Geometry/AABox.h>
+#include <Sable/Core/Geometry/Sphere.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
+#include <Sable/Core/Collection/BitArray.h>
+#include <Sable/Graphics/Node/Node.h>
 
 namespace Sable
 {

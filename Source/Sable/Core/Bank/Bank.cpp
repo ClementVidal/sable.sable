@@ -1,6 +1,6 @@
-#include <Sable\Core\Bank\Bank.h>
+#include <Sable/Core/Bank/Bank.h>
 
-#include <Sable\Core\Persistent\BinaryDataLayout.h>
+#include <Sable/Core/Persistent/BinaryDataLayout.h>
 
 IMPLEMENT_MANAGED_CLASS1( Sable, CBank, CPersistentArchive )
 

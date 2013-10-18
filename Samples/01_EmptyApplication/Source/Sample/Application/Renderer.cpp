@@ -1,11 +1,11 @@
-#include <Sample\Application\Renderer.h>
+#include <Sample/Application/Renderer.h>
 
-#include <Sable\Graphics\RenderPass\Header.h>
-#include <Sable\Graphics\PostProcess\Glow.h>
-#include <Sable\Graphics\Debug\RenderPass.h>
-#include <Sable\Graphics\RenderTarget\Texture.h>
-#include <Sable\Graphics\Common\Prerequired.h>
-#include <Sable\Gui\Common\RenderPass.h>
+#include <Sable/Graphics/RenderPass/Header.h>
+#include <Sable/Graphics/PostProcess/Glow.h>
+#include <Sable/Graphics/Debug/RenderPass.h>
+#include <Sable/Graphics/RenderTarget/Texture.h>
+#include <Sable/Graphics/Common/Prerequired.h>
+#include <Sable/Gui/Common/RenderPass.h>
 
 using namespace Sample;
 using namespace Sable;

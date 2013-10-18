@@ -1,4 +1,4 @@
-#include <Sable\Physic\Shape\Capsule.h>
+#include <Sable/Physic/Shape/Capsule.h>
 
 using namespace Sable;
 

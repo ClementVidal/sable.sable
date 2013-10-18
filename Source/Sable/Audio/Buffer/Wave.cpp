@@ -1,7 +1,7 @@
-#include <Sable\Audio\Buffer\Wave.h>
+#include <Sable/Audio/Buffer/Wave.h>
 
-#include <Sable\Core\Persistent\Archive.h>
-#include <Sable\Core\File\File.h>
+#include <Sable/Core/Persistent/Archive.h>
+#include <Sable/Core/File/File.h>
 
 using namespace Sable;
 
