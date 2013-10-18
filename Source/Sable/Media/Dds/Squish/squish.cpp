@@ -31,10 +31,11 @@
 #include "colourblock.h"
 #include "alpha.h"
 #include "singlecolourfit.h"
+#include "limits.h"
 
 namespace squish {
 
-static int FloatToInt( float a, int limit )
+int FloatToInt( float a, int limit )
 {
 	// use ANSI round-to-zero behaviour to get round-to-nearest
 	int i = ( int )( a + 0.5f );

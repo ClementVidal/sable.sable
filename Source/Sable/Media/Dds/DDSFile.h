@@ -5,7 +5,7 @@
 #include <Sable/Core/Collection/Array.h>
 #include <Sable/Graphics/Texture/TextureInfo.h>
 #include <Sable/Graphics/Common/DataTypes.h>
-#include <Sable/Media/DDS/DDSFileData.h>
+#include <Sable/Media/Dds/DDSFileData.h>
 #include <Sable/Media/Common/ImageFile.h>
 
 namespace Sable

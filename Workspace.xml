@@ -142,7 +142,7 @@
     <BuildOptions Name="GCCCommon" >
         <IncludePath>
             ${__RootDir__}/Sable/Source/
-            ${__RootDir__}/Sable/Source/Sable/Media/DDS/Squish
+            ${__RootDir__}/Sable/Source/Sable/Media/Dds/Squish
             ${__RootDir__}/Sable/Source/Sable/Game/Script/Lua
             ${__OpenAL__}/include
             ${__PhysX__}/SDKs/Physics/include

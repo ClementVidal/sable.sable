@@ -3,7 +3,7 @@
 #include <Sable/Core/Math/Primitives.h>
 #include <Sable/Core/Common/IODevice.h>
 
-#include <Sable/Media/DDS/Squish/Squish.h>
+#include <Sable/Media/Dds/Squish/squish.h>
 
 using namespace Sable;
 
