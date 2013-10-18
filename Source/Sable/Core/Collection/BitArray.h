@@ -2,6 +2,7 @@
 #define _SABLE_CORE_COLLECTION_BITFLAGS_
 
 #include <Sable/Core/Common/DataTypes.h>
+#include <Sable/Core/Persistent/Archive.h>
 
 namespace Sable
 {
@@ -19,9 +20,9 @@ class CBitArray
 
 public:
 
-	/** @name Constructor/Destructor*/
+    /** @name Constructor/Destructor*/
     //@{
-	CBitArray();
+    CBitArray();
 	CBitArray( const CBitArray& other );
 	~CBitArray();
     //@}
@@ -29,7 +30,7 @@ public:
 	/** @name Operator*/
     //@{
 	Bool		 operator ==( const CBitArray& other );
-    CBitArray&   operator =( const CBitArray& other );
+        CBitArray&   operator =( const CBitArray& other );
     //@}
 
 	/** @name Accessors*/

@@ -112,7 +112,7 @@ public:
 
 	/** @name Types*/
     //@{
-	typedef	typename CNode<DataType> Node;
+    typedef CNode<DataType> Node;
     typedef CIterator<DataType> Iterator;
     //@}
 

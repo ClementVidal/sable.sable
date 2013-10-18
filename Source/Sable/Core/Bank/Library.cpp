@@ -18,8 +18,6 @@ CBankLibrary::~CBankLibrary()
 
 Int64 CBankLibrary::GetIDFromObject( CManagedObject* obj ) const
 {
-	UInt32 addr = (UInt32) obj;
-
 	if( m_ObjectToID.HasItem( obj ) )
 		return m_ObjectToID.GetItem( obj );
 

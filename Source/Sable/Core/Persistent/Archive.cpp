@@ -266,8 +266,6 @@ the archive pointer data base.
 */
 Int64 CPersistentArchive::GetIDFromObject( CManagedObject* obj )
 {
-    UInt32 addr = (UInt32) obj;
-
     if( m_ObjectToID.HasItem( obj ) )
         return m_ObjectToID.GetItem( obj );
 

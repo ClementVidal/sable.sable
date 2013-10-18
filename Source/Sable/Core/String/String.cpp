@@ -194,9 +194,8 @@ CString CString::operator+( String text ) const
 
 CString CString::operator+( const Void* text ) const
 {
-    Char
-        buffer[16];
-    sprintf( buffer, "%x", (UInt32)text );
+    Char  buffer[16];
+    sprintf( buffer, "%x", (Address)text );
     CString str( m_Buffer );
     str.Append( buffer );
 

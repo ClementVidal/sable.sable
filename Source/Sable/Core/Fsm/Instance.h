@@ -6,6 +6,10 @@
 namespace Sable
 {
 
+class CFsmState;
+class CFsmEvent;
+
+
 /** 
 \ingroup Core
 Finite state machine

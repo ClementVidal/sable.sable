@@ -4,6 +4,7 @@
 #include <Sable/Setup.h>
 
 #include <stddef.h>
+#include <stdint.h>
 
 /** \file Sable\Core\Common\DataTypes.h
 Define standard data types*/
@@ -59,10 +60,10 @@ typedef const Char*     String;                 /**< 8 Bits ascii CONST String*/
 #endif
 
 #if defined( SETUP_IMPLTYPE_MSW )
-    typedef __int64     Address;                /**< Must ALWAYS be of size of the adress bus ( or of the size of a pointer )*/
+    typedef intptr_t     Address;                /**< Must ALWAYS be of size of the adress bus ( or of the size of a pointer )*/
     typedef size_t      SysSize;
 #else
-    typedef int     	Address;                /**< Must ALWAYS be of size of the adress bus ( or of the size of a pointer )*/
+    typedef intptr_t     	Address;                /**< Must ALWAYS be of size of the adress bus ( or of the size of a pointer )*/
     typedef size_t 		SysSize;
 #endif 
 
