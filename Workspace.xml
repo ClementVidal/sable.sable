@@ -281,15 +281,10 @@
             
         </BuildConfig>
         
-        <BuildConfig Name="GCCGlesDebug" ImplTypes="Msw GLES" ToolChain="GCC">
+        <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux GLES" ToolChain="GCC">
         
-            <CodePackage Path="/Sable/Source/Sable/Audio/" />
-            <CodePackage Path="/Sable/Source/Sable/Physic/" />
             <CodePackage Path="/Sable/Source/Sable/Core/" />
-            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
-            <CodePackage Path="/Sable/Source/Sable/Input/" />
             <CodePackage Path="/Sable/Source/Sable/Media/" />
-            <CodePackage Path="/Sable/Source/Sable/Gui/" />
             <CodePackage Path="/Sable/Source/Sable/Game/" >
                 <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
             </CodePackage>

@@ -3,7 +3,7 @@
 
 #include <Sable/Core/Common/DataTypes.h>
 #include <Sable/Core/Collection/Stack.h>
-#include <SAble/Core/Collection/Array.h>
+#include <Sable/Core/Collection/Array.h>
 #include <Sable/Setup.h>
 
 namespace Sable
