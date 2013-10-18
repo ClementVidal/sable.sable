@@ -42,8 +42,8 @@ Void CDebugRenderPass::SVertexBuffer::Reset()
 {
     RawBuff = NULL;
     VtxBuff = NULL;
-    CurrentVtxCount = NULL;
-    TotalVtxCount = NULL;
+    CurrentVtxCount = 0;
+    TotalVtxCount = 0;
 }
 
 UInt32  CDebugRenderPass::SVertexBuffer::GetVertexCapacity() const

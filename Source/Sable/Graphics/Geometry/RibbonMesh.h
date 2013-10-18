@@ -6,7 +6,7 @@
 
 #include <Sable/Core/Math/TCBCurve.h>
 #include <Sable/Graphics/Geometry/Header.h>
-#include <Sable/Graphics/Geometry/Vertexlayout.h>
+#include <Sable/Graphics/Geometry/VertexLayout.h>
 
 namespace Sable
 {

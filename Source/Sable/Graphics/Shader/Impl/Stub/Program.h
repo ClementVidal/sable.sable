@@ -25,6 +25,7 @@ public:
 	/** @name Manipulator*/
 	//@{
 	virtual Bool						Initialize( ) { return FALSE; }
+        virtual Void						Activate( ) {}
 	//@}
 
 protected:

@@ -8,6 +8,8 @@
 namespace Sable
 {
 
+class CRenderer;
+
 /**  
 \ingroup GraphicsStates
 CStatesRasterizer

@@ -3,7 +3,7 @@
 #include <Sable/Graphics/Geometry/Mesh.h>
 #include <Sable/Graphics/Common/Manager.h>
 #include <Sable/Graphics/Debug/GraphicCommandGroup.h>
-#include <Sable/Graphics/Texture/Texture2d.h>
+#include <Sable/Graphics/Texture/Texture2D.h>
 
 using namespace Sable;
 

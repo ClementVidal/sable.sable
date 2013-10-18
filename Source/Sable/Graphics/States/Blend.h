@@ -9,6 +9,8 @@
 namespace Sable
 {
 
+class CRenderer;
+
 /**  
 \ingroup GraphicsStates
 CStatesBlend

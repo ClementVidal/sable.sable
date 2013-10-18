@@ -92,7 +92,7 @@ Float32 CTCBCurve<DataType>::GetArcLengthParameter( Float32 p ) const
 		}
 	}
 
-	return -1.0f
+	return -1.0f;
 }
 
 template<typename DataType>

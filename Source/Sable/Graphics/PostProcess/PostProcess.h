@@ -4,6 +4,7 @@
 #include <Sable/Core/Common/DataTypes.h>
 #include <Sable/Core/ManagedObject/Header.h>
 #include <Sable/Core/Collection/List.h>
+#include <Sable/Graphics/RenderPass/RenderPass.h>
 
 namespace Sable
 {

@@ -9,7 +9,7 @@
 
 extern "C" 
 {
-#include <Sable/Game/Script/Lua/LAuxLib.h>
+#include <Sable/Game/Script/Lua/lauxlib.h>
 }
 
 using namespace Sable;

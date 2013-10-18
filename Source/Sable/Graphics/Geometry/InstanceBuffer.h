@@ -4,7 +4,7 @@
 #include <Sable/Core/Common/DataTypes.h>
 #include <Sable/Core/ManagedObject/ManagedObject.h>
 #include <Sable/Graphics/Geometry/VertexBuffer.h>
-#include <SAble/Core/Math/Matrix4x4f.h>
+#include <Sable/Core/Math/Matrix4x4f.h>
 
 namespace Sable
 {

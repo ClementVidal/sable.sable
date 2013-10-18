@@ -6,7 +6,7 @@
 
 extern "C" 
 {
-#include <Sable/Game/Script/Lua/Lua.h>
+#include <Sable/Game/Script/Lua/lua.h>
 }
 
 namespace Sable

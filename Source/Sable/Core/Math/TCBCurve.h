@@ -20,7 +20,7 @@ public:
 
 	/** @name DataTypes*/
 	//@{
-	template <typename DataType>
+	template <typename DataType2>
 	struct SNode  
 	{
 		SNode():
@@ -29,7 +29,7 @@ public:
 		Continuity( 0.0f )
 		{}
 
-		DataType	Value;
+		DataType2	Value;
 		Float32		Tension;
 		Float32		Continuity;
 		Float32		Bias;

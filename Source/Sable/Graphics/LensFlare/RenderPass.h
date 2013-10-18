@@ -5,7 +5,7 @@
 #include <Sable/Graphics/Geometry/Header.h>
 #include <Sable/Graphics/Shader/Header.h>
 #include <Sable/Graphics/RenderPass/RenderPass.h>
-#include <Sable/Graphics/States/HEader.h>
+#include <Sable/Graphics/States/Header.h>
 
 #define WorldLensFlareRenderer CLensFlareRenderPass::GetInstance()
 #define WORLDLENSFLARERENDERER_MAX_FLARE 32

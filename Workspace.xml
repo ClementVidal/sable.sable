@@ -9,21 +9,21 @@
     -->
     <BuildOptions Name="Win32Common" >
         <IncludePath>
-            ${__RootDir__}/Sable/Source/
-            ${__RootDir__}/Sable/Source/Sable/Media/DDS/Squish
-            ${__RootDir__}/Sable/Source/Sable/Game/Script/Lua
-            ${__OpenAL__}/include
-            ${__PhysX__}/SDKs/Physics/include
-            ${__PhysX__}/SDKs/Cooking/include
-            ${__PhysX__}/SDKs/PhysXLoader/include
-            ${__PhysX__}/SDKs/Foundation/include
-            ${__LibMad__}
+            ${__ROOTDIR__}/Sable/Source/
+            ${__ROOTDIR__}/Sable/Source/Sable/Media/DDS/Squish
+            ${__ROOTDIR__}/Sable/Source/Sable/Game/Script/Lua
+            ${__OPENAL__}/include
+            ${__PHYSX__}/SDKs/Physics/include
+            ${__PHYSX__}/SDKs/Cooking/include
+            ${__PHYSX__}/SDKs/PhysXLoader/include
+            ${__PHYSX__}/SDKs/Foundation/include
+            ${__LIBMAD__}
         </IncludePath>
 
         <LibPath>
-            ${__PhysX__}/SDKs/lib/Win32
-            ${__LibMad__}
-            ${__OpenAl__}/libs/Win32 
+            ${__PHYSX__}/SDKs/lib/Win32
+            ${__LIBMAD__}
+            ${__OPENAL__}/libs/Win32 
         </LibPath>
 
         <Libs>
@@ -91,11 +91,11 @@
     
     <BuildOptions Name="DirectXCommon" >
         <IncludePath>
-            ${__DirectX__}/Include
+            ${__DIRECTX__}/Include
         </IncludePath>
 
         <LibPath>
-            ${__DirectX__}/lib/x86
+            ${__DIRECTX__}/lib/x86
         </LibPath>
 
         <Libs>
@@ -106,12 +106,12 @@
     
     <BuildOptions Name="GlesAngleCommon" >
         <IncludePath>
-            ${__Angle__}/include
-            ${__DirectX__}/Include
+            ${__ANGLE__}/include
+            ${__DIRECTX__}/Include
         </IncludePath>
 
         <LibPath>
-            ${__DirectX__}/lib/x86
+            ${__DIRECTX__}/lib/x86
         </LibPath>
         
         <CompilerFlags>     
@@ -125,13 +125,13 @@
     
     <BuildOptions Name="GlesAngleDebug" >
         <LibPath>
-            ${__Angle__}/lib/Debug
+            ${__ANGLE__}/lib/Debug
         </LibPath>
      </BuildOptions>
     
     <BuildOptions Name="GlesAngleRelease" >
         <LibPath>
-            ${__Angle__}/lib/Release
+            ${__ANGLE__}/lib/Release
         </LibPath>
      </BuildOptions>
 
@@ -141,21 +141,21 @@
     -->
     <BuildOptions Name="GCCCommon" >
         <IncludePath>
-            ${__RootDir__}/Sable/Source/
-            ${__RootDir__}/Sable/Source/Sable/Media/Dds/Squish
-            ${__RootDir__}/Sable/Source/Sable/Game/Script/Lua
-            ${__OpenAL__}/include
-            ${__PhysX__}/SDKs/Physics/include
-            ${__PhysX__}/SDKs/Cooking/include
-            ${__PhysX__}/SDKs/PhysXLoader/include
-            ${__PhysX__}/SDKs/Foundation/include
-            ${__LibMad__}
+            ${__ROOTDIR__}/Sable/Source/
+            ${__ROOTDIR__}/Sable/Source/Sable/Media/Dds/Squish
+            ${__ROOTDIR__}/Sable/Source/Sable/Game/Script/Lua
+            ${__OPENAL__}/include
+            ${__PHYSX__}/SDKs/Physics/include
+            ${__PHYSX__}/SDKs/Cooking/include
+            ${__PHYSX__}/SDKs/PhysXLoader/include
+            ${__PHYSX__}/SDKs/Foundation/include
+            ${__LIBMAD__}
         </IncludePath>
 
         <LibPath>
-            ${__PhysX__}/SDKs/lib/Win32
-            ${__LibMad__}
-            ${__OpenAl__}/libs/Win32 
+            ${__PHYSX__}/SDKs/lib/Win32
+            ${__LIBMAD__}
+            ${__OPENAL__}/libs/Win32 
         </LibPath>
 
         <Libs>
@@ -270,9 +270,10 @@
             
         </BuildConfig>
         
-        <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux GLES" ToolChain="GCC">
+        <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux" ToolChain="GCC">
         
             <CodePackage Path="/Sable/Source/Sable/Core/" />
+            <CodePackage Path="/Sable/Source/Sable/Graphics/" />
             <CodePackage Path="/Sable/Source/Sable/Media/" />
             <CodePackage Path="/Sable/Source/Sable/Game/" >
                 <ExcludedDir Path="/Sable/Source/Sable/Game/Script/Lua" />
