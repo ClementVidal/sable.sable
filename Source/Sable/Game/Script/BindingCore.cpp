@@ -3,6 +3,9 @@
 #include <Sable/Core/Math/Header.h>
 #include <Sable/Core/File/Header.h>
 
+namespace Sable
+{
+
 REGISTER_SCRIPTED_CLASS( Sable, CVector3f, TRUE, TRUE  )
 REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CVector3f, GetX, Float32, TRUE )
 REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CVector3f, GetY, Float32, TRUE )
@@ -24,6 +27,7 @@ REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CFile, GetPosition, UInt32, TRUE )
 REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CFile, GetIsEndOfFile, Bool, TRUE )
 REGISTER_SCRIPTED_CLASS_METHOD2( Sable, CFile, Open, Bool, const CFilePath&, EAccesMode, FALSE )
 
+}
 /**
 Void* not yet supported
 REGISTER_SCRIPTED_CLASS_METHOD2( Sable, CFile, Read, Bool, Void*, UInt32, FALSE )

@@ -42,7 +42,7 @@ HashValue ComputeHashValue( DataType* data )
 template< class DataType >
 HashValue ComputeHashValue( const UInt64& data )
 {
-	UInt32 tmp = data;
+	UInt64 tmp = data;
 	tmp += ~(tmp << 32);
 	tmp ^= (tmp >> 22);
 	tmp += ~(tmp << 13);

@@ -3,6 +3,10 @@
 #include <Sable/Graphics/Node/Header.h>
 #include <Sable/Graphics/Geometry/Header.h>
 
+
+namespace Sable
+{
+
 REGISTER_SCRIPTED_CLASS( Sable, CGeometryModel, FALSE, TRUE )
 
 REGISTER_SCRIPTED_CLASS( Sable, CNodeSpatial, FALSE, TRUE )
@@ -13,3 +17,5 @@ REGISTER_SCRIPTED_CLASS_METHOD1( Sable, CNodeSpatial, GetWorldBoundingBox, Void,
 REGISTER_SCRIPTED_CLASS( Sable, CNodeRender, FALSE, TRUE )
 REGISTER_SCRIPTED_CLASS_METHOD0( Sable, CNodeRender, GetModel,CGeometryModel*, TRUE )
 REGISTER_SCRIPTED_CLASS_METHOD1( Sable, CNodeRender, SetModel, Void, const CGeometryModel*, FALSE )
+
+}

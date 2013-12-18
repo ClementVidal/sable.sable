@@ -5,6 +5,10 @@
 #include <Sable/Core/Math/Random.h>
 #include <Sable/Core/Common/Manager.h>
 
+#include <Sable/Core/Math/Vector3f.h>
+#include <Sable/Core/Math/Vector4f.h>
+#include <Sable/Core/Common/Color.h>
+
 namespace Sable
 {
 

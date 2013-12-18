@@ -166,7 +166,7 @@
         </Libs>
         
         <CompilerFlags>  
-            -DUNICODE -D_WCHAR_T_DEFINED
+            -DUNICODE -D_WCHAR_T_DEFINED -Wfatal-errors
         </CompilerFlags>
         
         <LinkerFlags>

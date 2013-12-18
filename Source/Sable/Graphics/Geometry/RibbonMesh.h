@@ -7,6 +7,8 @@
 #include <Sable/Core/Math/TCBCurve.h>
 #include <Sable/Graphics/Geometry/Header.h>
 #include <Sable/Graphics/Geometry/VertexLayout.h>
+#include <Sable/Graphics/Geometry/VertexBuffer.h>
+#include <Sable/Graphics/Geometry/IndexBuffer.h>
 
 namespace Sable
 {
@@ -33,38 +35,38 @@ public:
     
     /** @name Accessors*/
     //@{
-	CTCBCurve3f&	GetCurve();
-	Void			SetStepCount( UInt32 count );
-	Void			SetWidth( Float32 width );
+    CTCBCurve3f&	GetCurve();
+    Void			SetStepCount( UInt32 count );
+    Void			SetWidth( Float32 width );
     //@}
     
     /** @name Manipulator*/
     //@{
-	Void	ReBuild( const CCamera& cam );
-	//@}
+    Void	ReBuild( const CCamera& cam );
+    //@}
     
 private:
     
-	// DataTypes
-	struct SVertex
-	{
-		CVector3f	Position;
-		CVector2f	UVCoord;
-	};
-
-	// Methods
-	Void	CreateBuffer();
-	Void	AddSegment( const CCamera& cam, Byte* vtxBuffer, const CVector3f& a, const CVector3f& b );
-
+    // DataTypes
+    struct SVertex
+    {
+        CVector3f	Position;
+        CVector2f	UVCoord;
+    };
+    
+    // Methods
+    Void	CreateBuffer();
+    Void	AddSegment( const CCamera& cam, Byte* vtxBuffer, const CVector3f& a, const CVector3f& b );
+    
     // Attributes
-	CTCBCurve3f				m_Curve;
-	CGeometryIndexBuffer	m_IndexBuffer;
-	CGeometryVertexBuffer	m_VertexBuffer;
-	CGeometryVertexLayout	m_VertexLayout;
-	UInt32					m_StepCount;
-	Float32					m_Width;
+    CTCBCurve3f				m_Curve;
+    CGeometryIndexBuffer	m_IndexBuffer;
+    CGeometryVertexBuffer	m_VertexBuffer;
+    CGeometryVertexLayout	m_VertexLayout;
+    UInt32					m_StepCount;
+    Float32					m_Width;
 };
-
+    
 }
 
 #endif

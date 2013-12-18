@@ -1,6 +1,7 @@
 #include <Sable/Game/Object/Prototype.h>
 
 #include <Sable/Game/Service/Service.h>
+#include <Sable/Game/Common/Context.h>
 
 using namespace Sable;
 

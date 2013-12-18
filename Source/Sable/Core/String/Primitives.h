@@ -3,6 +3,7 @@
 
 #include <Sable/Core/Common/DataTypes.h>
 #include <Sable/Setup.h>
+#include <stdarg.h>
 
 /** 
 \file Sable\Core\String\Primitives.h

@@ -4,6 +4,9 @@
 #include <Sable/Game/Common/Header.h>
 #include <Sable/Game/Object/Header.h>
 
+namespace Sable
+{
+
 REGISTER_SCRIPTED_CLASS( Sable, CGameContext, FALSE, FALSE )
 
 REGISTER_SCRIPTED_CLASS( Sable, CGameProperty, FALSE, TRUE )
@@ -24,3 +27,4 @@ REGISTER_SCRIPTED_CLASS( Sable, CGameObject, FALSE, TRUE  )
 REGISTER_SCRIPTED_CLASS_METHOD1( Sable, CGameObject, GetParameter, CGameProperty*, const CStringIdentifier&, FALSE )
 REGISTER_SCRIPTED_CLASS_METHOD1( Sable, CGameObject, GetService, CGameService*, const CStringIdentifier&, TRUE )
 
+}

@@ -12,6 +12,7 @@ namespace Sable
 
 class CGeometryVertexBuffer;
 class CGeometryIndexBuffer;
+class CGeometryVertexLayout;
 
 /** 
 \ingroup GraphicsGeometry
@@ -73,7 +74,7 @@ private:
     // Attributes
     CRef<CGeometryIndexBuffer>  m_IndexBuffer;
     CRef<CGeometryVertexBuffer> m_VertexBuffer;
-	CRef<CGeometryVertexLayout>	m_VertexLayout;
+    CRef<CGeometryVertexLayout>	m_VertexLayout;
     UInt32		                m_VertexOffset;
     UInt32		                m_UsedVertexCount;
     EPrimitiveType	            m_PrimitiveType;
