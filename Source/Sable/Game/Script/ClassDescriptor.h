@@ -52,8 +52,14 @@ struct CAllocateNewObject< ClassDescriptor, FALSE >
 };
 
 // Define the right structure used to old a reference to an object
+
 template< class ClassType >
 struct CReferenceProxy
+{
+};
+
+template< class ClassType >
+struct CReferenceProxy< ClassType* >
 {
     ClassType* Get()
     {
@@ -66,6 +72,22 @@ struct CReferenceProxy
     }
     ClassType*	Ref;
 };
+
+template< class ClassType >
+struct CReferenceProxy< ClassType& >
+{
+    ClassType* Get()
+    {
+        return Ref;
+    }
+
+    Void Set( const ClassType* t )
+    {
+        Ref = const_cast<ClassType*>(t);
+    }
+    ClassType*	Ref;
+};
+
 
 // Define the right structure used to old an instance of an object
 template< class ClassType, Bool storeCopy >

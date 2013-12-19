@@ -11,22 +11,24 @@ extern "C"
 namespace Sable
 {
 
+
+
 // Class used to select the right code to execute when pushing or popping lua argument 
-template <typename ClassDescriptor>
-class CArgDescriptor
+template < class Type, class TypeCD >
+class CPushPullCode
 {
 
 public:
 
-    typedef typename ClassDescriptor::Type&         PopReturnType;
-    typedef typename ClassDescriptor::InstanceProxy ClassInstanceProxy;
-    typedef typename ClassDescriptor::Type          ClassType;
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
+    typedef Type& PopReturnType;
 
-    static Bool PushValue( lua_State* L, const ClassType& value )
+    static Bool PushValue( lua_State* L, const Type& value )
     {
-        ClassInstanceProxy *ud = (ClassInstanceProxy*)lua_newuserdata(L, sizeof( ClassInstanceProxy ) );
+        InstanceProxy *ud = (InstanceProxy*)lua_newuserdata(L, sizeof( InstanceProxy ) );
         ud->Set( value );
-        luaL_getmetatable(L, ClassDescriptor::Name );  // lookup metatable in Lua registry
+        luaL_getmetatable(L, TypeCD::Name );  // lookup metatable in Lua registry
         lua_setmetatable(L, -2);
         return TRUE;
     }
@@ -37,7 +39,7 @@ public:
         if( lua_type( L, -1 ) == LUA_TUSERDATA )
         {
             success = TRUE;
-            ClassInstanceProxy* ud = (ClassInstanceProxy*)lua_touserdata(L, -1 );
+            InstanceProxy* ud = (InstanceProxy*)lua_touserdata(L, -1 );
             PopReturnType tmp = ud->Get();
             
             lua_pop( L, 1 );
@@ -48,25 +50,27 @@ public:
         //return ((ClassType*)NULL);
     }
 };
-    
+
+
+
 // Specialized for pointer type
-template <typename ClassDescriptor>
-class CArgDescriptor<ClassDescriptor*>
+template < class Type, class TypeCD >
+class CPushPullCode< Type*, TypeCD >
 {
 
 public:
 
-    typedef typename ClassDescriptor::Type*          PopReturnType;
-    typedef typename ClassDescriptor::ReferenceProxy ClassReferenceProxy;
-    typedef typename ClassDescriptor::Type           ClassType;
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
+    typedef Type* PopReturnType;
 
-    static Bool PushValue( lua_State* L, const ClassType* value )
+    static Bool PushValue( lua_State* L, Type* const & value )
     {
         if( value )
         {
-            ClassReferenceProxy *ud = (ClassReferenceProxy*)lua_newuserdata(L, sizeof( ClassReferenceProxy ) );
+            ReferenceProxy *ud = (ReferenceProxy*)lua_newuserdata(L, sizeof( ReferenceProxy ) );
             ud->Set( value );
-            luaL_getmetatable(L, ClassDescriptor::Name );  // lookup metatable in Lua registry
+            luaL_getmetatable(L, TypeCD::Name );  // lookup metatable in Lua registry
             lua_setmetatable(L, -2);
         }
         else
@@ -82,7 +86,7 @@ public:
         if( lua_type( L, -1 ) == LUA_TUSERDATA )
         {
             success = TRUE;
-            ClassReferenceProxy* ud = (ClassReferenceProxy*)lua_touserdata(L, -1 );
+            ReferenceProxy* ud = (ReferenceProxy*)lua_touserdata(L, -1 );
             PopReturnType tmp = ud->Obj;
             
             lua_pop( L, 1 );
@@ -91,26 +95,25 @@ public:
         return NULL;
     }
 };
-    
-    
+
 // Specialized for const pointer type
-template <typename ClassDescriptor>
-class CArgDescriptor<const ClassDescriptor*>
+template < class Type, class TypeCD >
+class CPushPullCode< const Type*, TypeCD>
 {
 
 public:
-    
-    typedef const typename ClassDescriptor::Type*    PopReturnType;
-    typedef typename ClassDescriptor::ReferenceProxy ClassReferenceProxy;
-    typedef typename ClassDescriptor::Type           ClassType;
 
-    static Bool PushValue( lua_State* L, const ClassType* value )
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
+    typedef const Type* PopReturnType;
+
+    static Bool PushValue( lua_State* L, const Type& value )
     {
         if( value )
         {
-            ClassReferenceProxy *ud = (ClassReferenceProxy*)lua_newuserdata(L, sizeof( ClassReferenceProxy ) );
+            ReferenceProxy *ud = (ReferenceProxy*)lua_newuserdata(L, sizeof( ReferenceProxy ) );
             ud->Set( value );
-            luaL_getmetatable(L, ClassDescriptor::Name );  // lookup metatable in Lua registry
+            luaL_getmetatable(L, TypeCD::Name );  // lookup metatable in Lua registry
             lua_setmetatable(L, -2);
         }
         else
@@ -126,7 +129,7 @@ public:
         if( lua_type( L, -1 ) == LUA_TUSERDATA )
         {
             success = TRUE;
-            ClassReferenceProxy* ud = (ClassReferenceProxy*)lua_touserdata(L, -1 );
+            ReferenceProxy* ud = (ReferenceProxy*)lua_touserdata(L, -1 );
             PopReturnType tmp = ud->Get();
             
             lua_pop( L, 1 );
@@ -135,60 +138,25 @@ public:
         return NULL;
     }
 };
-    
-// Specialized for const ref type
-template <typename ClassDescriptor>
-class CArgDescriptor<ClassDescriptor&>
+        
+// Specialized for ref type
+template < class Type, class TypeCD >
+class CPushPullCode< Type&, TypeCD >
 {
 
 public:
 
-    typedef typename ClassDescriptor::Type&          PopReturnType;
-    typedef typename ClassDescriptor::ReferenceProxy ClassReferenceProxy;
-    typedef typename ClassDescriptor::Type           ClassType;
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
+    typedef Type& PopReturnType;
 
-    static Bool PushValue( lua_State* L, const ClassType& value )
+    static Bool PushValue( lua_State* L, const Type& value )
     {
-        ClassReferenceProxy *ud = (ClassReferenceProxy*)lua_newuserdata(L, sizeof( ClassReferenceProxy ) );
+        ReferenceProxy *ud = (ReferenceProxy*)lua_newuserdata(L, sizeof( ReferenceProxy ) );
         ud->Set( &value );
-        luaL_getmetatable(L, ClassDescriptor::Name );  // lookup metatable in Lua registry
+        luaL_getmetatable(L, TypeCD::Name );  // lookup metatable in Lua registry
         lua_setmetatable(L, -2);
-        return TRUE;
-    }
-
-    static PopReturnType PopValue( lua_State* L, Bool success )
-    {
-        success = FALSE;
-        if( lua_type( L, -1 ) == LUA_TUSERDATA )
-        {
-            success = TRUE;
-            ClassReferenceProxy* ud = (ClassReferenceProxy*)lua_touserdata(L, -1 );
-            PopReturnType tmp = *ud->Get();
-            
-            lua_pop( L, 1 );
-            return tmp;
-        }
-        return *((ClassType*)NULL);
-    }
-};
-
-// Specialized for const ref type
-template <typename ClassDescriptor>
-class CArgDescriptor<const ClassDescriptor&>
-{
-
-public:
     
-    typedef const typename ClassDescriptor::Type& PopReturnType;
-    typedef typename ClassDescriptor::ReferenceProxy ClassReferenceProxy;
-    typedef typename ClassDescriptor::Type ClassType;
-
-    static Bool PushValue( lua_State* L, const ClassType& value )
-    {
-        ClassReferenceProxy *ud = (ClassReferenceProxy*)lua_newuserdata(L, sizeof( ClassReferenceProxy ) );
-        ud->Set( &value );
-        luaL_getmetatable(L, ClassDescriptor::Name );  // lookup metatable in Lua registry
-        lua_setmetatable(L, -2);
         return TRUE;
     }
     
@@ -198,25 +166,67 @@ public:
         if( lua_type( L, -1 ) == LUA_TUSERDATA )
         {
             success = TRUE;
-            ClassReferenceProxy* ud = (ClassReferenceProxy*)lua_touserdata(L, -1 );
+            ReferenceProxy* ud = (ReferenceProxy*)lua_touserdata(L, -1 );
             PopReturnType tmp = *ud->Get();
             
             lua_pop( L, 1 );
             return tmp;
         }
-        return *((const ClassType*)NULL);
+
+        //return *((TType*)NULL);
     }
 };
-
-
-template <>
-class CArgDescriptor<Float32>
+            
+// Specialized for const ref type
+template < class Type, class TypeCD >
+class CPushPullCode< const Type&, TypeCD >
 {
-    
+
 public:
+
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
+    typedef const Type& PopReturnType;
+
+    static Bool PushValue( lua_State* L, const Type& value )
+    {
+        ReferenceProxy *ud = (ReferenceProxy*)lua_newuserdata(L, sizeof( ReferenceProxy ) );
+        ud->Set( &value );
+        luaL_getmetatable(L, TypeCD::Name );  // lookup metatable in Lua registry
+        lua_setmetatable(L, -2);
     
+        return TRUE;
+    }
+    
+    static PopReturnType PopValue( lua_State* L, Bool success )
+    {
+        success = FALSE;
+        if( lua_type( L, -1 ) == LUA_TUSERDATA )
+        {
+            success = TRUE;
+            ReferenceProxy* ud = (ReferenceProxy*)lua_touserdata(L, -1 );
+            PopReturnType tmp = *ud->Get();
+            
+            lua_pop( L, 1 );
+            return tmp;
+        }
+
+        //return *((TType*)NULL);
+    }
+};
+  
+            
+// Specialized for float
+template < class TypeCD >
+class CPushPullCode< Float32, TypeCD >
+{
+
+public:
+
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
     typedef Float32 PopReturnType;
-    
+
     static Bool PushValue( lua_State* L, const Float32& value )
     {
         if( lua_type( L, -1 ) != LUA_TNUMBER )
@@ -240,15 +250,18 @@ public:
         return 0.0f;
     }
 };
-    
-template <>
-class CArgDescriptor<Int32>
+
+// Specialized for Int
+template < class TypeCD >
+class CPushPullCode< Int32, TypeCD >
 {
 
 public:
-    
+
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
     typedef Int32 PopReturnType;
-    
+
     static Bool PushValue( lua_State* L, const Int32& value )
     {
         if( lua_type( L, -1 ) != LUA_TNUMBER )
@@ -258,7 +271,7 @@ public:
         lua_pop( L, 1 );
         return TRUE;
     }
-    
+
     static PopReturnType PopValue( lua_State* L, Bool success )
     {
         success = FALSE;
@@ -273,12 +286,15 @@ public:
     }
 };
     
-template <>
-class CArgDescriptor<Bool>
+// Specialized for Bool
+template < class TypeCD >
+class CPushPullCode< Bool, TypeCD >
 {
 
 public:
 
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
     typedef Bool PopReturnType;
 
     static Bool PushValue( lua_State* L, const Bool& value )
@@ -290,39 +306,66 @@ public:
         lua_pop( L, 1 );
         return TRUE;
     }
-    
+
     static PopReturnType PopValue( lua_State* L, Bool success )
     {
         success = FALSE;
         if( lua_type( L, -1 ) == LUA_TBOOLEAN )
         {
             success = TRUE;
-            PopReturnType tmp = lua_toboolean( L,  -1 );
+            PopReturnType tmp = (Bool) lua_toboolean( L,  -1 );
             lua_pop( L, 1 );
             return tmp;
         }
-        return FALSE;
+        return 0;
     }
 };
 
-//Specialized for void type
-template <>
-class CArgDescriptor<Void>
+// Specialized for Void
+template < class TypeCD >
+class CPushPullCode< Void, TypeCD >
 {
 
 public:
 
+    typedef typename TypeCD::ReferenceProxy ReferenceProxy;
+    typedef typename TypeCD::InstanceProxy  InstanceProxy;
     typedef Void PopReturnType;
 
     static Bool PushValue( lua_State* L, const Bool& value )
     {
         return TRUE;
     }
-    
+
     static PopReturnType PopValue( lua_State* L, Bool success )
     {
     }
 };
+
+
+template <class ClassDescriptor>
+class CArgDescriptor
+{
+
+public:
+
+    typedef typename ClassDescriptor::ReferenceProxy ReferenceProxy;
+    typedef typename ClassDescriptor::InstanceProxy  InstanceProxy;
+    typedef typename ClassDescriptor::Type           Type;
+    typedef CPushPullCode< Type, ClassDescriptor >   PushPullCode;
+    typedef typename PushPullCode::PopReturnType     PopReturnType;
+
+    static Bool PushValue( lua_State* L, const Type& value )
+    {
+        return PushPullCode::PushValue( L, value );
+    }
+    
+    static PopReturnType PopValue( lua_State* L, Bool success )
+    {
+        return PushPullCode::PopValue( L, success );
+    }
+};
+
     
 }
 

@@ -13,6 +13,7 @@ namespace Sable
 class CGeometryVertexBuffer;
 class CGeometryIndexBuffer;
 class CGeometryVertexLayout;
+class CRenderer;
 
 /** 
 \ingroup GraphicsGeometry
@@ -43,10 +44,10 @@ public:
     //@{
     CGeometryVertexBuffer*  GetVertexBuffer( ) const;
     CGeometryIndexBuffer*   GetIndexBuffer( ) const;
-	CGeometryVertexLayout*	GetVertexLayout() const;
+    CGeometryVertexLayout*  GetVertexLayout() const;
     Void                    SetVertexBuffer( CGeometryVertexBuffer* vb );
     Void                    SetIndexBuffer( CGeometryIndexBuffer* ib );
-	Void					SetVertexLayout( CGeometryVertexLayout* vl );
+    Void		    SetVertexLayout( CGeometryVertexLayout* vl );
 
     UInt32                  GetPrimitiveCount() const ;
     UInt32                  GetVertexCount() const;
@@ -56,18 +57,18 @@ public:
     Void                    SetUsedVertexCount( const UInt32  count );
     Void                    SetVertexOffset( const UInt32 offset );
 
-	Void					SetBoundingBox( const CAABox& box );
-	const CAABox&           GetBoundingBox() const;
+    Void		    SetBoundingBox( const CAABox& box );
+    const CAABox&           GetBoundingBox() const;
     //@}
     
     /** @name Manipulator*/
     //@{
-	Void			Load();
+    Void			Load();
     Void			Render();
     Void			Activate( CRenderer& renderer );
 
-	Bool			Serialize( CPersistentArchive& ar );
-	//@}
+    Bool			Serialize( CPersistentArchive& ar );
+    //@}
     
 private:
     

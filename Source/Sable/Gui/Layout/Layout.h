@@ -2,7 +2,7 @@
 #define _SABLE_USERINTERFACE_LAYOUT_LAYOUT_
 
 #include <Sable/Core/Common/Header.h>
-#include <SAble/Core/Math/Vector2i.h>
+#include <Sable/Core/Math/Vector2i.h>
 #include <Sable/Gui/Layout/Item.h>
 
 namespace Sable

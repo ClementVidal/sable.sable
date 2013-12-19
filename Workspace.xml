@@ -272,6 +272,13 @@
         
         <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux" ToolChain="GCC">
         
+
+            <!--<CodePackage Path="/Sable/Source/Sable/Audio/" />
+            <CodePackage Path="/Sable/Source/Sable/Physic/" />
+            <CodePackage Path="/Sable/Source/Sable/Input/" />-->
+            <CodePackage Path="/Sable/Source/Sable/Gui/" />
+
+
             <CodePackage Path="/Sable/Source/Sable/Core/" />
             <CodePackage Path="/Sable/Source/Sable/Graphics/" />
             <CodePackage Path="/Sable/Source/Sable/Media/" />

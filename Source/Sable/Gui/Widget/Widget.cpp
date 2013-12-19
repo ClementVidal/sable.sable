@@ -1,5 +1,7 @@
 #include <Sable/Gui/Widget/Widget.h>
 
+#include <Sable/Gui/Layout/Layout.h>
+
 using namespace Sable;
 
 IMPLEMENT_MANAGED_CLASS1_ALLOC( Sable, CWidget, CNode );
@@ -8,16 +10,15 @@ CWidget::CWidget( ) :
 	CNode( )
 {
     m_Depth = 0;
-	m_ChildCount = 0;
-
+    m_ChildCount = 0;
+    
     m_Size = CVector2i( 32, 32 );
-	m_Position = CVector2i( 0, 0 );
-	m_StretchFactor = CVector2i( 1, 1 );
-
+    m_Position = CVector2i( 0, 0 );
+    m_StretchFactor = CVector2i( 1, 1 );
+    
     m_HasFocus = FALSE;
-
-	m_Show = TRUE;
-
+    
+    m_Show = TRUE;
 }
 
 CWidget::~CWidget()
@@ -58,20 +59,20 @@ Bool CWidget::Serialize( CPersistentArchive& ar )
 CWidget& CWidget::SetDepth( UInt32 d, Bool recursive )
 {
     m_Depth = d;
-	if( recursive )
-	{
-		CNode* child = GetChild();
-		while( child )
-		{
-			if( child->GetTypeInfo().IsKindOf( CWidget::GetStaticTypeInfo() ) )
-			{
-				((CWidget*)child)->SetDepth( m_Depth + 1, recursive );
-			}
-			child = child->GetSibling();
-		}
-	}
-
-	return *this;
+    if( recursive )
+    {
+        CNode* child = GetChild();
+        while( child )
+        {
+            if( child->GetTypeInfo().IsKindOf( CWidget::GetStaticTypeInfo() ) )
+            {
+                ((CWidget*)child)->SetDepth( m_Depth + 1, recursive );
+            }
+            child = child->GetSibling();
+        }
+    }
+    
+    return *this;
 }
 
 UInt32 CWidget::GetDepth() const
@@ -110,12 +111,12 @@ Bool CWidget::IsVisible() const
 
 Void CWidget::SetFocus(const Bool focus)
 {
-	m_HasFocus = focus;
+    m_HasFocus = focus;
 }
 
 Bool CWidget::HasFocus()const
 {
-	return m_HasFocus;
+    return m_HasFocus;
 }
 
 Void CWidget::OnMove( const CVector2i& pos  )
@@ -130,8 +131,8 @@ Void CWidget::OnResize( const CVector2i& pos )
 
 Void CWidget::OnCursorEnter( CWidgetEvent& event )
 {
-	SignalMouseEnter( event );
-	event.Skip();
+    SignalMouseEnter( event );
+    event.Skip();
 }
 
 Void CWidget::OnCursorLeave( CWidgetEvent& event )
@@ -156,10 +157,10 @@ Void CWidget::OnCursorBtnDown( CWidgetEvent& event )
 
 Void CWidget::OnEvent( CWidgetEvent& event )
 {
-	CNode* child = GetChild();
+     CNode* child = GetChild();
 
-	if( event.GetIsSkiped() || !IsVisible() )
-		return;
+if( event.GetIsSkiped() || !IsVisible() )
+    return;
 
 	if( event.GetType() == CWidgetEvent::nType_CursorDown )
 	{

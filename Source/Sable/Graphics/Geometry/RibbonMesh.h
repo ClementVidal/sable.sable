@@ -13,6 +13,8 @@
 namespace Sable
 {
 
+class CCamera;
+
 /** 
 \ingroup GraphicsGeometry
 */

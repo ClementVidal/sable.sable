@@ -19,7 +19,7 @@ class CVector4f;
 class CShaderParameter;
 class CTexture;
 class CRenderTargetTexture;
-
+    class CShader;
 
 /** 
 \ingroup GraphicsShader
@@ -27,13 +27,13 @@ class CRenderTargetTexture;
 class CShaderConnector : public CManagedObject
 {
 
-	DEFINE_MANAGED_CLASS( CShaderConnector );
+    DEFINE_MANAGED_CLASS( CShaderConnector );
 
 public:
 
-	/** @name Constructor/Destructor*/
-	//@{
-	typedef CList< CRef<CShaderConnector> > List;
+    /** @name Constructor/Destructor*/
+    //@{
+    typedef CList< CRef<CShaderConnector> > List;
     //@}
 
     /** @name Constructor/Destructor*/
@@ -48,13 +48,13 @@ public:
 
     /** @name Accessors*/
     //@{
-	//@}
-
-	/** @name Manipulator*/
-	//@{
-	virtual Void FlushParametersValues( CShader& program ) const = 0;
-	//@}
-
+    //@}
+    
+    /** @name Manipulator*/
+    //@{
+    virtual Void FlushParametersValues( CShader& program ) const = 0;
+    //@}
+    
 private: 
 
     //Methods
