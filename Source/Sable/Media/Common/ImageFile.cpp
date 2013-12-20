@@ -38,9 +38,12 @@ UInt32 CImageFile::GetPixelByteCount( const ETextureFormat pixelFormat ) const
 
 	case nTextureFormat_L8:
 		return 1;
+
+        default:
+            break;
 	}
 
-//	DebugLogWarning( "Invalid Pixel Format" );
+        DebugLogWarning( "Invalid Pixel Format" );
 
 	return 0;
 }

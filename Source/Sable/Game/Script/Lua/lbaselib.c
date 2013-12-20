@@ -36,8 +36,6 @@ static int luaB_print (lua_State *L) {
          LUA_QL("tostring") " must return a string to " LUA_QL("print"));
 
 
-#pragma message("luaB_print")
-
     if (i>1) luai_writestring("\t", 1);
     luai_writestring(s, l);
     lua_pop(L, 1);  /* pop result */

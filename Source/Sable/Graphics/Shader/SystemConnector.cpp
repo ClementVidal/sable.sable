@@ -120,6 +120,24 @@ Void CShaderSystemConnector::FlushParametersValues( CShaderParameter& parameter 
 		}
 		return;
 
+	case nShaderParameterType_Vector2Array:
+		{
+			DebugProfile( "Connect Vector2Array" );
+			CArray<CVector3f> data;
+			EvaluateParameterValue( parameter, data );
+			parameter.SetValue( data );
+		}
+		return;
+
+	case nShaderParameterType_Vector2:
+		{
+			DebugProfile( "Connect Vector2" );
+			CVector2f data;
+			EvaluateParameterValue( parameter, data );
+			parameter.SetValue( data );
+		}
+		return;
+
 	case nShaderParameterType_Vector3Array:
 		{
 			DebugProfile( "Connect Vector3Array" );
@@ -156,6 +174,8 @@ Void CShaderSystemConnector::FlushParametersValues( CShaderParameter& parameter 
 		}
 		return;
 
+        default:
+            break;
 	}
 
 	DebugError("Unable to connect parameter value, undefined type");
@@ -264,6 +284,26 @@ Evaluate the value of a parameter.
 Void CShaderSystemConnector::EvaluateParameterValue( const CShaderParameter& param, CArray<CVector4f>& data ) const
 {
 	DebugError( "Must Be implemented in inherited classes" );
+}
+
+/**
+Evaluate the value of a parameter.
+\param[in] semantic The semantic of the parameter.
+\param[in] data The computed value of the parameter.
+*/
+Void CShaderSystemConnector::EvaluateParameterValue( const CShaderParameter& param, CArray<CVector2f>& data ) const
+{
+    DebugError( "Must Be implemented in inherited classes" );
+}
+
+/**
+Evaluate the value of a parameter.
+\param[in] semantic The semantic of the parameter.
+\param[in] data The computed value of the parameter.
+*/
+Void CShaderSystemConnector::EvaluateParameterValue( const CShaderParameter& param, CVector2f& data ) const
+{
+    DebugError( "Must Be implemented in inherited classes" );
 }
 
 /**

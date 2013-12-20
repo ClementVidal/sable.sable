@@ -244,7 +244,7 @@ Bool CFilePath::MakeRelativeTo( const CFilePath& rootDir )
 	const Char* thisBuffer = GetBuffer();
 	const Char* rootDirBuffer = rootDir.GetBuffer();
 
-	UInt32 i =0;
+	Int32 i =0;
 	// Search for a first difference
 	for( i=0;i<MathMin( GetLength(), rootDir.GetLength() );i++ )
 	{

@@ -72,6 +72,9 @@ UInt32 CGeometryIndexBuffer::GetPrimitiveCount( EPrimitiveType type, UInt32 inde
 
     case nPrimitiveType_LineStrip:
         return indexCount - 1;
+
+    default:
+        break;
     }
 
     DebugError( "Unsuported primitive type" );

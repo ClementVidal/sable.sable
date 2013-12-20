@@ -365,7 +365,7 @@ Void    CWString::IntToString( UInt32 value , UInt8 base  )
     do 
     {
         tmp = quotient % base;
-        buffer[nbcaract++] = "0123456789abcdef"[ tmp<0?(tmp-(tmp*2)):tmp ];
+        buffer[nbcaract++] = "0123456789abcdef"[ tmp ];
         quotient /= base;
     } 
     while ( quotient );

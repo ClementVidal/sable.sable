@@ -28,7 +28,7 @@ Void CFFT::Initialize( UInt32 inputSize )
 void CFFT::WindowFunc(windowfunc_t whichFunction, int NumSamples, float *in)
 {
     int i;
-    
+
     switch (whichFunction) {
     case BARTLETT:
         for (i = 0; i < NumSamples / 2; i++) {
@@ -37,12 +37,12 @@ void CFFT::WindowFunc(windowfunc_t whichFunction, int NumSamples, float *in)
                 (1.0 - (i / (float) (NumSamples / 2)));
         }
         break;
-        
+
     case HAMMING:
         for (i = 0; i < NumSamples; i++)
             in[i] *= 0.54 - 0.46 * cos(2 * M_PI * i / (NumSamples - 1));
         break;
-        
+
     case HANNING:
         for (i = 0; i < NumSamples; i++)
             in[i] *= 0.50 - 0.50 * cos(2 * M_PI * i / (NumSamples - 1));
@@ -110,7 +110,7 @@ Bool CFFT::ComputeComplexFFT( UInt32 sampleCount, SOutput* input, SOutput* outpu
 
     Float32 angleNumerator = 2.0 * MathPi;
     Float32 tr, ti;
-    Float32 delta_angle, sm2, sm1, cm2, cm1, w, ar[3], ai[3];
+     Float32 delta_angle, sm2, sm1, cm2, cm1, w, ar[3], ai[3];
 
     numBits = NumberOfBitsNeeded ( sampleCount );
 
@@ -130,7 +130,6 @@ Bool CFFT::ComputeComplexFFT( UInt32 sampleCount, SOutput* input, SOutput* outpu
         cm2 = MathCos ( -2 * delta_angle );
         cm1 = MathCos ( -delta_angle );
         w = 2 * cm1;
-        ar[3], ai[3];
 
         for( i=0; i < sampleCount; i += blockSize )
         {

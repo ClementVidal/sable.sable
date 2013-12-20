@@ -90,6 +90,9 @@ UInt32 CGeometryMesh::GetPrimitiveCount() const
 
     case nPrimitiveType_PointList:
         return m_UsedVertexCount ;
+
+    default:
+        break;
     }
 
     DebugError( "Unsuported primitive type" );

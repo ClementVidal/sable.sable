@@ -46,8 +46,7 @@ public:
             return tmp;
         }
 
-        // THIS IS NOT A GOOD THING , BUT I DID NOT FIND ANY GOOD SOLUTION FOR NOW
-        //return ((ClassType*)NULL);
+        return *((Type*)NULL);
     }
 };
 
@@ -173,7 +172,7 @@ public:
             return tmp;
         }
 
-        //return *((TType*)NULL);
+        return *((Type*)NULL);
     }
 };
             
@@ -211,7 +210,7 @@ public:
             return tmp;
         }
 
-        //return *((TType*)NULL);
+        return *((Type*)NULL);
     }
 };
   

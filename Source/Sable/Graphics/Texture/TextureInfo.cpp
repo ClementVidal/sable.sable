@@ -18,7 +18,7 @@ CTextureInfo::CTextureInfo( UInt32 width, UInt32 height, ETextureFormat format, 
     Height = height;
     SliceCount = 0;
     Format = format;
-	Type = type;
+    Type = type;
     MipMapCount = mipmapCount;
 }
 
@@ -26,9 +26,9 @@ CTextureInfo::CTextureInfo( UInt32 width, UInt32 height, UInt32 sliceCount, ETex
 {
     Width = width;
     Height = height;
-    SliceCount = SliceCount;
+    SliceCount = sliceCount;
     Format = format;
-	Type = nTextureType_3D;
+    Type = nTextureType_3D;
     MipMapCount = mipmapCount;
 }
 
@@ -109,41 +109,48 @@ UInt32 CTextureInfo::GetMipMapByteCount( UInt32 index ) const
 
 UInt32 CTextureInfo::GetPixelByteCount() const
 {
-	switch( Format )
-	{
-	case nTextureFormat_A8:
-		return 1;
-	case nTextureFormat_L8:
-		return 1;
-	case nTextureFormat_R5G6B5:
-		return 2;
-	case nTextureFormat_R8G8B8A8:
-		return 4;
-	case nTextureFormat_X8R8G8B8:
-		return 4;
-	case nTextureFormat_D24S8:
-		return 3;
-	case nTextureFormat_R16F:
-		return 2;
-	case nTextureFormat_A16B16G16R16F:
-		return 8;
-	case nTextureFormat_G16R16F:
-		return 4;
+    switch( Format )
+    {
+    case nTextureFormat_A8:
+        return 1;
+    case nTextureFormat_L8:
+        return 1;
+    case nTextureFormat_R5G6B5:
+        return 2;
+    case nTextureFormat_R8G8B8A8:
+        return 4;
+    case nTextureFormat_A2R10G10B10:
+        return 4;
+    case nTextureFormat_R8G8B8:
+        return 3;
+    case nTextureFormat_X8R8G8B8:
+        return 4;
+    case nTextureFormat_D24S8:
+        return 3;
+    case nTextureFormat_R16F:
+        return 2;
+    case nTextureFormat_A16B16G16R16F:
+        return 8;
+    case nTextureFormat_G16R16F:
+        return 4;
     case nTextureFormat_DXT1:
     case nTextureFormat_DXT2:
     case nTextureFormat_DXT3:	
     case nTextureFormat_DXT4:
     case nTextureFormat_DXT5:
-	case nTextureFormat_ETC:
-	case nTextureFormat_ATC:
-	case nTextureFormat_3DC:
-	case nTextureFormat_PVRTC:
+    case nTextureFormat_ETC:
+    case nTextureFormat_ATC:
+    case nTextureFormat_3DC:
+    case nTextureFormat_PVRTC:
         DebugError("Cannot compute compressed format pixel size");
         return 0;
-	}
 
-	DebugError("Invalid pixel format");
-	return 0;
+    default:
+        break;
+    }
+    
+    DebugError("Invalid pixel format");
+    return 0;
 }
 
 Bool CTextureInfo::IsValid() const

@@ -195,7 +195,7 @@ CString CString::operator+( String text ) const
 CString CString::operator+( const Void* text ) const
 {
     Char  buffer[16];
-    sprintf( buffer, "%x", (Address)text );
+    sprintf( buffer, "%lx", (Address)text );
     CString str( m_Buffer );
     str.Append( buffer );
 
@@ -366,7 +366,7 @@ Void    CString::IntToString( UInt32 value , UInt8 base  )
     do 
     {
         tmp = quotient % base;
-        buffer[nbcaract++] = "0123456789abcdef"[ tmp<0?(tmp-(tmp*2)):tmp ];
+        buffer[nbcaract++] = "0123456789abcdef"[ tmp ];
         quotient /= base;
     } 
     while ( quotient );

@@ -57,6 +57,8 @@ protected:
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CMatrix4x4f& data ) const;
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CRef<CTexture>& data ) const;
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CRef<CRenderTargetTexture>& data ) const;
+	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CVector2f& data ) const;
+	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CArray<CVector2f>& data ) const;
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CVector3f& data ) const;
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CArray<CVector3f>& data ) const;
 	virtual Void	EvaluateParameterValue( const CShaderParameter& param, CVector4f& data ) const;

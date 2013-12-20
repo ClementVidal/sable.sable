@@ -84,7 +84,7 @@ Int16 CBinaryDataLayout::BeginScope( WString name, Int16 version )
     else
     {
         m_IODevice->Read( &data, sizeof( Data ) );
-        data.Version;
+        
 
         if( data.NameHash != StringGetHashCode( name ) )
         {
