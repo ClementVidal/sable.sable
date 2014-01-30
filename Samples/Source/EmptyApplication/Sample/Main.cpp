@@ -1,8 +1,9 @@
+#include <Sable/Core/Common/DataTypes.h>
 #include <Sample/Application/Application.h>
 
 using namespace Sample;
 
-Int32 main( Void )
+int main( void )
 {
     CApplication app;
 
