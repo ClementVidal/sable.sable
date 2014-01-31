@@ -50,8 +50,8 @@ public:
 	/** @name Manipulator*/
 	//@{
 	Void	SetParticleCapacity( UInt32 i );
-	Void	BeginNewStep( CParticleGroup& sim, Time deltaTime );
-	Void	Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime );
+	Void	BeginNewStep( CParticleGroup& sim, Float32 deltaTime );
+	Void	Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime );
 
 	Void	AddPoint( const SPoint& p );
 	Void	ClearPointList();

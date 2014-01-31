@@ -37,7 +37,6 @@ typedef char			Char;					/**< 8 Bits caracter*/
 typedef void			Void;					/**< Untyped*/
 typedef UInt32			Bool;					/**< Boolean*/
 
-typedef	Float64			Time;					/**< Time*/
 typedef UInt16			Handle;					/**< Handle*/
 typedef unsigned char   Byte;					/**< Byte*/
 typedef	UInt32			Index;					/**< Index*/

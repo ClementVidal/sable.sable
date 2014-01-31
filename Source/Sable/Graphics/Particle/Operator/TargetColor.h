@@ -38,7 +38,7 @@ public:
 	/** @name Manipulator*/
 	//@{
 	Bool Serialize( CPersistentArchive& ar );
-	Void Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime );
+	Void Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime );
 	//@}
 
 private:

@@ -1,22 +1,22 @@
-#ifndef _SABLE_CORE_FILE_IMPL_ANDROID_FILE_
-#define _SABLE_CORE_FILE_IMPL_ANDROID_FILE_
+#ifndef _SABLE_CORE_FILE_IMPL_LINUX_FILE_
+#define _SABLE_CORE_FILE_IMPL_LINUX_FILE_
 
-#include <Sable/Core/File/Impl/Stub/File.h>
+#include <Sable/Core/File/Impl/Android/File.h>
 
 namespace Sable
 {
 
 /** 
 */
-class CImplAndroidFile : public CImplStubFile
+class CImplLinuxFile : public CImplStubFile
 {
 
 public:
 
     /** @name Constructor/Destructor*/
     //@{
-    CImplAndroidFile( CFile& publicImpl );
-    virtual ~CImplAndroidFile();
+    CImplLinuxFile( CFile& publicImpl );
+    virtual ~CImplLinuxFile();
     //@}
 
     /** @name Accessors*/
@@ -27,8 +27,8 @@ public:
     Bool            IsEndOfFile() const;
     //@}
 
-	/** @name Manipulator*/
-	//@{
+    /** @name Manipulator*/
+    //@{
     Void            Close();
 
     Bool            Open( const CFilePath& filename, const EAccesMode acces = nAccesMode_ReadWrite );
@@ -37,14 +37,14 @@ public:
     Bool            Write( const Void* data, const UInt32 size );
     Void            Flush();
 
-    Bool	        SetRelativePosition( const Int32 newposition);
-    Bool	        SetPosition( const UInt32 newposition);
-	//@}
+    Bool	    SetRelativePosition( const Int32 newposition);
+    Bool	    SetPosition( const UInt32 newposition);
+    //@}
 
 private:
 
-	// Attributes
-	Void*          m_FileHandle;
+    // Attributes
+    Void*          m_FileHandle;
 
 };
 

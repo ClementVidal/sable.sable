@@ -88,7 +88,7 @@ protected:
 	// Attributes
     CArray<CParticle>		m_ParticlePool;
 	OperatorTable			m_OperatorTable;
-	Time					m_LastUpdateTime;
+	Float32					m_LastUpdateTime;
 	CTimer					m_Timer;
 
 	CVector3f				m_Origin;

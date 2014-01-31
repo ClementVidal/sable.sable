@@ -89,8 +89,8 @@ private:
 	CGameContext      m_GameContext;
 #endif
 
-	// Impl
-	CImplApplication    m_Impl;
+    // Impl
+    CImplApplication    m_Impl;
 
     CRef<CApplicationWindow>    m_WindowTable[16];
 

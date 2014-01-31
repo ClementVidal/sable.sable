@@ -105,8 +105,8 @@ Void CParticleGroup::Update( const CParticleSystem& sys, const CRenderer& render
 	OperatorTable::Iterator it;
 	CParticle* buffer = GetBuffer();
 
-	Time currentTime = m_Timer.GetElapsedSeconds();
-	Time deltaTime = currentTime - m_LastUpdateTime;
+	Float32 currentTime = m_Timer.GetElapsedSeconds();
+	Float32 deltaTime = currentTime - m_LastUpdateTime;
 	m_LastUpdateTime = currentTime;
 
 	DebugAssert( deltaTime >= 0.0f );

@@ -14,7 +14,7 @@ CParticleOpTargetSize::~CParticleOpTargetSize()
 {
 }
 
-Void CParticleOpTargetSize::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpTargetSize::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	Float32 duration =  GetDuration().GetRandomValueInRange();
 	Float32 startTime = GetStartTime().GetRandomValueInRange();

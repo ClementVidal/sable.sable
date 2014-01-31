@@ -26,7 +26,7 @@ Void CParticleOpSourcePointList::SetParticleCapacity( UInt32 i )
 	m_PointCloud.SetItemCount( i );
 }
 
-Void CParticleOpSourcePointList::BeginNewStep( CParticleGroup& sim, Time deltaTime )
+Void CParticleOpSourcePointList::BeginNewStep( CParticleGroup& sim, Float32 deltaTime )
 {
 }	
 
@@ -50,7 +50,7 @@ Void CParticleOpSourcePointList::AddPoint( const CParticleOpSourcePointList::SPo
 	m_NbParticleToAdd = m_PointCount;
 }
 
-Void CParticleOpSourcePointList::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpSourcePointList::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	particle.Position = CVector3f::Zero;
 

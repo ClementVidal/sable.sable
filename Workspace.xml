@@ -157,11 +157,11 @@
         </LibPath>
 
         <Libs>
-          m stdc++
+          m stdc++ X11
         </Libs>
         
         <CompilerFlags>  
-            -DSETUP_WCHAR_DEFINED -DUNICODE -Wfatal-errors -fno-rtti -fno-exceptions
+            -DSETUP_WCHAR_DEFINED -DUNICODE -Wfatal-errors -fno-rtti -fno-exceptions -g
         </CompilerFlags>
         
         <LinkerFlags>

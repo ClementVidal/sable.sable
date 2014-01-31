@@ -14,7 +14,7 @@ CParticleOpTargetColor::~CParticleOpTargetColor()
 {
 }
 
-Void CParticleOpTargetColor::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpTargetColor::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	Float32 duration =  GetDuration().GetRandomValueInRange();
 	Float32 startTime = GetStartTime().GetRandomValueInRange();

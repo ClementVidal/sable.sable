@@ -38,8 +38,8 @@ public:
     /** @name Manipulator*/
     //@{
 	Bool Serialize( CPersistentArchive& ar );
-	virtual Void BeginNewStep( CParticleGroup& sim, Time deltaTime );
-	virtual Void Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime ) = 0;
+	virtual Void BeginNewStep( CParticleGroup& sim, Float32 deltaTime );
+	virtual Void Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime ) = 0;
 	virtual Void OnStart( CParticleGroup& group );
 	virtual Void OnStop( CParticleGroup& group );
 	virtual Void OnSuspend( CParticleGroup& group );

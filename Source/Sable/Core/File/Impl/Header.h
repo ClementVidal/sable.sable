@@ -10,6 +10,9 @@
 #elif defined( SETUP_IMPLTYPE_ANDROID )
 #include <Sable/Core/File/Impl/Android/System.h>
 #include <Sable/Core/File/Impl/Android/File.h>
+#elif defined( SETUP_IMPLTYPE_LINUX )
+#include <Sable/Core/File/Impl/Linux/System.h>
+#include <Sable/Core/File/Impl/Linux/File.h>
 #else
 #include <Sable/Core/File/Impl/Stub/System.h>
 #include <Sable/Core/File/Impl/Stub/File.h>
@@ -23,6 +26,9 @@ namespace Sable
 #elif defined( SETUP_IMPLTYPE_ANDROID )
 	typedef CImplAndroidFileSystem				CImplFileSystem;
 	typedef CImplAndroidFile					CImplFile;
+#elif defined( SETUP_IMPLTYPE_LINUX )
+	typedef CImplLinuxFileSystem				CImplFileSystem;
+	typedef CImplLinuxFile					CImplFile;
 #else
 	typedef CImplStubFileSystem					CImplFileSystem;
 	typedef CImplStubFile						CImplFile;

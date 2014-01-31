@@ -217,6 +217,9 @@ Bool CFilePath::FixDirectory( String path, Char* buffer, UInt32 size )
     UInt32 len;
     
     len = StringGetLength( buffer );
+    if( len == 0 )
+        return FALSE;
+
     NormalizeSeparator( buffer );
 
     if( buffer[len-1] != '/' )
@@ -225,7 +228,7 @@ Bool CFilePath::FixDirectory( String path, Char* buffer, UInt32 size )
         buffer[len+1] = '\0';
     }
 
-	Normalize( buffer );
+    Normalize( buffer );
 
     return TRUE;
 }

@@ -14,7 +14,7 @@ CParticleOpKillOld::~CParticleOpKillOld()
 {
 }
 
-Void CParticleOpKillOld::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpKillOld::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	if( particle.Age > m_AgeLimit.GetRandomValueInRange() )
 	{

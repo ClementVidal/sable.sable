@@ -18,7 +18,7 @@ CParticleOperator::~CParticleOperator()
 This method is called once for each ParticleGroup on each new update, but not once for each particle.
 It should be used to process any kind of initialization/processing before processing each particle individualy
 */
-Void CParticleOperator::BeginNewStep( CParticleGroup& sim, Time deltaTime )
+Void CParticleOperator::BeginNewStep( CParticleGroup& sim, Float32 deltaTime )
 {
 
 }

@@ -14,7 +14,7 @@ CParticleOpGravity::~CParticleOpGravity()
 {
 }
 
-Void CParticleOpGravity::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpGravity::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	if( particle.Age > 0.0f )
 	{

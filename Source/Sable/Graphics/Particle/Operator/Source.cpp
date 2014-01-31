@@ -22,7 +22,7 @@ CParticleOpSource::~CParticleOpSource()
 {
 }
 
-Void CParticleOpSource::BeginNewStep( CParticleGroup& sim, Time deltaTime )
+Void CParticleOpSource::BeginNewStep( CParticleGroup& sim, Float32 deltaTime )
 {
 	m_NbParticleToAdd = 0;
 
@@ -46,7 +46,7 @@ Void CParticleOpSource::BeginNewStep( CParticleGroup& sim, Time deltaTime )
 	}
 }
 
-Void CParticleOpSource::Apply( CParticleGroup& sim, CParticle& particle, Time deltaTime )
+Void CParticleOpSource::Apply( CParticleGroup& sim, CParticle& particle, Float32 deltaTime )
 {
 	Float32 duration = GetDuration().GetRandomValueInRange();
 	if( m_NbParticleToAdd && particle.Age < 0.0f && m_EmitTimer.GetElapsedSeconds() <= duration )

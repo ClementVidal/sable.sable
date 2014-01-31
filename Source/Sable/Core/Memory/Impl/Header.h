@@ -7,6 +7,8 @@
 #include <Sable/Core/Memory/Impl/Msw/Manager.h>
 #elif defined( SETUP_IMPLTYPE_ANDROID )
 #include <Sable/Core/Memory/Impl/Android/Manager.h>
+#elif defined( SETUP_IMPLTYPE_LINUX )
+#include <Sable/Core/Memory/Impl/Linux/Manager.h>
 #else
 #include <Sable/Core/Memory/Impl/Stub/Manager.h>
 #endif
@@ -17,6 +19,8 @@ namespace Sable
 	typedef CImplMswMemoryManager				CImplMemoryManager;
 #elif defined( SETUP_IMPLTYPE_ANDROID )
 	typedef CImplAndroidMemoryManager			CImplMemoryManager;
+#elif defined( SETUP_IMPLTYPE_LINUX )
+	typedef CImplLinuxMemoryManager			        CImplMemoryManager;
 #else
 	typedef CImplStubMemoryManager				CImplMemoryManager;
 #endif
