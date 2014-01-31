@@ -21,35 +21,35 @@ CGuiRenderPass::CGuiRenderPass(CRenderer& renderer ) :
 {
     m_ShowCursor = TRUE;
     m_ShowFps = TRUE;
-	m_ShowProfView = FALSE;
-	m_ShowMemView = FALSE;
-	m_WidgetTableSize  =0;
+    m_ShowProfView = FALSE;
+    m_ShowMemView = FALSE;
+    m_WidgetTableSize  =0;
     m_WidgetTable.SetItemCount( UIMANAGER_PRERENDER_TABLE_SIZE );
 }
 
 Void CGuiRenderPass::SortWidgetTable( Int32 l, Int32 r )
 {
-	Int32 m;
-	Int32 i;
-
-	if( l < r )
-	{
-		m_WidgetTable.SwapItems( l, (l+r)/2);
-		CWidget* pivot = m_WidgetTable[l];
-
-		m = l;
-		for (i = l + 1; i <= r; i++)
-		{
-			if ( m_WidgetTable[i]->GetDepth()  <  pivot->GetDepth() ) 
-			{
-				m++;
-				m_WidgetTable.SwapItems( m, i);
-			}
-		}
-		m_WidgetTable.SwapItems( l , m);
-		SortWidgetTable( l, m - 1);
-		SortWidgetTable( m + 1, r);
-	}
+    Int32 m;
+    Int32 i;
+    
+    if( l < r )
+    {
+        m_WidgetTable.SwapItems( l, (l+r)/2);
+        CWidget* pivot = m_WidgetTable[l];
+        
+        m = l;
+        for (i = l + 1; i <= r; i++)
+        {
+            if ( m_WidgetTable[i]->GetDepth()  <  pivot->GetDepth() ) 
+            {
+                m++;
+                m_WidgetTable.SwapItems( m, i);
+            }
+        }
+        m_WidgetTable.SwapItems( l , m);
+        SortWidgetTable( l, m - 1);
+        SortWidgetTable( m + 1, r);
+    }
 }
 
 Void CGuiRenderPass::Initialize( CRenderer& renderer, CRenderTarget* outputRenderTarget )
@@ -216,7 +216,9 @@ Void CGuiRenderPass::Render( CRenderer& renderer )
 
     if( m_ShowCursor )
     {    
+#ifdef SETUP_PACKAGE_SABLE_INPUT
         m_Cursor->SetPosition( InputManager.GetMouse()->GetPosition() );
+#endif
         m_Cursor->Render(renderer);
     }
 
@@ -411,10 +413,12 @@ Void CGuiRenderPass::Update()
    if( !InputManager.GetMouse() ) 
         return;
 
+   // Compile this only if input package is available
+#ifdef SETUP_PACKAGE_SABLE_INPUT
 	CVector2f mousePosition = CVector2f(InputManager.GetMouse()->GetXPosition(), InputManager.GetMouse()->GetYPosition());
 
 	GetCursor().SetPosition(mousePosition);
-
+#endif
 	m_WidgetTableSize = 0;
 }
 

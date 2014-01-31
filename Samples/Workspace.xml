@@ -1,15 +1,28 @@
-<Workspace Name="01_EmptyApplication">
-
-    <Project Name="01_EmptyApplication">
-        <Platform Name="Msw">    
-            <Config Name="Debug">
-            </Config>
-            <Config Name="Release">
-            </Config>
-        </Platform>
-    </Project>
+<Workspace Name="Sample">
     
-    <CodePackage Path="S:/Sable/Samples/01_EmptyApplication/Source/Sample/Application/" />    
-    <CodePackage Path="S:/Sable/Samples/01_EmptyApplication/Source/Sample/View/" />
+    <BuildOptions Name="Common" >
+        <IncludePath>
+            ${__ROOTDIR__}/Sable/Samples/Source/EmptyApplication/
+        </IncludePath>
+
+        <CompilerFlags>  
+            -fno-rtti -fno-exceptions
+        </CompilerFlags>
+        
+     </BuildOptions>
+
+    <Project Name="SampleEmptyApplication" BuildType="Program">
+         
+        <CodePackageSet Name="Common">
+            <CodePackage Path="/Sable/Samples/Source/EmptyApplication/Sample" />
+        </CodePackageSet>
+
+        <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux" ToolChain="GCC">
+            <Dependency Workspace="Sable" Project="Sable" BuildConfig="GCCGlesDebug"/>
+            <CodePackageSet Name="Common"/>
+            <BuildOptions Name="Common" />
+        </BuildConfig>
+
+    </Project>
     
 </Workspace>

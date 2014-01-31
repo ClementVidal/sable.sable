@@ -12,6 +12,8 @@
 namespace Sable
 {
 
+class CRenderer;
+
 /** 
 \ingroup GraphicsGeometry
 Static Index Buffer. 
@@ -19,52 +21,52 @@ Static Index Buffer.
 class CGeometryIndexBuffer : public CManagedObject
 {
 
-	DEFINE_MANAGED_CLASS( CGeometryIndexBuffer );
+    DEFINE_MANAGED_CLASS( CGeometryIndexBuffer );
 
 public:
 
-	/** @name Constructor/Destructor*/
+    /** @name Constructor/Destructor*/
     //@{
-	CGeometryIndexBuffer();
-	virtual ~CGeometryIndexBuffer();
+    CGeometryIndexBuffer();
+    virtual ~CGeometryIndexBuffer();
     //@}
-
-	/** @name Accessors*/
+    
+    /** @name Accessors*/
     //@{
-	Void	    SetDrawIndexCount( UInt32 count );
-
-	UInt32		GetIndexByteCount() const;
+    Void	SetDrawIndexCount( UInt32 count );
+    
+    UInt32	GetIndexByteCount() const;
     UInt32      GetIndexCount() const;
-	Void		SetRawData( UInt32 indexCount, UInt32 indexByteCount, const Byte* data = NULL );
+    Void		SetRawData( UInt32 indexCount, UInt32 indexByteCount, const Byte* data = NULL );
     const Byte* GetRawData() const;
     UInt32      GetRawDataByteCount() const;
-
+    
     CBufferVisitor  GetBufferVisitor( const Byte* rawData ) const;
-	//@}
-
-	/** @name Manipulator*/
-	//@{
-	Void		Load( );
-
-	Bool		Serialize( CPersistentArchive& ar );
-	//@}
-
+    //@}
+    
+    /** @name Manipulator*/
+    //@{
+    Void		Load( );
+    
+    Bool		Serialize( CPersistentArchive& ar );
+    //@}
+    
 private:
-
-	// Friendship
-	friend class CRenderer;
-
-	//Methods 
-	UInt32      GetPrimitiveCount( EPrimitiveType type, UInt32 indexCount  ) const;
-	Void		Activate( CRenderer& renderer );
-
-	//Attributes
-	UInt32					m_DrawIndexCount;
+    
+    // Friendship
+    friend class CRenderer;
+    
+    //Methods 
+    UInt32      GetPrimitiveCount( EPrimitiveType type, UInt32 indexCount  ) const;
+    Void	    Activate( CRenderer& renderer );
+    
+    //Attributes
+    UInt32					m_DrawIndexCount;
     UInt32					m_IndexCount;
-	UInt32					m_IndexByteCount;
-	CArray<Byte>			m_RawData;
+    UInt32					m_IndexByteCount;
+    CArray<Byte>			m_RawData;
     CImplIndexBuffer        m_Impl;
-
+    
 };
 
 }

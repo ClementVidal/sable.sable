@@ -27,14 +27,14 @@ public:
 
     /** @name Manipulator*/
     //@{
-    Void			SetRenderer( CRenderer* view );
+    Void		SetRenderer( CRenderer* view );
     CRenderer*		GetRenderer() const;
 
     CSwapChain&		GetSwapChain();
 
     virtual Bool	Initialize( const CSwapChainInfo& swapChainDesc );
     virtual Bool	Update();
-	virtual Void	Resize( const CVector2i& newSize );
+    virtual Void	Resize( const CVector2i& newSize );
     //@}
 
     /** @name Accessors*/
@@ -50,7 +50,7 @@ private:
 
     // Methods
     CRef<CRenderer>         m_Renderer;
-    CSwapChain				m_SwapChain;
+    CSwapChain		    m_SwapChain;
 };
 
 }

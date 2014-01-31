@@ -50,10 +50,11 @@ Void CApplication::Initialize()
 
     AddWindow( m_Window );
 
+#ifdef SETUP_PACKAGE_SABLE_INPUT
     Sb::CKeyboard* kbd = NEWOBJ( Sb::CKeyboard, (m_Window) );
     Sb::CMouse* mouse = NEWOBJ( Sb::CMouse, (m_Window) );
 
     InputManager.SetMouse( mouse );
     InputManager.SetKeyboard( kbd );
-
+#endif
 }

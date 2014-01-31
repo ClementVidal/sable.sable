@@ -153,24 +153,19 @@
         </IncludePath>
 
         <LibPath>
-            ${__PHYSX__}/SDKs/lib/Win32
-            ${__LIBMAD__}
-            ${__OPENAL__}/libs/Win32 
+
         </LibPath>
 
         <Libs>
-            <!-- Lib API tiers-->
-            PhysXLoader.lib OpenAL32.lib libmad.lib
-            <!-- Lib Win32 -->
-            shell32.lib User32.lib ole32.lib Gdi32.lib wsock32.lib Dbghelp.lib rpcrt4.lib kernel32.lib 
+          m stdc++
         </Libs>
         
         <CompilerFlags>  
-            -DUNICODE -D_WCHAR_T_DEFINED -Wfatal-errors
+            -DSETUP_WCHAR_DEFINED -DUNICODE -Wfatal-errors -fno-rtti -fno-exceptions
         </CompilerFlags>
         
         <LinkerFlags>
-            /NODEFAULTLIB         
+          
         </LinkerFlags>
     </BuildOptions>
 

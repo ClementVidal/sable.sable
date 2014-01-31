@@ -2,5 +2,7 @@
 ########################
 Header.h
 BuildFileHeader.h
-Source/Sable/BuildFile/
-Build/
+Source/Sable/BuildFile/*
+Build/*
+Samples/Bin/*
+Samples/Build/*
