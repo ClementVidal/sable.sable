@@ -15,24 +15,24 @@ class CImplStubVertexLayout
 
 public:
 
-	/** @name Accessor*/
-	//@{
-	CImplStubVertexLayout( CGeometryVertexLayout& publicImpl ) { m_PublicImpl = &publicImpl; }
-	virtual ~CImplStubVertexLayout(){}
-	//@}
-
-	/** @name Manipulator*/
-	//@{
-	virtual Bool	IsInitialized() const { return TRUE; }
-	virtual Void	Initialize( ) {};
-	virtual Void	UnInitialize( ) {};
+    /** @name Accessor*/
+    //@{
+    CImplStubVertexLayout( CGeometryVertexLayout& publicImpl ) { m_PublicImpl = &publicImpl; }
+    virtual ~CImplStubVertexLayout(){}
+    //@}
+    
+    /** @name Manipulator*/
+    //@{
+    virtual Bool	IsInitialized() const { return FALSE; }
+    virtual Void	Initialize( ) {};
+    virtual Void	UnInitialize( ) {};
     virtual Void	Activate( ) {};
-	//@}
+    //@}
 
 protected:
 
-	// Attributes
-	CGeometryVertexLayout*	m_PublicImpl;
+    // Attributes
+    CGeometryVertexLayout*	m_PublicImpl;
 
 };
 

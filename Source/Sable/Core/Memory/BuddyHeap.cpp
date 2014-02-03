@@ -253,7 +253,11 @@ Void* CMemoryBuddyHeap::Allocate( SysSize size )
 {
 	UInt32 i;
 	UInt32 headerSize = (UInt32) MemoryGetAlignedSize( sizeof( SHeader ), m_Align );
-	size = size + headerSize;
+	UInt32 nodeSize = (UInt32) MemoryGetAlignedSize( sizeof( SNode ), m_Align );
+
+        // Be sure that the size of a node is not largest than the size of the requested memory
+        // (otherwise memory corruptions could happend in AddNode())
+        size = MathMax( size + headerSize, nodeSize );
 
 	Byte* n = NULL;
 	// First search for the list with corresponding size
