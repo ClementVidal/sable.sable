@@ -23,6 +23,12 @@
             <BuildOptions Name="Common" />
         </BuildConfig>
 
+        <BuildConfig Name="NaClGlesDebug" ImplTypes="Linux" ToolChain="NaCl">
+            <Dependency Workspace="Sable" Project="Sable" BuildConfig="NaClGlesDebug"/>
+            <CodePackageSet Name="Common"/>
+            <BuildOptions Name="Common" />
+        </BuildConfig>
+        
     </Project>
     
 </Workspace>

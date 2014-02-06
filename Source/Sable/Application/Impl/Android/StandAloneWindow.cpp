@@ -28,6 +28,7 @@ Void CImplAndroidStandAloneWindow::Initialize( const CTextureInfo& info )
         EGL_RED_SIZE, 5,
         EGL_NONE
     };
+
     EGLint w, h, dummy, format;
     EGLint numConfigs;
     EGLConfig config;

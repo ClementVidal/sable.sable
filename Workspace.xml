@@ -157,7 +157,7 @@
         </LibPath>
 
         <Libs>
-          m stdc++ X11
+          m stdc++ X11 EGL
         </Libs>
         
         <CompilerFlags>  

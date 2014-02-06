@@ -4,6 +4,14 @@
 #include <Sable/Core/Common/DataTypes.h>
 #include <Sable/Application/Impl/Stub/Window.h>
 
+#include <X11/Xlib.h>
+#include <X11/Xutil.h>
+#include <X11/Xos.h>
+#undef Bool
+
+#include <EGL/egl.h>
+#include <GLES2/gl2.h>
+
 namespace Sable
 {
 
@@ -35,7 +43,12 @@ public:
 private:
 
     // Attribute
-    UInt32 m_Handle;
+    Display* m_X11Display;
+    Window   m_X11Window;
+    XEvent   m_X11Event;
+
+    EGLDisplay  m_EGLDisplay;
+    EGLSurface	m_EGLSurface;
 
     // Methods
 
