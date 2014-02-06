@@ -12,6 +12,9 @@
 #elif defined( SETUP_IMPLTYPE_LINUX )
 #include <Sable/Application/Impl/Linux/Application.h>
 #include <Sable/Application/Impl/Linux/StandAloneWindow.h>
+#elif defined( SETUP_IMPLTYPE_NACL )
+#include <Sable/Application/Impl/NaCl/Application.h>
+#include <Sable/Application/Impl/NaCl/StandAloneWindow.h>
 #else
 #include <Sable/Application/Impl/Stub/Application.h>
 #include <Sable/Application/Impl/Stub/Window.h>
@@ -20,16 +23,19 @@
 namespace Sable
 {
 #if defined( SETUP_IMPLTYPE_MSW )
-    typedef CImplMswApplication			CImplApplication;
+    typedef CImplMswApplication				CImplApplication;
     typedef CImplMswStandAloneWindow		CImplStandAloneWindow;
 #elif defined( SETUP_IMPLTYPE_ANDROID )
-    typedef CImplAndroidApplication		CImplApplication;
+    typedef CImplAndroidApplication			CImplApplication;
     typedef CImplAndroidStandAloneWindow	CImplStandAloneWindow;
 #elif defined( SETUP_IMPLTYPE_LINUX )
-    typedef CImplLinuxApplication		CImplApplication;
-    typedef CImplLinuxStandAloneWindow	        CImplStandAloneWindow;
+    typedef CImplLinuxApplication			CImplApplication;
+    typedef CImplLinuxStandAloneWindow	   	CImplStandAloneWindow;
+#elif defined( SETUP_IMPLTYPE_NACL )
+    typedef CImplNaClApplication			CImplApplication;
+    typedef CImplNaClStandAloneWindow	  	CImplStandAloneWindow;
 #else
-    typedef CImplStubApplication		CImplApplication;
+    typedef CImplStubApplication			CImplApplication;
     typedef CImplStubApplicationWindow		CImplApplicationWindow;
     typedef CImplStubApplicationWindow		CImplStandAloneWindow;
 #endif

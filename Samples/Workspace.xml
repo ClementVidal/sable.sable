@@ -1,34 +1,33 @@
 <Workspace Name="Sample">
-    
-    <BuildOptions Name="Common" >
-        <IncludePath>
-            ${__ROOTDIR__}/Sable/Samples/Source/EmptyApplication/
-        </IncludePath>
 
-        <CompilerFlags>  
-            -fno-rtti -fno-exceptions -g
-        </CompilerFlags>
-        
-     </BuildOptions>
+	<BuildOptions Name="Common">
+		<IncludePath>
+			${__ROOTDIR__}/Sable/Samples/Source/EmptyApplication/
+		</IncludePath>
 
-    <Project Name="SampleEmptyApplication" BuildType="Program">
-         
-        <CodePackageSet Name="Common">
-            <CodePackage Path="/Sable/Samples/Source/EmptyApplication/Sample" />
-        </CodePackageSet>
+		<CompilerFlags>
+			
+		</CompilerFlags>
+	</BuildOptions>
 
-        <BuildConfig Name="GCCGlesDebug" ImplTypes="Linux" ToolChain="GCC">
-            <Dependency Workspace="Sable" Project="Sable" BuildConfig="GCCGlesDebug"/>
-            <CodePackageSet Name="Common"/>
-            <BuildOptions Name="Common" />
-        </BuildConfig>
+	<Project Name="SampleEmptyApplication" BuildType="Program">
 
-        <BuildConfig Name="NaClGlesDebug" ImplTypes="Linux" ToolChain="NaCl">
-            <Dependency Workspace="Sable" Project="Sable" BuildConfig="NaClGlesDebug"/>
-            <CodePackageSet Name="Common"/>
-            <BuildOptions Name="Common" />
-        </BuildConfig>
-        
-    </Project>
-    
+		<CodePackageSet Name="Common">
+			<CodePackage Path="/Sable/Samples/Source/EmptyApplication/Sample" />
+		</CodePackageSet>
+
+		<BuildConfig Name="GCCGlesDebug" ImplTypes="Linux" ToolChain="GCC">
+			<Dependency Workspace="Sable" Project="Sable" BuildConfig="GCCGlesDebug" />
+			<CodePackageSet Name="Common" />
+			<BuildOptions Name="Common" />
+		</BuildConfig>
+
+		<BuildConfig Name="NaClGlesDebug" ImplTypes="NaCl" ToolChain="NaCl">
+			<Dependency Workspace="Sable" Project="Sable" BuildConfig="NaClGlesDebug" />
+			<CodePackageSet Name="Common" />
+			<BuildOptions Name="Common" />
+		</BuildConfig>
+
+	</Project>
+
 </Workspace>
